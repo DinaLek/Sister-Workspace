@@ -31,7 +31,14 @@
 
 ### memory-index.md
 **מתי:** בתחילת כל שיחה — לדעת אילו קבצי זיכרון קיימים ולאן ללכת.
+וגם: כשמחפשים תובנה, לקח, באג שכבר פתרנו, או רעיון מהעבר —
+קרא קודם את האינדקס ומשם עבור לקובץ הנושא המתאים.
 **נתיב:** `shared knowledge/memory-index.md`
+
+**קבצי הנושא:**
+- `shared knowledge/lessons-learned.md` — תובנות, העדפות, גישות שעבדו
+- `shared knowledge/bugs.md` — שגיאות ופתרונות
+- `shared knowledge/ideas.md` — רעיונות שלא מומשו, backlog
 
 ---
 
