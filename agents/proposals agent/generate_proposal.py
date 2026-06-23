@@ -191,12 +191,38 @@ class PageBuilder:
 
         self._y -= 4
 
-        price = service.get("price", "")
+        options = service.get("options", [])
+        if options:
+            for option in options:
+                self._draw_option_block(option)
+        else:
+            price = service.get("price", "")
+            if price:
+                self._c.setFont("Assistant-Bold", 12)
+                self._c.setFillColor(DARK)
+                self._c.drawRightString(TEXT_RIGHT, self._y, rtl(price))
+                self._y -= 16
+
+    def _draw_option_block(self, option: dict):
+        """Renders a sub-option (e.g. two pricing tiers for a website)."""
+        # Option title in orange, slightly smaller than service heading
+        self._c.setFont("Assistant-SemiBold", 12)
+        self._c.setFillColor(ORANGE)
+        self._c.drawRightString(TEXT_RIGHT, self._y, rtl(option.get("title", "")))
+        self._y -= 15
+
+        for bullet in option.get("bullets", []):
+            self._draw_bullet(bullet)
+
+        price = option.get("price", "")
         if price:
+            self._y -= 2
             self._c.setFont("Assistant-Bold", 12)
             self._c.setFillColor(DARK)
             self._c.drawRightString(TEXT_RIGHT, self._y, rtl(price))
             self._y -= 16
+
+        self._y -= 6
 
     def _draw_paragraph(self, text: str, font: str = "Assistant", size: float = 12,
                          color=None):
@@ -261,8 +287,12 @@ class PageBuilder:
         """Rough estimate of vertical space needed for one service block (pt)."""
         base    = 16 + 16 + 16  # heading + lead + "מה כולל"
         bullets = len(service.get("bullets", [])) * 16
-        price   = 16 if service.get("price") else 0
-        return base + bullets + price + 24
+        options = sum(
+            15 + len(opt.get("bullets", [])) * 16 + (18 if opt.get("price") else 0) + 6
+            for opt in service.get("options", [])
+        )
+        price   = 16 if service.get("price") and not service.get("options") else 0
+        return base + bullets + options + price + 24
 
 
 # ── Work Order Page ────────────────────────────────────────────────────────────

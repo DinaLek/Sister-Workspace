@@ -1,0 +1,77 @@
+{
+  "_instructions": "מלאי את ה-Ad Account ID ואת שמות האדסטים האמיתיים כפי שהם מופיעים במטא. השמות חייבים להיות זהים בדיוק. בשדות 'pattern' — מספיק חלק ייחודי מהשם (לצורך REGEXP_MATCH ב-Looker Studio).",
+
+  "ad_account_id": "act_XXXXXXXXXX",
+
+  "audiences": {
+    "women_general":    "נשים כללי",
+    "women_menopause":  "נשים גיל המעבר",
+    "women_postpartum": "נשים אחרי לידה",
+    "men":              "גברים"
+  },
+
+  "campaigns": {
+
+    "leads_program": {
+      "_note": "קמפיין תכנית/לידים — נקרא 'תכנית DD/MM' או 'תוכנית DD/MM'. הפילוח הוא לפי Ad Set. מלאי שמות אדסטים.",
+      "_campaign_naming": "תכנית|תוכנית",
+      "adsets": {
+        "women_general":    { "ad_set_name": "", "pattern": "" },
+        "women_menopause":  { "ad_set_name": "", "pattern": "גיל המעבר|מעבר|45 פלוס" },
+        "women_postpartum": { "ad_set_name": "", "pattern": "אחרי לידה|לידה|הנקה" },
+        "men":              { "ad_set_name": "", "pattern": "גברים|men" }
+      }
+    },
+
+    "challenge_5days": {
+      "_note": "אתגר 5 ימים — קמפיינים לפי תאריך. לנשים עסוקות = קהל כללי. לנשים בגיל המעבר = קהל מעבר.",
+      "_campaign_naming": "אתגר 5 ימים לנשים עסוקות / אתגר 5 ימים לגיל מעבר",
+      "audience_patterns": {
+        "women_general":   "נשים עסוקות|עסוקות",
+        "women_menopause": "גיל המעבר|מעבר|45 פלוס"
+      }
+    },
+
+    "webinar": {
+      "_note": "וובינר — קמפיינים לפי תאריך בפורמט 'וובינר DD/MM/YY' או 'וובינר DD.MM'. נושאים שונים (אכילה רגשית וכד'). קהל: נשים כללי בדרך כלל.",
+      "_campaign_naming": "וובינר|וובנר",
+      "audience_patterns": {
+        "women_general":   "וובינר",
+        "women_menopause": "וובינר.*מעבר|מעבר.*וובינר"
+      }
+    },
+
+    "women_postpartum_standalone": {
+      "_note": "קמפיין ייעודי לנשים אחרי לידה — נפרד מקמפיין התכנית הכללי. קיים בתיקיית 'נשים אחרי לידה'.",
+      "_campaign_naming": "אחרי לידה|נשים אחרי לידה|לידה",
+      "audience_patterns": {
+        "women_postpartum": "אחרי לידה|לידה"
+      }
+    },
+
+    "men_program": {
+      "_note": "קמפיין תכנית לגברים — קמפיין חדש בפיתוח.",
+      "_campaign_naming": "תכנית לגברים|גברים",
+      "audience_patterns": {
+        "men": "גברים|men"
+      }
+    }
+  },
+
+  "_naming_convention": {
+    "updated": "2026-06-16",
+    "campaigns": "שם קמפיין מתחיל תמיד מסוג השירות: 'תכנית ...', 'אתגר ...', 'וובינר ...'",
+    "adsets_for_program": "שם האדסט מתחיל תמיד משם הקהל: 'גברים ...', 'גיל המעבר ...', 'נשים אחרי לידה ...', 'נשים כללי ...'",
+    "audience_in_campaign": "לאתגר ווובינר — שם הקהל מופיע בתוך שם הקמפיין"
+  },
+
+  "looker_studio_calculated_fields": {
+    "_note": "copy-paste ישיר ל-Looker Studio. ^ = מתחיל ב.",
+
+    "campaign_type": "CASE\n  WHEN REGEXP_MATCH(Campaign Name, '^תכנית') THEN 'תכנית — לידים'\n  WHEN REGEXP_MATCH(Campaign Name, '^אתגר') THEN 'אתגר 5 ימים'\n  WHEN REGEXP_MATCH(Campaign Name, '^וובינר') THEN 'וובינר'\n  ELSE 'אחר'\nEND",
+
+    "audience_by_adset": "CASE\n  WHEN REGEXP_MATCH(Ad Set Name, '^גברים') THEN 'גברים'\n  WHEN REGEXP_MATCH(Ad Set Name, '^גיל המעבר') THEN 'נשים גיל המעבר'\n  WHEN REGEXP_MATCH(Ad Set Name, '^נשים אחרי לידה|^אחרי לידה') THEN 'נשים אחרי לידה'\n  WHEN REGEXP_MATCH(Ad Set Name, '^נשים כללי|^כללי') THEN 'נשים כללי'\n  ELSE 'לא מזוהה'\nEND",
+
+    "audience_by_campaign": "CASE\n  WHEN REGEXP_MATCH(Campaign Name, 'גברים') THEN 'גברים'\n  WHEN REGEXP_MATCH(Campaign Name, 'גיל המעבר|מעבר') THEN 'נשים גיל המעבר'\n  WHEN REGEXP_MATCH(Campaign Name, 'אחרי לידה|לידה') THEN 'נשים אחרי לידה'\n  WHEN REGEXP_MATCH(Campaign Name, 'נשים כללי|כללי|עסוקות') THEN 'נשים כללי'\n  ELSE 'נשים כללי'\nEND"
+  }
+}

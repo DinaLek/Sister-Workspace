@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>גאנט תוכן יוני 2026 – Nanny Now</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background: #f8f5f0;
+      color: #2c2c2c;
+      padding: 32px 24px;
+      direction: rtl;
+    }
+    .header { text-align: center; margin-bottom: 32px; }
+    .header h1 { font-size: 26px; font-weight: 700; color: #1a1a2e; }
+    .header p  { font-size: 14px; color: #666; margin-top: 6px; }
+    .brand-tag {
+      display: inline-block;
+      background: #1a1a2e; color: #fff;
+      font-size: 12px; padding: 4px 14px;
+      border-radius: 20px; margin-top: 10px;
+    }
+
+    /* arc */
+    .arc-row {
+      display: flex; gap: 8px; justify-content: center;
+      margin-bottom: 8px; flex-wrap: wrap;
+    }
+    .arc-step {
+      background: #fff; border: 1px solid #e0dbd4;
+      border-radius: 20px; padding: 5px 14px;
+      font-size: 12px; font-weight: 600; color: #555;
+    }
+    .arc-arrow { font-size: 14px; color: #bbb; align-self: center; }
+
+    /* legend */
+    .legend {
+      display: flex; gap: 20px; justify-content: center;
+      margin: 18px 0 26px; flex-wrap: wrap;
+    }
+    .legend-item { display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; }
+    .dot { width: 14px; height: 14px; border-radius: 50%; }
+    .dot-parents { background: #e07a5f; }
+    .dot-nannies { background: #3d9970; }
+    .dot-special { background: #f2b705; }
+
+    /* table */
+    .table-wrapper { overflow-x: auto; }
+    table {
+      width: 100%; border-collapse: collapse;
+      font-size: 13.5px; background: #fff;
+      border-radius: 12px; overflow: hidden;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    }
+    thead tr { background: #1a1a2e; color: #fff; }
+    thead th {
+      padding: 14px 16px; font-size: 13px;
+      font-weight: 600; text-align: right; white-space: nowrap;
+    }
+    tbody tr { border-bottom: 1px solid #f0ebe3; transition: background 0.15s; }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: #fdfaf6; }
+    td { padding: 16px; vertical-align: top; line-height: 1.55; }
+
+    .row-parents td:first-child { border-right: 5px solid #e07a5f; }
+    .row-nannies td:first-child { border-right: 5px solid #3d9970; }
+
+    /* badges */
+    .badge {
+      display: inline-block; padding: 3px 12px;
+      border-radius: 20px; font-size: 11.5px; font-weight: 700; white-space: nowrap;
+    }
+    .badge-parents { background: #fdecea; color: #c0392b; }
+    .badge-nannies { background: #e8f5e9; color: #1b6b3a; }
+
+    .special-badge {
+      display: inline-block; background: #fff8e1; color: #b07d00;
+      font-size: 11px; font-weight: 700; padding: 2px 10px;
+      border-radius: 12px; margin-top: 4px; border: 1px solid #f2b705;
+    }
+    .arc-badge {
+      display: inline-block; background: #f0edf8; color: #5c3d9e;
+      font-size: 11px; font-weight: 700; padding: 2px 9px;
+      border-radius: 12px; margin-top: 5px;
+    }
+    .format-badge {
+      display: inline-block; background: #eef1f8; color: #3557a7;
+      font-size: 11px; font-weight: 600; padding: 2px 9px; border-radius: 10px;
+    }
+
+    /* cells */
+    .date-cell { min-width: 120px; }
+    .date-main { font-size: 20px; font-weight: 700; color: #1a1a2e; }
+    .date-sub  { font-size: 12px; color: #999; margin-top: 2px; }
+    .visual-cell { min-width: 260px; }
+    .slide-block {
+      background: #f8f6f2; border-radius: 8px;
+      padding: 10px 12px; margin-top: 8px; border: 1px dashed #d8d0c4;
+    }
+    .slide-label {
+      font-size: 11px; font-weight: 700; color: #888;
+      text-transform: uppercase; margin-bottom: 4px;
+    }
+    .caption-cell {
+      min-width: 320px; white-space: pre-wrap;
+      font-size: 13px; line-height: 1.7; color: #333;
+    }
+    .hashtags { color: #3557a7; font-size: 12px; margin-top: 8px; }
+
+    @media print {
+      body { padding: 10px; background: #fff; }
+      table { font-size: 11px; }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>גאנט תוכן – אינסטגרם</h1>
+    <p>יוני 2026 | פוסטים סטטיים בלבד | טרום השקה | קמפיין היכרות</p>
+    <span class="brand-tag">Nanny Now 🍼</span>
+  </div>
+
+  <div class="arc-row">
+    <span class="arc-step">🙋 מי אנחנו</span>
+    <span class="arc-arrow">→</span>
+    <span class="arc-step">🤯 הבעיה שפותרים</span>
+    <span class="arc-arrow">→</span>
+    <span class="arc-step">💡 איך זה עובד</span>
+    <span class="arc-arrow">→</span>
+    <span class="arc-step">🚀 בואו איתנו</span>
+  </div>
+  <p style="text-align:center; font-size:12px; color:#999; margin-bottom:4px;">שתי הקהלים עוברות את הקשת במקביל | פורמט לסירוגין: תמונה → קרוסלה → תמונה → קרוסלה…</p>
+
+  <div class="legend">
+    <div class="legend-item"><span class="dot dot-parents"></span> קהל הורים (4 פוסטים)</div>
+    <div class="legend-item"><span class="dot dot-nannies"></span> קהל מטפלות (4 פוסטים)</div>
+    <div class="legend-item"><span class="dot dot-special"></span> יום מיוחד</div>
+  </div>
+
+  <div class="table-wrapper">
+  <table>
+    <thead>
+      <tr>
+        <th>תאריך</th>
+        <th>קהל יעד</th>
+        <th>פורמט</th>
+        <th>קופי פוסט</th>
+        <th>תיאור ויזואל + קופי על התמונה</th>
+      </tr>
+    </thead>
+    <tbody>
+
+      <!-- ═══ POST 1 | הורים | תמונה ═══ -->
+      <tr class="row-parents">
+        <td class="date-cell">
+          <div class="date-main">1.6</div>
+          <div class="date-sub">יום שני</div>
+          <br/><span class="arc-badge">🙋 מי אנחנו</span>
+        </td>
+        <td><span class="badge badge-parents">הורים</span></td>
+        <td><span class="format-badge">📷 תמונה סטטית</span></td>
+        <td class="caption-cell">יש דברים שהפכו לפשוטים בזמן האחרון:
+להזמין אוכל 🍕, למצוא טיסה ✈️, לשלוח מתנה 🎁
+
+ואז יש את המקרה המיוחד הזה של "לבקש שמרטף"
+ולחכות לטלפון מחברה של חברה.
+
+נאני נאו כאן כדי לסגור את הפער הזה —
+פלטפורמה שמחברת הורים עם מטפלות מצוינות, בדרך שמרגישה כמו 2026.
+
+בקרוב. עקבו אחרינו ✨
+<div class="hashtags">#נאניאו #NannyNow #בקרוב #הורים #מטפלת</div></td>
+        <td class="visual-cell">
+          <strong>סגנון ויזואל:</strong> גרפי חכם, רקע נקי. שורה של אייקוני אפליקציות מוכרות (פיצה, מונית, קניות) ואז בסוף — סימן שאלה גדול לצד אייקון מטפלת. מרגיש טכנולוגי ומשחקי.
+          <div class="slide-block">
+            <div class="slide-label">טקסט על גבי התמונה</div>
+            <strong>"כשכל דבר כבר אפשר להזמין מהנייד —<br/>חוץ ממטפלת. עד עכשיו."</strong><br/>
+            <small>Nanny Now | בקרוב</small>
+          </div>
+        </td>
+      </tr>
+
+      <!-- ═══ POST 2 | מטפלות | קרוסלה ═══ -->
+      <tr class="row-nannies">
+        <td class="date-cell">
+          <div class="date-main">4.6</div>
+          <div class="date-sub">יום חמישי</div>
+          <br/><span class="arc-badge">🙋 מי אנחנו</span>
+        </td>
+        <td><span class="badge badge-nannies">מטפלות</span></td>
+        <td><span class="format-badge">🖼️ קרוסלה (4 שקפים)</span></td>
+        <td class="caption-cell">כן, עוד פלטפורמה.
+אבל הפעם אחת שנבנתה בשביל שני הצדדים 💚
+
+הצטרפי לרשימת ההמתנה — קישור בביו 🌟
+<div class="hashtags">#מטפלת #נאניאו #NannyNow #בקרוב</div></td>
+        <td class="visual-cell">
+          <strong>סגנון ויזואל:</strong> קרוסלת "הצגה" — כל שקף עם טקסט גדול, רקע ירוק-שמנת, תחושת חמימות ומקצועיות.
+          <div class="slide-block">
+            <div class="slide-label">שקף 1 – כריכה</div>
+            <strong>"הצגה קצרה — מבטיחות שזה שווה את הגלילה 😊"</strong>
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 2</div>
+            "אנחנו נאני נאו 👋<br/>פלטפורמה שמחברת מטפלות ומשפחות.<br/><em>(כן, שוב פלטפורמה. אבל הפעם תשמעו אותנו)</em>"
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 3</div>
+            "כי את לא רק 'זמינה ביום שלישי' —<br/>את מקצועית, אמינה, ויש לך העדפות.<br/>מגיע לך מקום שמכיר בזה 🌿"
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 4 – CTA</div>
+            <strong>"בקרוב.<br/>הצטרפי לרשימת ההמתנה — קישור בביו."</strong>
+          </div>
+        </td>
+      </tr>
+
+      <!-- ═══ POST 3 | הורים | תמונה ═══ -->
+      <tr class="row-parents">
+        <td class="date-cell">
+          <div class="date-main">8.6</div>
+          <div class="date-sub">יום שני</div>
+          <br/><span class="arc-badge">🤯 הבעיה שפותרים</span>
+        </td>
+        <td><span class="badge badge-parents">הורים</span></td>
+        <td><span class="format-badge">📷 תמונה סטטית</span></td>
+        <td class="caption-cell">כי אנחנו ספרנו:
+
+1️⃣ "מישהי מכירה מישהי טובה?"
+2️⃣ 47 תגובות בוואטסאפ, 2 רלוונטיות
+3️⃣ ריאיון — בעוד שלושה שבועות אם היא פנויה
+4️⃣ המלצה מ"חברה של חברה שזוכרת שהיה בסדר"
+5️⃣ ביטול יום לפני
+6️⃣ חזרה לשלב 1️⃣
+
+מה אם היה רק שלב אחד?
+נאני נאו — בקרוב 👇
+<div class="hashtags">#הורים #בייביסיטר #נאניאו #בקרוב</div></td>
+        <td class="visual-cell">
+          <strong>סגנון ויזואל:</strong> תמונה גרפית עם רשימה ממוספרת — הספרות גדולות ומוגזמות, עיצוב מצחיק שמדגיש עד כמה הרשימה ארוכה. סופה נגמר ב"?" גדול.
+          <div class="slide-block">
+            <div class="slide-label">טקסט על גבי התמונה</div>
+            <strong>"כמה שלבים יש במציאת מטפלת?"</strong><br/>
+            <em>1. 2. 3. 4. 5. 6. (לפחות) 😅</em><br/>
+            <small>Nanny Now | בקרוב</small>
+          </div>
+        </td>
+      </tr>
+
+      <!-- ═══ POST 4 | מטפלות | קרוסלה ═══ -->
+      <tr class="row-nannies">
+        <td class="date-cell">
+          <div class="date-main">11.6</div>
+          <div class="date-sub">יום חמישי</div>
+          <br/><span class="arc-badge">🤯 הבעיה שפותרים</span>
+        </td>
+        <td><span class="badge badge-nannies">מטפלות</span></td>
+        <td><span class="format-badge">🖼️ קרוסלה (4 שקפים)</span></td>
+        <td class="caption-cell">מי מזהה אחת מאלה? 🙋‍♀️
+
+ספרי לנו בתגובות את הכי מצחיקה / הכי מתסכלת שלכן.
+(ורציני — אנחנו לומדות מזה)
+
+נאני נאו — בונות מקום שבו שפה ברורה היא ברירת המחדל, לא היוצא מן הכלל. בקרוב 🌱
+<div class="hashtags">#מטפלת #נאניאו #בקרוב</div></td>
+        <td class="visual-cell">
+          <strong>סגנון ויזואל:</strong> קרוסלת "ציטוטים מוכרים" — כל שקף ציטוט בגרשיים גדולים + פרשנות קטנה בצד, טון שנון.
+          <div class="slide-block">
+            <div class="slide-label">שקף 1 – כריכה</div>
+            <strong>"דברים שכל מטפלת שמעה לפחות פעם אחת 🎯"</strong>
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 2</div>
+            <strong>"אנחנו מחפשות מישהי שתהיה כחלק מהמשפחה" 🙃</strong><br/>
+            <small>תרגום: גמישות מקסימלית, שעות בלתי מוגדרות</small>
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 3</div>
+            <strong>"הילדים שלנו מאוד מיוחדים" 😌</strong><br/>
+            <small>תרגום: כן, כולם</small>
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 4 – CTA</div>
+            "נאני נאו בונה מקום שבו<br/>שפה ברורה היא ברירת המחדל.<br/><strong>בקרוב 🌱 | קישור בביו</strong>"
+          </div>
+        </td>
+      </tr>
+
+      <!-- ═══ POST 5 | הורים | תמונה ═══ -->
+      <tr class="row-parents">
+        <td class="date-cell">
+          <div class="date-main">15.6</div>
+          <div class="date-sub">יום שני</div>
+          <br/><span class="arc-badge">💡 איך זה עובד</span>
+        </td>
+        <td><span class="badge badge-parents">הורים</span></td>
+        <td><span class="format-badge">📷 תמונה סטטית</span></td>
+        <td class="caption-cell">כולנו כבר רגילים שאפשר להזמין פיצה, מונית ואפילו רופא — ולקבל את מה שרצינו תוך דקות.
+
+לא הגיוני שדווקא מציאת מטפלת עדיין מרגישה כמו פרויקט? 😅
+
+נאני נאו בונה את הדרך הפשוטה.
+בקרוב — הירשמו לרשימת ההמתנה בביו 🙌
+<div class="hashtags">#הורים #נאניאו #בקרוב #מטפלת</div></td>
+        <td class="visual-cell">
+          <strong>סגנון ויזואל:</strong> תמונה גרפית נקייה — זרימה פשוטה בשלושה צעדים עם חצים. תחושת "זה פשוט, זה הגיוני".
+          <div class="slide-block">
+            <div class="slide-label">טקסט על גבי התמונה</div>
+            <strong>"חיפוש. התאמה. שקט נפשי."</strong><br/>
+            <em>(כן, זה הכל.)</em><br/>
+            <small>Nanny Now | בקרוב ☀️</small>
+          </div>
+        </td>
+      </tr>
+
+      <!-- ═══ POST 6 | מטפלות | קרוסלה ═══ -->
+      <tr class="row-nannies">
+        <td class="date-cell">
+          <div class="date-main">17.6</div>
+          <div class="date-sub">יום רביעי</div>
+          <br/><span class="arc-badge">💡 איך זה עובד</span>
+        </td>
+        <td><span class="badge badge-nannies">מטפלות</span></td>
+        <td><span class="format-badge">🖼️ קרוסלה (4 שקפים)</span></td>
+        <td class="caption-cell">לא כי אנחנו חייבות לתת לך עוד רשימה —
+אלא כי חשוב לנו שתדעי בדיוק על מה את נרשמת 😊
+
+הצטרפי לרשימת ההמתנה — קישור בביו ✨
+<div class="hashtags">#מטפלת #נאניאו #בקרוב #עבודה</div></td>
+        <td class="visual-cell">
+          <strong>סגנון ויזואל:</strong> קרוסלת "מה מחכה לך" — כל שקף הבטחה אחת, גדולה וברורה. עיצוב ירוק-שמנת, תחושת כבוד.
+          <div class="slide-block">
+            <div class="slide-label">שקף 1 – שאלה</div>
+            <strong>"מה מחכה לך בנאני נאו? (בואי נפרט 👇)"</strong>
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 2</div>
+            📋 <strong>"פרופיל שמציג אותך כמו שמגיע —<br/>לא רק שם ומספר טלפון"</strong>
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 3</div>
+            💚 <strong>"משפחות שמחפשות בדיוק מה שאת מציעה —<br/>לא ההפך"</strong>
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 4 – CTA</div>
+            ✅ <strong>"תנאים ברורים מראש. לא הפתעות."</strong><br/>
+            נאני נאו — בקרוב | קישור בביו ✨
+          </div>
+        </td>
+      </tr>
+
+      <!-- ═══ POST 7 | הורים | תמונה | יום האב ═══ -->
+      <tr class="row-parents">
+        <td class="date-cell">
+          <div class="date-main">21.6</div>
+          <div class="date-sub">יום ראשון</div>
+          <br/><span class="arc-badge">🚀 בואו איתנו</span>
+          <br/><span class="special-badge">⭐ יום האב</span>
+        </td>
+        <td><span class="badge badge-parents">הורים</span></td>
+        <td><span class="format-badge">📷 תמונה סטטית</span></td>
+        <td class="caption-cell">לכל הורה שגם באמצע הישיבה הכי חשובה בשנה —
+מציץ בטלפון לבדוק שהכל בסדר בבית 📱
+
+יום האב שמח 💙
+
+נאני נאו מגיעה — כי שקט נפשי הוא המתנה הכי טובה שיש.
+הירשמו לרשימת ההמתנה בביו 🙌
+<div class="hashtags">#יוםהאב #הורים #נאניאו #בקרוב #FathersDay</div></td>
+        <td class="visual-cell">
+          <strong>סגנון ויזואל:</strong> תמונה חמה ואמיתית — הורה עם ילד, רגע אינטימי. גוונים כחולים/חמים, לא קלישאתי.
+          <div class="slide-block">
+            <div class="slide-label">טקסט על גבי התמונה</div>
+            יום האב שמח 💙<br/>
+            <strong>"לכל הורה שתמיד יש לו גב —<br/>גם כשהוא לא בבית"</strong><br/>
+            <small>Nanny Now | בקרוב</small>
+          </div>
+        </td>
+      </tr>
+
+      <!-- ═══ POST 8 | מטפלות | קרוסלה ═══ -->
+      <tr class="row-nannies">
+        <td class="date-cell">
+          <div class="date-main">25.6</div>
+          <div class="date-sub">יום חמישי</div>
+          <br/><span class="arc-badge">🚀 בואו איתנו</span>
+        </td>
+        <td><span class="badge badge-nannies">מטפלות</span></td>
+        <td><span class="format-badge">🖼️ קרוסלה (4 שקפים)</span></td>
+        <td class="caption-cell">כי הדרך הכי טובה לבנות משהו היא לשמוע את מי שהוא בשבילה 💚
+
+(ואם יש לך עוד תשובות — התגובות פתוחות 👇)
+
+בקרוב 🚀 — הצטרפי לרשימת ההמתנה, קישור בביו
+<div class="hashtags">#מטפלת #נאני #נאניאו #בקרוב #אפליקציה #קהילה</div></td>
+        <td class="visual-cell">
+          <strong>סגנון ויזואל:</strong> קרוסלת "behind the scenes" — כמו תמונה מצולמת מבפנים, תחושה אותנטית שנבנה עם אנשים אמיתיים.
+          <div class="slide-block">
+            <div class="slide-label">שקף 1 – hook</div>
+            <strong>"שאלנו עשרות מטפלות שאלה אחת.<br/>כך נבנתה נאני נאו 👇"</strong>
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 2 – השאלה</div>
+            <strong>"אם היית בונה את הפלטפורמה המושלמת<br/>למטפלות — מה היה בה?"</strong>
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 3 – התשובה</div>
+            "התשובות? שמרנו אותן.<br/>בנינו סביבן. 💚"
+          </div>
+          <div class="slide-block">
+            <div class="slide-label">שקף 4 – CTA</div>
+            <strong>"נאני נאו — בקרוב 🚀"</strong><br/>
+            הצטרפי לרשימת ההמתנה | קישור בביו
+          </div>
+        </td>
+      </tr>
+
+    </tbody>
+  </table>
+  </div>
+
+  <!-- NOTES -->
+  <div style="margin-top:36px; background:#fff; border-radius:12px; padding:24px; box-shadow:0 2px 10px rgba(0,0,0,0.06); font-size:13px; line-height:1.8;">
+    <h3 style="font-size:15px; margin-bottom:12px; color:#1a1a2e;">📌 הערות לגאנט</h3>
+    <ul style="padding-right:20px; color:#555;">
+      <li><strong>ימי פרסום:</strong> ראשון–חמישי בלבד (ללא שישי ושבת).</li>
+      <li><strong>פורמט לסירוגין:</strong> תמונה סטטית (1.6, 8.6, 15.6, 21.6) ↔ קרוסלה (4.6, 11.6, 17.6, 25.6).</li>
+      <li><strong>קשת התוכן:</strong> מי אנחנו ← הבעיה שפותרים ← איך זה עובד ← בואו איתנו — שתי הקהלות עוברות אותה במקביל, בגיוון מלא.</li>
+      <li><strong>שלב:</strong> טרום-השקה לאורך כל החודש — אין הצגת ממשק, רק רשימת המתנה.</li>
+      <li><strong>יום האב (21.6):</strong> מוסב על שקט נפשי — לכל הורה שבודק את הטלפון בישיבה. אוניברסלי, חם, ומחובר לערך המרכזי של המותג.</li>
+      <li><strong>חוט מחבר לשתי הקהלות:</strong> פוסט 1 (הורים) ופוסט 2 (מטפלות) מציגים את אותה בעיה מזוויות שונות — מייצר שפה מותגית אחידה מהפוסט הראשון.</li>
+    </ul>
+  </div>
+
+  <div style="text-align:center; margin-top:28px; font-size:11.5px; color:#bbb;">
+    נוצר עם Claude | Nanny Now © 2026
+  </div>
+
+</body>
+</html>
