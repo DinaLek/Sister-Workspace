@@ -1,0 +1,39 @@
+name: Refresh Diet Angel Dashboard
+
+on:
+  schedule:
+    # Every day at 07:00 Israel time (04:00 UTC, or 05:00 UTC in summer)
+    - cron: "0 5 * * *"
+  workflow_dispatch:    # allow manual trigger from GitHub UI
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run refresh script
+        env:
+          META_ACCESS_TOKEN: ${{ secrets.META_ACCESS_TOKEN }}
+        run: python scripts/refresh_diet_angel.py
+
+      - name: Commit updated data.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add "clients/דיאט אנגל/dashboard/data.json"
+          git diff --staged --quiet || git commit -m "chore: refresh Diet Angel dashboard data [skip ci]"
+          git push

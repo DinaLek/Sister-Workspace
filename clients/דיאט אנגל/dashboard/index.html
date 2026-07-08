@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>דיאט אנג'ל — דשבורד קמפיינים</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tabler-icons/3.19.0/iconfont/tabler-icons.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+<style>
+:root {
+  --bg:#ffffff; --bg2:#f7f8f9; --text:#111827; --text2:#6b7280;
+  --border:#e5e7eb; --border2:#d1d5db;
+  --green-bg:#E1F5EE; --green-text:#0F6E56;
+  --accent:#7F77DD;
+  --radius:8px; --font:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+}
+* { box-sizing:border-box; margin:0; padding:0; }
+body { font-family:var(--font); background:#f3f4f6; color:var(--text); direction:rtl; }
+.wrap { max-width:960px; margin:0 auto; padding:1.5rem; }
+.card { background:var(--bg); border-radius:var(--radius); padding:1.25rem 1.5rem; margin-bottom:1rem; }
+.hdr { display:flex; align-items:flex-start; justify-content:space-between; padding-bottom:.75rem; border-bottom:1px solid var(--border); margin-bottom:1rem; }
+.hdr-title { font-size:20px; font-weight:600; }
+.hdr-sub { font-size:13px; color:var(--text2); margin-top:3px; }
+.badge-green { font-size:12px; padding:3px 10px; border-radius:20px; background:var(--green-bg); color:var(--green-text); white-space:nowrap; }
+.date-bar { background:var(--bg2); border-radius:var(--radius); padding:.75rem 1rem; margin-bottom:.75rem; }
+.presets { display:flex; align-items:center; gap:8px; flex-wrap:wrap; }
+.presets-label { font-size:12px; color:var(--text2); white-space:nowrap; }
+.pbtn { font-size:12px; padding:4px 12px; border-radius:20px; border:1px solid var(--border2); cursor:pointer; background:transparent; color:var(--text); white-space:nowrap; }
+.pbtn.sel { background:var(--accent); color:#fff; border-color:var(--accent); }
+.custom-row { display:none; align-items:center; gap:8px; flex-wrap:wrap; margin-top:.6rem; font-size:12px; color:var(--text2); }
+.custom-row.open { display:flex; }
+.date-input { font-size:12px; padding:4px 8px; border:1px solid var(--border2); border-radius:var(--radius); background:var(--bg); color:var(--text); direction:ltr; }
+.apply-btn { font-size:12px; padding:4px 12px; border-radius:20px; background:var(--text); color:var(--bg); border:none; cursor:pointer; }
+.data-badge { font-size:11px; color:var(--text2); margin-bottom:.75rem; }
+.data-badge a { color:var(--accent); cursor:pointer; text-decoration:none; }
+.tabs { display:flex; gap:6px; margin-bottom:1rem; flex-wrap:wrap; }
+.tbtn { font-size:13px; padding:6px 14px; border-radius:20px; border:1px solid var(--border2); cursor:pointer; background:transparent; color:var(--text); }
+.tbtn.on { background:var(--text); color:var(--bg); border-color:var(--text); }
+.g4 { display:grid; grid-template-columns:repeat(auto-fit,minmax(150px,1fr)); gap:10px; margin-bottom:1.25rem; }
+.g3 { display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin-bottom:1.25rem; }
+.g2 { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin-bottom:1.5rem; }
+.metric { background:var(--bg2); border-radius:var(--radius); padding:.875rem 1rem; }
+.ml { font-size:12px; color:var(--text2); margin-bottom:4px; }
+.mv { font-size:20px; font-weight:600; }
+.ms { font-size:12px; color:var(--text2); margin-top:3px; }
+.st { font-size:14px; font-weight:600; margin-bottom:.6rem; }
+.lg { display:flex; gap:10px; flex-wrap:wrap; margin-bottom:8px; font-size:11px; color:var(--text2); }
+.li { display:flex; align-items:center; gap:4px; }
+.ls { width:10px; height:10px; border-radius:2px; flex-shrink:0; }
+table { width:100%; border-collapse:collapse; font-size:12px; }
+th { font-size:11px; font-weight:600; color:var(--text2); text-align:right; padding:6px 8px; border-bottom:1px solid var(--border); }
+td { padding:7px 8px; border-bottom:1px solid var(--border); }
+tr:last-child td { border-bottom:none; }
+tfoot tr { font-weight:600; border-top:1px solid var(--border2); }
+.dot { display:inline-block; width:8px; height:8px; border-radius:50%; margin-left:5px; }
+.bx { font-size:11px; padding:2px 8px; border-radius:20px; }
+.ba { background:var(--green-bg); color:var(--green-text); }
+.bp { background:var(--bg2); color:var(--text2); }
+.note { font-size:12px; color:var(--text2); margin-bottom:1rem; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <!-- Header -->
+  <div class="card hdr">
+    <div>
+      <div class="hdr-title">דיאט אנג'ל — דשבורד קמפיינים</div>
+      <div class="hdr-sub" id="period-label">01.07 – 08.07.2026 · Meta Ads</div>
+    </div>
+    <span class="badge-green" id="badge-active">4 קמפיינים פעילים</span>
+  </div>
+
+  <!-- Date filter -->
+  <div class="card" style="padding:.75rem 1rem;margin-bottom:.75rem">
+    <div class="presets">
+      <span class="presets-label"><i class="ti ti-calendar"></i> טווח:</span>
+      <button class="pbtn" id="p7"  onclick="setPreset('7d')">7 ימים</button>
+      <button class="pbtn" id="p30" onclick="setPreset('30d')">30 ימים</button>
+      <button class="pbtn sel" id="pmo" onclick="setPreset('month')">החודש</button>
+      <button class="pbtn" id="ppm" onclick="setPreset('prev_month')">חודש קודם</button>
+      <button class="pbtn" id="p3m" onclick="setPreset('3m')">3 חודשים</button>
+      <button class="pbtn" id="pcu" onclick="setPreset('custom')">מותאם <i class="ti ti-calendar-event"></i></button>
+    </div>
+    <div class="custom-row" id="custom-row">
+      <span>מ-</span>
+      <input type="date" id="dt-from" class="date-input" value="2026-06-08">
+      <span>עד</span>
+      <input type="date" id="dt-to"   class="date-input" value="2026-07-07">
+      <button class="apply-btn" onclick="applyCustom()">החל</button>
+    </div>
+  </div>
+
+  <!-- Data badge -->
+  <div class="data-badge" id="data-badge">
+    <i class="ti ti-database"></i> נתונים: 01.07–08.07.2026 ·
+    <a onclick="doRefresh()">רענן מ-Meta</a>
+  </div>
+
+  <!-- Tabs -->
+  <div class="tabs">
+    <button class="tbtn on" id="btn-ov" onclick="sw('ov')"><i class="ti ti-chart-bar"></i> סיכום כללי</button>
+    <button class="tbtn" id="btn-pr"    onclick="sw('pr')"><i class="ti ti-users"></i> תכנית — קהלים</button>
+    <button class="tbtn" id="btn-ch"    onclick="sw('ch')"><i class="ti ti-flame"></i> אתגר 5 ימים</button>
+    <button class="tbtn" id="btn-wb"    onclick="sw('wb')"><i class="ti ti-video"></i> וובינר</button>
+  </div>
+
+  <!-- ═══ OVERVIEW ═══ -->
+  <div id="p-ov" class="card">
+    <div class="g4">
+      <div class="metric"><div class="ml">הוצאה כוללת</div><div class="mv" id="ov-spend">₪11,461</div></div>
+      <div class="metric"><div class="ml">סה"כ תוצאות</div><div class="mv" id="ov-results">550</div></div>
+      <div class="metric"><div class="ml">CPL ממוצע</div><div class="mv" id="ov-cpl">₪20.25</div></div>
+      <div class="metric"><div class="ml">CTR ממוצע</div><div class="mv" id="ov-ctr">1.92%</div></div>
+    </div>
+    <div class="g2">
+      <div>
+        <div class="st">הוצאה לפי סוג קמפיין</div>
+        <div class="lg">
+          <span class="li"><span class="ls" style="background:#7F77DD"></span><span id="lg-0">תכנית נשים</span></span>
+          <span class="li"><span class="ls" style="background:#BA7517"></span><span id="lg-1">תכנית גברים</span></span>
+          <span class="li"><span class="ls" style="background:#1D9E75"></span><span id="lg-2">וובינר</span></span>
+          <span class="li"><span class="ls" style="background:#D85A30"></span><span id="lg-3">אתגר</span></span>
+          <span class="li"><span class="ls" style="background:#888780"></span><span id="lg-4">חשיפה</span></span>
+        </div>
+        <div style="position:relative;height:200px"><canvas id="c1"></canvas></div>
+      </div>
+      <div>
+        <div class="st">CPL ממוצע לפי סוג</div>
+        <div class="lg" id="cpl-legend">
+          <span class="li"><span class="ls" style="background:#7F77DD"></span>תכנית נשים</span>
+          <span class="li"><span class="ls" style="background:#BA7517"></span>תכנית גברים</span>
+          <span class="li"><span class="ls" style="background:#1D9E75"></span>וובינר</span>
+          <span class="li"><span class="ls" style="background:#D85A30"></span>אתגר</span>
+        </div>
+        <div style="position:relative;height:200px"><canvas id="c2"></canvas></div>
+      </div>
+    </div>
+    <div class="st">סיכום לפי סוג קמפיין</div>
+    <table>
+      <thead><tr><th>סוג</th><th>הוצאה</th><th>תוצאות</th><th>CPL</th><th>קמפיינים</th></tr></thead>
+      <tbody id="tb-ov"></tbody>
+      <tfoot id="tf-ov"></tfoot>
+    </table>
+  </div>
+
+  <!-- ═══ PROGRAM ═══ -->
+  <div id="p-pr" class="card" style="display:none">
+    <div class="note" id="pr-note">קמפיינים פעילים: "הרשמה לתכנית" + "תכנית לגברים" · נתונים לפי קהל</div>
+    <div class="g4">
+      <div class="metric" style="border-right:3px solid #378ADD">
+        <div class="ml">נשים כללי</div>
+        <div class="mv" style="font-size:17px" id="pr-mv-0">134 לידים</div>
+        <div class="ms" id="pr-ms-0">₪6,082 · CPL ₪45.39</div>
+      </div>
+      <div class="metric" style="border-right:3px solid #D4537E">
+        <div class="ml">גיל המעבר</div>
+        <div class="mv" style="font-size:17px" id="pr-mv-1">136 לידים</div>
+        <div class="ms" id="pr-ms-1">₪6,089 · CPL ₪44.77</div>
+      </div>
+      <div class="metric" style="border-right:3px solid #1D9E75">
+        <div class="ml">אחרי לידה</div>
+        <div class="mv" style="font-size:17px" id="pr-mv-2">110 לידים</div>
+        <div class="ms" id="pr-ms-2">₪6,118 · CPL ₪55.62</div>
+      </div>
+      <div class="metric" style="border-right:3px solid #BA7517">
+        <div class="ml">גברים</div>
+        <div class="mv" style="font-size:17px" id="pr-mv-3">73 לידים</div>
+        <div class="ms" id="pr-ms-3">₪4,203 · CPL ₪57.58</div>
+      </div>
+    </div>
+    <div class="g2">
+      <div>
+        <div class="st">CPL לפי קהל</div>
+        <div class="lg">
+          <span class="li"><span class="ls" style="background:#378ADD"></span>נשים כללי</span>
+          <span class="li"><span class="ls" style="background:#D4537E"></span>גיל המעבר</span>
+          <span class="li"><span class="ls" style="background:#1D9E75"></span>אחרי לידה</span>
+          <span class="li"><span class="ls" style="background:#BA7517"></span>גברים</span>
+        </div>
+        <div style="position:relative;height:200px"><canvas id="c3"></canvas></div>
+      </div>
+      <div>
+        <div class="st">לידים לפי קהל</div>
+        <div class="lg">
+          <span class="li"><span class="ls" style="background:#378ADD"></span>נשים כללי</span>
+          <span class="li"><span class="ls" style="background:#D4537E"></span>גיל המעבר</span>
+          <span class="li"><span class="ls" style="background:#1D9E75"></span>אחרי לידה</span>
+          <span class="li"><span class="ls" style="background:#BA7517"></span>גברים</span>
+        </div>
+        <div style="position:relative;height:200px"><canvas id="c4"></canvas></div>
+      </div>
+    </div>
+    <div class="st">פירוט Ad Sets — קמפיין תכנית</div>
+    <table>
+      <thead><tr><th>Ad Set</th><th>קהל</th><th>הוצאה</th><th>לידים</th><th>CPL</th><th>CTR</th><th>סטטוס</th></tr></thead>
+      <tbody id="tb-as"></tbody>
+    </table>
+  </div>
+
+  <!-- ═══ CHALLENGE ═══ -->
+  <div id="p-ch" class="card" style="display:none">
+    <div class="g4">
+      <div class="metric"><div class="ml">הוצאה</div><div class="mv" id="ch-spend">₪7,028</div></div>
+      <div class="metric"><div class="ml">רישומים</div><div class="mv" id="ch-results">567</div></div>
+      <div class="metric"><div class="ml">CPL ממוצע</div><div class="mv" style="color:var(--green-text)" id="ch-cpl">₪12.39</div></div>
+      <div class="metric"><div class="ml">קמפיינים</div><div class="mv" id="ch-count">3</div></div>
+    </div>
+    <div class="g2">
+      <div>
+        <div class="st">CPL לפי אתגר (מנמוך לגבוה)</div>
+        <div class="lg">
+          <span class="li"><span class="ls" style="background:#D85A30"></span>נשים כללי</span>
+          <span class="li"><span class="ls" style="background:#D4537E"></span>גיל המעבר</span>
+        </div>
+        <div style="position:relative;height:220px"><canvas id="c5"></canvas></div>
+      </div>
+      <div>
+        <div class="st">רישומים לפי אתגר</div>
+        <div class="lg">
+          <span class="li"><span class="ls" style="background:#D85A30"></span>נשים כללי</span>
+          <span class="li"><span class="ls" style="background:#D4537E"></span>גיל המעבר</span>
+        </div>
+        <div style="position:relative;height:220px"><canvas id="c6"></canvas></div>
+      </div>
+    </div>
+    <div class="st">פירוט קמפיינים</div>
+    <table>
+      <thead><tr><th>קמפיין</th><th>קהל</th><th>הוצאה</th><th>רישומים</th><th>CPL</th><th>CTR</th><th>סטטוס</th></tr></thead>
+      <tbody id="tb-ch"></tbody>
+    </table>
+  </div>
+
+  <!-- ═══ WEBINAR ═══ -->
+  <div id="p-wb" class="card" style="display:none">
+    <div class="g4">
+      <div class="metric"><div class="ml">הוצאה</div><div class="mv" id="wb-spend">₪11,980</div></div>
+      <div class="metric"><div class="ml">רישומים</div><div class="mv" id="wb-results">758</div></div>
+      <div class="metric"><div class="ml">CPL ממוצע</div><div class="mv" style="color:var(--green-text)" id="wb-cpl">₪15.80</div></div>
+      <div class="metric"><div class="ml">וובינרים</div><div class="mv" id="wb-count">2</div></div>
+    </div>
+    <div style="margin-bottom:1.5rem">
+      <div class="st">CPL לפי וובינר</div>
+      <div class="lg">
+        <span class="li"><span class="ls" style="background:#1D9E75"></span>אחרי לידה</span>
+        <span class="li"><span class="ls" style="background:#D4537E"></span>גיל המעבר</span>
+      </div>
+      <div style="position:relative;height:180px"><canvas id="c7"></canvas></div>
+    </div>
+    <div class="st">פירוט קמפיינים</div>
+    <table>
+      <thead><tr><th>קמפיין</th><th>קהל</th><th>הוצאה</th><th>רישומים</th><th>CPL</th><th>CTR</th><th>סטטוס</th></tr></thead>
+      <tbody id="tb-wb"></tbody>
+    </table>
+  </div>
+
+</div>
+
+<script>
+// ── Embedded fallback data — all 5 periods ──
+const PERIODS = {
+  month: {
+    period:{ from:'2026-07-01', to:'2026-07-08', label:'01.07 – 08.07.2026' },
+    lastUpdated:'2026-07-08T06:00:00Z',
+    activeCampaigns:4,
+    overview:{ spend:11461, results:550, cpl:20.25, ctr:1.92 },
+    byType:[
+      { type:'תכנית נשים', color:'#7F77DD', spend:4441,  results:121, cpl:36.71, count:1 },
+      { type:'תכנית גברים',color:'#BA7517', spend:1570,  results:23,  cpl:68.24, count:1 },
+      { type:'וובינר',     color:'#1D9E75', spend:4061,  results:341, cpl:11.91, count:1 },
+      { type:'אתגר',       color:'#D85A30', spend:1068,  results:65,  cpl:16.44, count:1 },
+      { type:'חשיפה',      color:'#888780', spend:321,   results:0,   cpl:0,     count:1, reach:50000 }
+    ],
+    audiences:{ kpis:[
+      { name:'נשים כללי',  leads:43,  spend:1479, cpl:34.40, color:'#378ADD' },
+      { name:'גיל המעבר', leads:43,  spend:1479, cpl:34.40, color:'#D4537E' },
+      { name:'אחרי לידה', leads:35,  spend:1483, cpl:42.37, color:'#1D9E75' },
+      { name:'גברים',     leads:23,  spend:1570, cpl:68.24, color:'#BA7517' }
+    ]},
+    challenge:{ spend:1068, results:65, cpl:16.44, count:1, campaigns:[
+      {n:'אתגר 5 ימים עסוקות 12/07', aud:'כללי', col:'#D85A30', st:'פעיל', sp:1068, r:65, cpl:16.44, ctr:1.41}
+    ]},
+    webinar:{ spend:4061, results:341, cpl:11.91, count:1, campaigns:[
+      {n:'וובינר נשים אחרי לידה 05.07', aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:4061, r:341, cpl:11.91, ctr:1.76}
+    ]},
+    adsets:[
+      {n:'נשיים כללי, תחומי עניין',   aud:'נשים כללי', col:'#378ADD', st:'פעיל',  sp:1479, r:43, cpl:34.40, ctr:1.75},
+      {n:'גיל המעבר רחב',              aud:'גיל המעבר', col:'#D4537E', st:'פעיל',  sp:1479, r:43, cpl:34.40, ctr:2.10},
+      {n:'נשים אחרי לידה',             aud:'אחרי לידה', col:'#1D9E75', st:'פעיל',  sp:1483, r:35, cpl:42.37, ctr:1.52},
+      {n:'תכנית לגברים (קמפיין נפרד)', aud:'גברים',    col:'#BA7517', st:'פעיל',  sp:1570, r:23, cpl:68.24, ctr:2.06},
+      {n:'נשים רחב',                    aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'LAL נשים אחרי לידה',         aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'גיל המעבר תחומי עניין',      aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'LAL נשים כללי',               aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'LAL גיל המעבר',               aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0}
+    ]
+  },
+  '7d': {
+    period:{ from:'2026-07-01', to:'2026-07-07', label:'01.07 – 07.07.2026' },
+    lastUpdated:'2026-07-08T06:00:00Z',
+    activeCampaigns:4,
+    overview:{ spend:10688, results:523, cpl:19.86, ctr:1.92 },
+    byType:[
+      { type:'תכנית נשים', color:'#7F77DD', spend:4189,  results:116, cpl:36.11, count:1 },
+      { type:'תכנית גברים',color:'#BA7517', spend:1465,  results:22,  cpl:66.61, count:1 },
+      { type:'וובינר',     color:'#1D9E75', spend:4061,  results:341, cpl:11.91, count:1 },
+      { type:'אתגר',       color:'#D85A30', spend:670,   results:44,  cpl:15.22, count:1 },
+      { type:'חשיפה',      color:'#888780', spend:303,   results:0,   cpl:0,     count:1, reach:80475 }
+    ],
+    audiences:{ kpis:[
+      { name:'נשים כללי',  leads:41,  spend:1395, cpl:34.02, color:'#378ADD' },
+      { name:'גיל המעבר', leads:41,  spend:1395, cpl:34.02, color:'#D4537E' },
+      { name:'אחרי לידה', leads:34,  spend:1399, cpl:41.15, color:'#1D9E75' },
+      { name:'גברים',     leads:22,  spend:1465, cpl:66.61, color:'#BA7517' }
+    ]},
+    challenge:{ spend:670, results:44, cpl:15.22, count:1, campaigns:[
+      {n:'אתגר 5 ימים עסוקות 12/07', aud:'כללי', col:'#D85A30', st:'פעיל', sp:670, r:44, cpl:15.22, ctr:1.41}
+    ]},
+    webinar:{ spend:4061, results:341, cpl:11.91, count:1, campaigns:[
+      {n:'וובינר נשים אחרי לידה 05.07', aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:4061, r:341, cpl:11.91, ctr:1.79}
+    ]},
+    adsets:[
+      {n:'נשיים כללי, תחומי עניין',   aud:'נשים כללי', col:'#378ADD', st:'פעיל',  sp:1395, r:41, cpl:34.02, ctr:1.75},
+      {n:'גיל המעבר רחב',              aud:'גיל המעבר', col:'#D4537E', st:'פעיל',  sp:1395, r:41, cpl:34.02, ctr:2.10},
+      {n:'נשים אחרי לידה',             aud:'אחרי לידה', col:'#1D9E75', st:'פעיל',  sp:1399, r:34, cpl:41.15, ctr:1.52},
+      {n:'תכנית לגברים (קמפיין נפרד)', aud:'גברים',    col:'#BA7517', st:'פעיל',  sp:1465, r:22, cpl:66.61, ctr:2.12},
+      {n:'נשים רחב',                    aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'LAL נשים אחרי לידה',         aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'גיל המעבר תחומי עניין',      aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'LAL נשים כללי',               aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'LAL גיל המעבר',               aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0}
+    ]
+  },
+  prev_month: {
+    period:{ from:'2026-06-01', to:'2026-06-30', label:'01.06 – 30.06.2026' },
+    lastUpdated:'2026-07-08T06:00:00Z',
+    activeCampaigns:4,
+    overview:{ spend:40400, results:1555, cpl:25.19, ctr:1.72 },
+    byType:[
+      { type:'תכנית נשים', color:'#7F77DD', spend:14502, results:271, cpl:53.51, count:1 },
+      { type:'תכנית גברים',color:'#BA7517', spend:3874,  results:76,  cpl:50.97, count:2 },
+      { type:'וובינר',     color:'#1D9E75', spend:14184, results:663, cpl:21.40, count:3 },
+      { type:'אתגר',       color:'#D85A30', spend:6611,  results:545, cpl:12.13, count:2 },
+      { type:'חשיפה',      color:'#888780', spend:1229,  results:0,   cpl:0,     count:1, reach:210000 }
+    ],
+    audiences:{ kpis:[
+      { name:'נשים כללי',  leads:96,  spend:5119, cpl:53.32, color:'#378ADD' },
+      { name:'גיל המעבר', leads:97,  spend:5191, cpl:53.52, color:'#D4537E' },
+      { name:'אחרי לידה', leads:78,  spend:4192, cpl:53.74, color:'#1D9E75' },
+      { name:'גברים',     leads:76,  spend:3874, cpl:50.97, color:'#BA7517' }
+    ]},
+    challenge:{ spend:6611, results:545, cpl:12.13, count:2, campaigns:[
+      {n:'אתגר גיל מעבר 14.06',       aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:3000, r:326, cpl:9.20,  ctr:2.23},
+      {n:'אתגר 5 ימים עסוקות 28/06', aud:'כללי',      col:'#D85A30', st:'מושהה', sp:3611, r:219, cpl:16.49, ctr:1.27}
+    ]},
+    webinar:{ spend:14184, results:663, cpl:21.40, count:3, campaigns:[
+      {n:'וובינר לנשים אחרי לידה 07.06', aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:6265, r:246, cpl:25.47, ctr:1.46},
+      {n:'וובינר גיל המעבר 21.06',        aud:'גיל המעבר', col:'#D4537E', st:'פעיל',  sp:5985, r:319, cpl:18.76, ctr:2.79},
+      {n:'וובינר נשים אחרי לידה 05.07',   aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:1934, r:98,  cpl:19.73, ctr:1.76}
+    ]},
+    adsets:[
+      {n:'נשיים כללי, תחומי עניין',   aud:'נשים כללי', col:'#378ADD', st:'פעיל',  sp:5119, r:96, cpl:53.32, ctr:1.62},
+      {n:'גיל המעבר רחב',              aud:'גיל המעבר', col:'#D4537E', st:'פעיל',  sp:5191, r:97, cpl:53.52, ctr:2.08},
+      {n:'נשים אחרי לידה',             aud:'אחרי לידה', col:'#1D9E75', st:'פעיל',  sp:4192, r:78, cpl:53.74, ctr:1.50},
+      {n:'תכנית לגברים (קמפיין נפרד)', aud:'גברים',    col:'#BA7517', st:'פעיל',  sp:3874, r:76, cpl:50.97, ctr:2.06},
+      {n:'נשים רחב',                    aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'LAL נשים אחרי לידה',         aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'גיל המעבר תחומי עניין',      aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'LAL נשים כללי',               aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0},
+      {n:'LAL גיל המעבר',               aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,    r:0,  cpl:0,     ctr:0}
+    ]
+  },
+  '30d': {
+    period:{ from:'2026-06-08', to:'2026-07-07', label:'08.06 – 07.07.2026' },
+    lastUpdated:'2026-07-08T06:00:00Z',
+    activeCampaigns:4,
+    overview:{ spend:42842, results:1778, cpl:23.34, ctr:1.84 },
+    byType:[
+      { type:'תכנית נשים', color:'#7F77DD', spend:18289, results:380, cpl:48.13, count:1 },
+      { type:'תכנית גברים',color:'#BA7517', spend:4203,  results:73,  cpl:57.58, count:1 },
+      { type:'וובינר',     color:'#1D9E75', spend:11980, results:758, cpl:15.80, count:2 },
+      { type:'אתגר',       color:'#D85A30', spend:7028,  results:567, cpl:12.39, count:3 },
+      { type:'חשיפה',      color:'#888780', spend:1342,  results:0,   cpl:0,     count:1, reach:235000 }
+    ],
+    audiences:{ kpis:[
+      { name:'נשים כללי',  leads:134, spend:6082, cpl:45.39, color:'#378ADD' },
+      { name:'גיל המעבר', leads:136, spend:6089, cpl:44.77, color:'#D4537E' },
+      { name:'אחרי לידה', leads:110, spend:6118, cpl:55.62, color:'#1D9E75' },
+      { name:'גברים',     leads:73,  spend:4203, cpl:57.58, color:'#BA7517' }
+    ]},
+    challenge:{ spend:7028, results:567, cpl:12.39, count:3, campaigns:[
+      {n:'אתגר גיל מעבר 14.06',       aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:2747, r:304, cpl:9.04,  ctr:2.23},
+      {n:'אתגר 5 ימים עסוקות 12/07', aud:'כללי',      col:'#D85A30', st:'פעיל',  sp:670,  r:44,  cpl:15.22, ctr:1.41},
+      {n:'אתגר 5 ימים עסוקות 28/06', aud:'כללי',      col:'#D85A30', st:'מושהה', sp:3611, r:219, cpl:16.49, ctr:1.27}
+    ]},
+    webinar:{ spend:11980, results:758, cpl:15.80, count:2, campaigns:[
+      {n:'וובינר נשים אחרי לידה 05.07', aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:5995, r:439, cpl:13.66, ctr:1.76},
+      {n:'וובינר גיל המעבר 21.06',      aud:'גיל המעבר', col:'#D4537E', st:'פעיל',  sp:5985, r:319, cpl:18.76, ctr:2.79}
+    ]},
+    adsets:[
+      {n:'נשיים כללי, תחומי עניין',   aud:'נשים כללי', col:'#378ADD', st:'פעיל',  sp:6082, r:134, cpl:45.39, ctr:1.61},
+      {n:'גיל המעבר רחב',              aud:'גיל המעבר', col:'#D4537E', st:'פעיל',  sp:6089, r:136, cpl:44.77, ctr:2.08},
+      {n:'נשים אחרי לידה',             aud:'אחרי לידה', col:'#1D9E75', st:'פעיל',  sp:6118, r:110, cpl:55.62, ctr:1.50},
+      {n:'תכנית לגברים (קמפיין נפרד)', aud:'גברים',    col:'#BA7517', st:'פעיל',  sp:4203, r:73,  cpl:57.58, ctr:2.06},
+      {n:'נשים רחב',                    aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,    r:0,   cpl:0,     ctr:0},
+      {n:'LAL נשים אחרי לידה',         aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:0,    r:0,   cpl:0,     ctr:0},
+      {n:'גיל המעבר תחומי עניין',      aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,    r:0,   cpl:0,     ctr:0},
+      {n:'LAL נשים כללי',               aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,    r:0,   cpl:0,     ctr:0},
+      {n:'LAL גיל המעבר',               aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,    r:0,   cpl:0,     ctr:0}
+    ]
+  },
+  '3m': {
+    period:{ from:'2026-04-09', to:'2026-07-07', label:'09.04 – 07.07.2026' },
+    lastUpdated:'2026-07-08T06:00:00Z',
+    activeCampaigns:4,
+    overview:{ spend:159369, results:5854, cpl:26.57, ctr:2.05 },
+    byType:[
+      { type:'תכנית נשים', color:'#7F77DD', spend:84213, results:1411, cpl:59.68, count:4 },
+      { type:'תכנית גברים',color:'#BA7517', spend:6685,  results:127,  cpl:52.64, count:2 },
+      { type:'וובינר',     color:'#1D9E75', spend:43899, results:2640, cpl:16.63, count:8 },
+      { type:'אתגר',       color:'#D85A30', spend:20742, results:1676, cpl:12.38, count:8 },
+      { type:'חשיפה',      color:'#888780', spend:3830,  results:0,    cpl:0,     count:1, reach:590460 }
+    ],
+    audiences:{ kpis:[
+      { name:'נשים כללי',  leads:498, spend:29727, cpl:59.69, color:'#378ADD' },
+      { name:'גיל המעבר', leads:505, spend:30148, cpl:59.70, color:'#D4537E' },
+      { name:'אחרי לידה', leads:408, spend:24338, cpl:59.65, color:'#1D9E75' },
+      { name:'גברים',     leads:127, spend:6685,  cpl:52.64, color:'#BA7517' }
+    ]},
+    challenge:{ spend:20742, results:1676, cpl:12.38, count:8, campaigns:[
+      {n:'אתגר גיל מעבר 14.06',       aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:3000, r:326, cpl:9.20,  ctr:2.23},
+      {n:'אתגר 5 ימים עסוקות 17.05', aud:'כללי',      col:'#D85A30', st:'מושהה', sp:3480, r:309, cpl:11.26, ctr:1.29},
+      {n:'אתגר 5 ימים עסוקות 19.04', aud:'כללי',      col:'#D85A30', st:'מושהה', sp:3499, r:281, cpl:12.45, ctr:1.43},
+      {n:'אתגר 5 ימים עסוקות 31.05', aud:'כללי',      col:'#D85A30', st:'מושהה', sp:2433, r:189, cpl:12.88, ctr:1.13},
+      {n:'אתגר 5 ימים עסוקות 03.05', aud:'כללי',      col:'#D85A30', st:'מושהה', sp:3815, r:255, cpl:14.96, ctr:1.11},
+      {n:'אתגר 5 ימים עסוקות 12/07', aud:'כללי',      col:'#D85A30', st:'פעיל',  sp:670,  r:44,  cpl:15.22, ctr:1.41},
+      {n:'אתגר 5 ימים עסוקות 28/06', aud:'כללי',      col:'#D85A30', st:'מושהה', sp:3611, r:219, cpl:16.49, ctr:1.27},
+      {n:'אתגר 3 ימים',               aud:'כללי',      col:'#D85A30', st:'מושהה', sp:234,  r:53,  cpl:4.41,  ctr:1.85}
+    ]},
+    webinar:{ spend:43899, results:2640, cpl:16.63, count:8, campaigns:[
+      {n:'הרשמה לוובינר 12/04',              aud:'כללי',      col:'#D85A30', st:'מושהה', sp:5089, r:418, cpl:12.18, ctr:2.15},
+      {n:'וובינר גיל המעבר 26.04 (מעודכן)', aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:4198, r:314, cpl:13.37, ctr:3.42},
+      {n:'וובינר נשים אחרי לידה 05.07',     aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:5995, r:439, cpl:13.66, ctr:1.76},
+      {n:'וובינר גיל המעבר 24.05',           aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:6574, r:411, cpl:16.00, ctr:2.79},
+      {n:'וובינר אחרי לידה 10.05',           aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:5994, r:336, cpl:17.84, ctr:1.43},
+      {n:'וובינר גיל המעבר 21.06',           aud:'גיל המעבר', col:'#D4537E', st:'פעיל',  sp:5985, r:319, cpl:18.76, ctr:2.79},
+      {n:'וובינר גיל המעבר 26.04',           aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:3799, r:157, cpl:24.20, ctr:2.80},
+      {n:'וובינר אחרי לידה 07.06',           aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:6265, r:246, cpl:25.47, ctr:1.46}
+    ]},
+    adsets:[
+      {n:'נשיים כללי, תחומי עניין',   aud:'נשים כללי', col:'#378ADD', st:'פעיל',  sp:29727, r:498, cpl:59.69, ctr:1.62},
+      {n:'גיל המעבר רחב',              aud:'גיל המעבר', col:'#D4537E', st:'פעיל',  sp:30148, r:505, cpl:59.70, ctr:2.08},
+      {n:'נשים אחרי לידה',             aud:'אחרי לידה', col:'#1D9E75', st:'פעיל',  sp:24338, r:408, cpl:59.65, ctr:1.50},
+      {n:'תכנית לגברים (קמפיין נפרד)', aud:'גברים',    col:'#BA7517', st:'פעיל',  sp:6685,  r:127, cpl:52.64, ctr:2.06},
+      {n:'נשים רחב',                    aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,     r:0,   cpl:0,     ctr:0},
+      {n:'LAL נשים אחרי לידה',         aud:'אחרי לידה', col:'#1D9E75', st:'מושהה', sp:0,     r:0,   cpl:0,     ctr:0},
+      {n:'גיל המעבר תחומי עניין',      aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,     r:0,   cpl:0,     ctr:0},
+      {n:'LAL נשים כללי',               aud:'נשים כללי', col:'#378ADD', st:'מושהה', sp:0,     r:0,   cpl:0,     ctr:0},
+      {n:'LAL גיל המעבר',               aud:'גיל המעבר', col:'#D4537E', st:'מושהה', sp:0,     r:0,   cpl:0,     ctr:0}
+    ]
+  }
+};
+
+const PRESET_MAP = { '7d':'p7', '30d':'p30', month:'pmo', prev_month:'ppm', '3m':'p3m', custom:'pcu' };
+const PRESET_IDS = ['p7','p30','pmo','ppm','p3m','pcu'];
+let _curPreset = 'month';
+
+function pad(n){return('0'+n).slice(-2);}
+function fmtH(d){return pad(d.getDate())+'.'+pad(d.getMonth()+1)+'.'+d.getFullYear();}
+
+function setPreset(p){
+  _curPreset = p;
+  PRESET_IDS.forEach(id=>document.getElementById(id).className='pbtn');
+  document.getElementById('custom-row').className='custom-row';
+  const bid = PRESET_MAP[p];
+  if(bid) document.getElementById(bid).className='pbtn sel';
+  if(p==='custom'){
+    document.getElementById('custom-row').className='custom-row open';
+    return;
+  }
+  const d = PERIODS[p];
+  if(d) updateDashboard(d);
+}
+
+function applyCustom(){
+  const fv=document.getElementById('dt-from').value;
+  const tv=document.getElementById('dt-to').value;
+  if(!fv||!tv) return;
+  const from=new Date(fv), to=new Date(tv);
+  document.getElementById('period-label').textContent = fmtH(from)+' – '+fmtH(to)+' · Meta Ads';
+  document.getElementById('data-badge').innerHTML =
+    `<i class="ti ti-database"></i> טווח מותאם · נתונים: רענן כדי לטעון מ-Meta · <a onclick="doRefresh()">רענן</a>`;
+}
+
+function doRefresh(){
+  window.location.href = window.location.pathname + '?t=' + Date.now();
+}
+
+// ── Helpers ──
+const f  = n => n>0 ? '₪'+n.toLocaleString('he-IL',{maximumFractionDigits:0}) : '—';
+const fc = n => n>0 ? '₪'+n.toFixed(2) : '—';
+const dot = (col,txt) => `<span style="display:inline-flex;align-items:center;gap:4px"><span style="width:7px;height:7px;border-radius:50%;background:${col};flex-shrink:0"></span>${txt}</span>`;
+
+// ── Charts store ──
+const CHARTS = {};
+const mkBar=(id,labels,data,colors,cbX,hor)=>{
+  const ch=new Chart(document.getElementById(id),{
+    type:'bar',
+    data:{labels,datasets:[{data,backgroundColor:colors,borderWidth:0,borderRadius:4}]},
+    options:{indexAxis:hor?'y':'x',responsive:true,maintainAspectRatio:false,
+      plugins:{legend:{display:false}},
+      scales:{
+        x:{ ...(hor?{beginAtZero:true}:{}), ticks:{callback:hor?cbX:undefined,font:{size:10}} },
+        y:{ ...(!hor?{beginAtZero:true}:{}), ticks:{callback:hor?undefined:cbX,font:{size:10}} }
+      }}
+  });
+  CHARTS[id]=ch; return ch;
+};
+
+// ── Render tables ──
+function renderTables(d){
+  document.getElementById('tb-as').innerHTML='';
+  d.adsets.forEach(a=>{
+    const dim=a.sp===0?'color:var(--text2)':'';
+    document.getElementById('tb-as').innerHTML+=`<tr style="${dim}">
+      <td>${a.n}</td><td>${dot(a.col,a.aud)}</td>
+      <td>${f(a.sp)}</td><td>${a.r||'—'}</td>
+      <td>${fc(a.cpl)}</td><td>${a.ctr?a.ctr.toFixed(2)+'%':'—'}</td>
+      <td><span class="bx ${a.st==='פעיל'?'ba':'bp'}">${a.st}</span></td></tr>`;
+  });
+
+  document.getElementById('tb-ch').innerHTML='';
+  d.challenge.campaigns.forEach(c=>{
+    document.getElementById('tb-ch').innerHTML+=`<tr>
+      <td>${c.n}</td><td>${dot(c.col,c.aud)}</td>
+      <td>${f(c.sp)}</td><td>${c.r}</td>
+      <td style="color:var(--green-text)">${fc(c.cpl)}</td>
+      <td>${c.ctr.toFixed(2)}%</td>
+      <td><span class="bx ${c.st==='פעיל'?'ba':'bp'}">${c.st}</span></td></tr>`;
+  });
+
+  document.getElementById('tb-wb').innerHTML='';
+  d.webinar.campaigns.forEach(w=>{
+    document.getElementById('tb-wb').innerHTML+=`<tr>
+      <td>${w.n}</td><td>${dot(w.col,w.aud)}</td>
+      <td>${f(w.sp)}</td><td>${w.r}</td>
+      <td style="color:var(--green-text)">${fc(w.cpl)}</td>
+      <td>${w.ctr.toFixed(2)}%</td>
+      <td><span class="bx ${w.st==='פעיל'?'ba':'bp'}">${w.st}</span></td></tr>`;
+  });
+}
+
+// ── Update all dashboard elements from a data object ──
+function updateDashboard(d){
+  // Header / period label
+  document.getElementById('period-label').textContent = d.period.label + ' · Meta Ads';
+  document.getElementById('badge-active').textContent = d.activeCampaigns + ' קמפיינים פעילים';
+
+  // Data badge
+  const ts = new Date(d.lastUpdated);
+  const tsStr = pad(ts.getDate())+'.'+pad(ts.getMonth()+1)+'.'+ts.getFullYear()+
+                ' '+pad(ts.getHours())+':'+pad(ts.getMinutes());
+  document.getElementById('data-badge').innerHTML =
+    `<i class="ti ti-database"></i> נתונים: ${d.period.label} · עדכון: ${tsStr} · <a onclick="doRefresh()">רענן</a>`;
+
+  // Overview KPIs
+  document.getElementById('ov-spend').textContent   = '₪'+d.overview.spend.toLocaleString('he-IL',{maximumFractionDigits:0});
+  document.getElementById('ov-results').textContent = d.overview.results.toLocaleString('he-IL');
+  document.getElementById('ov-cpl').textContent     = '₪'+d.overview.cpl.toFixed(2);
+  document.getElementById('ov-ctr').textContent     = d.overview.ctr.toFixed(2)+'%';
+
+  // Overview donut legend % from byType
+  const tot = d.byType.reduce((s,t)=>s+t.spend,0);
+  d.byType.forEach((t,i)=>{
+    document.getElementById('lg-'+i).textContent = t.type+' '+Math.round(t.spend/tot*100)+'%';
+  });
+
+  // Overview donut chart
+  CHARTS.c1.data.datasets[0].data = d.byType.map(t=>t.spend);
+  CHARTS.c1.data.datasets[0].backgroundColor = d.byType.map(t=>t.color);
+  CHARTS.c1.data.labels = d.byType.map(t=>t.type);
+  CHARTS.c1.update();
+
+  // Overview CPL bar chart (only non-חשיפה types)
+  const nonExp = d.byType.filter(t=>t.type!=='חשיפה');
+  CHARTS.c2.data.labels = nonExp.map(t=>t.type);
+  CHARTS.c2.data.datasets[0].data = nonExp.map(t=>t.cpl);
+  CHARTS.c2.data.datasets[0].backgroundColor = nonExp.map(t=>t.color);
+  CHARTS.c2.update();
+
+  // Overview summary table
+  document.getElementById('tb-ov').innerHTML = d.byType.map(t=>{
+    const isExp = t.type==='חשיפה';
+    const resultsCell = isExp ? (t.reach ? Math.round(t.reach/1000)+'K Reach' : '—') : t.results.toLocaleString();
+    const cplVal = isExp ? '—' : `₪${t.cpl.toFixed(2)}`;
+    const cplStyle = !isExp && t.cpl<30 ? ' style="color:var(--green-text)"' : '';
+    return `<tr${isExp?' style="color:var(--text2)"':''}>
+      <td><span class="dot" style="background:${t.color}"></span>${t.type}</td>
+      <td>${f(t.spend)}</td><td>${resultsCell}</td>
+      <td${cplStyle}>${cplVal}</td>
+      <td style="color:var(--text2)">${t.count}</td></tr>`;
+  }).join('');
+  const totalCamps = d.byType.reduce((s,t)=>s+t.count,0);
+  document.getElementById('tf-ov').innerHTML =
+    `<tr><td>סה"כ</td><td>${f(d.overview.spend)}</td><td>${d.overview.results.toLocaleString()}</td>
+     <td>₪${d.overview.cpl.toFixed(2)}</td><td style="color:var(--text2)">${totalCamps}</td></tr>`;
+
+  // Program tab note
+  const el = document.getElementById('pr-note');
+  if(el) el.textContent = `נתונים לפי קהל · ${d.period.label}`;
+
+  // Program KPI cards
+  d.audiences.kpis.forEach((k,i)=>{
+    const mv = document.getElementById('pr-mv-'+i);
+    const ms = document.getElementById('pr-ms-'+i);
+    if(mv) mv.textContent = k.leads+' לידים';
+    if(ms) ms.textContent = '₪'+k.spend.toLocaleString()+' · CPL ₪'+k.cpl.toFixed(2);
+  });
+
+  // Program charts — sorted by CPL asc
+  const sortedKpi = [...d.audiences.kpis].sort((a,b)=>a.cpl-b.cpl);
+  CHARTS.c3.data.labels = sortedKpi.map(k=>k.name);
+  CHARTS.c3.data.datasets[0].data = sortedKpi.map(k=>k.cpl);
+  CHARTS.c3.data.datasets[0].backgroundColor = sortedKpi.map(k=>k.color);
+  CHARTS.c3.update();
+  CHARTS.c4.data.labels = sortedKpi.map(k=>k.name);
+  CHARTS.c4.data.datasets[0].data = sortedKpi.map(k=>k.leads);
+  CHARTS.c4.data.datasets[0].backgroundColor = sortedKpi.map(k=>k.color);
+  CHARTS.c4.update();
+
+  // Challenge KPIs
+  document.getElementById('ch-spend').textContent   = f(d.challenge.spend);
+  document.getElementById('ch-results').textContent = d.challenge.results.toLocaleString();
+  document.getElementById('ch-cpl').textContent     = '₪'+d.challenge.cpl.toFixed(2);
+  document.getElementById('ch-count').textContent   = d.challenge.count;
+
+  const ch = d.challenge.campaigns;
+  CHARTS.c5.data.labels = ch.map(c=>c.n);
+  CHARTS.c5.data.datasets[0].data = ch.map(c=>c.cpl);
+  CHARTS.c5.data.datasets[0].backgroundColor = ch.map(c=>c.col);
+  CHARTS.c5.update();
+  CHARTS.c6.data.labels = ch.map(c=>c.n);
+  CHARTS.c6.data.datasets[0].data = ch.map(c=>c.r);
+  CHARTS.c6.data.datasets[0].backgroundColor = ch.map(c=>c.col);
+  CHARTS.c6.update();
+
+  // Webinar KPIs
+  document.getElementById('wb-spend').textContent   = f(d.webinar.spend);
+  document.getElementById('wb-results').textContent = d.webinar.results.toLocaleString();
+  document.getElementById('wb-cpl').textContent     = '₪'+d.webinar.cpl.toFixed(2);
+  document.getElementById('wb-count').textContent   = d.webinar.count;
+
+  const wb = d.webinar.campaigns;
+  CHARTS.c7.data.labels = wb.map(w=>w.n);
+  CHARTS.c7.data.datasets[0].data = wb.map(w=>w.cpl);
+  CHARTS.c7.data.datasets[0].backgroundColor = wb.map(w=>w.col);
+  CHARTS.c7.update();
+
+  renderTables(d);
+}
+
+// ── Charts init from default period (month) ──
+const initD = PERIODS.month;
+
+CHARTS.c1 = new Chart(document.getElementById('c1'),{
+  type:'doughnut',
+  data:{ labels:initD.byType.map(t=>t.type),
+         datasets:[{data:initD.byType.map(t=>t.spend),
+                    backgroundColor:initD.byType.map(t=>t.color),borderWidth:0}]},
+  options:{responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{display:false}}}
+});
+
+const nonExpInit = initD.byType.filter(t=>t.type!=='חשיפה');
+mkBar('c2', nonExpInit.map(t=>t.type), nonExpInit.map(t=>t.cpl), nonExpInit.map(t=>t.color), v=>'₪'+v, false);
+
+const sortedKpi0 = [...initD.audiences.kpis].sort((a,b)=>a.cpl-b.cpl);
+mkBar('c3', sortedKpi0.map(k=>k.name), sortedKpi0.map(k=>k.cpl),  sortedKpi0.map(k=>k.color), v=>'₪'+v, false);
+mkBar('c4', sortedKpi0.map(k=>k.name), sortedKpi0.map(k=>k.leads), sortedKpi0.map(k=>k.color), undefined, false);
+
+const ch0 = initD.challenge.campaigns;
+mkBar('c5', ch0.map(c=>c.n), ch0.map(c=>c.cpl), ch0.map(c=>c.col), v=>'₪'+v, true);
+mkBar('c6', ch0.map(c=>c.n), ch0.map(c=>c.r),   ch0.map(c=>c.col), undefined, true);
+
+const wb0 = initD.webinar.campaigns;
+mkBar('c7', wb0.map(w=>w.n), wb0.map(w=>w.cpl), wb0.map(w=>w.col), v=>'₪'+v, true);
+
+renderTables(initD);
+
+// ── Tabs ──
+const TABS=['ov','pr','ch','wb'];
+function sw(name){
+  TABS.forEach(t=>{
+    document.getElementById('p-'+t).style.display=t===name?'':'none';
+    document.getElementById('btn-'+t).className='tbtn'+(t===name?' on':'');
+  });
+}
+
+// ── Init ──
+setPreset('month');
+
+// ── Load fresh data from data.json ──
+fetch('./data.json?t='+Date.now())
+  .then(r=>{ if(!r.ok) throw new Error(r.status); return r.json(); })
+  .then(data=>{
+    if(data.periods){
+      Object.assign(PERIODS, data.periods);
+      updateDashboard(PERIODS[_curPreset] || PERIODS.month);
+    }
+  })
+  .catch(()=>{ /* use embedded data */ });
+</script>
+</body>
+</html>
