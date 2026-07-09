@@ -177,7 +177,7 @@ def fetch_adsets(date_preset=None, since=None, until=None):
         level="adset",
         fields=ADSET_FIELDS,
         filtering=json.dumps(
-            [{"field": "campaign_id", "operator": "EQUAL", "value": [PROGRAM_ID]}]
+            [{"field": "campaign_id", "operator": "IN", "value": [PROGRAM_ID]}]
         ),
         sort="spend_descending",
         limit=30,
