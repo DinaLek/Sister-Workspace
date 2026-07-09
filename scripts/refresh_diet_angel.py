@@ -80,6 +80,14 @@ def dd_mm_yyyy(s):
         return s
 
 
+def dd_mm(s):
+    try:
+        d = datetime.strptime(s, "%Y-%m-%d")
+        return f"{d.day:02d}.{d.month:02d}"
+    except Exception:
+        return s
+
+
 def st_heb(s):
     return "פעיל" if s == "ACTIVE" else "מושהה"
 
@@ -210,7 +218,7 @@ def process_period(camp_rows, adset_rows, adset_status_map, camp_status_map, dat
 
     date_from = camp_rows[0].get("date_start", since or "")
     date_to   = camp_rows[0].get("date_stop",  until or "")
-    label = f"{dd_mm_yyyy(date_from)} – {dd_mm_yyyy(date_to)}.{datetime.now().year}" \
+    label = f"{dd_mm(date_from)} – {dd_mm_yyyy(date_to)}" \
         if date_from and date_to else ""
 
     # Process campaigns
