@@ -163,6 +163,7 @@ def fetch_campaigns(date_preset=None, since=None, until=None):
         fields=INSIGHT_FIELDS,
         sort="spend_descending",
         limit=50,
+        action_attribution_windows=json.dumps(["7d_click", "1d_view"]),
     )
     if date_preset:
         kw["date_preset"] = date_preset
@@ -180,6 +181,7 @@ def fetch_adsets(date_preset=None, since=None, until=None):
         ),
         sort="spend_descending",
         limit=30,
+        action_attribution_windows=json.dumps(["7d_click", "1d_view"]),
     )
     if date_preset:
         kw["date_preset"] = date_preset
