@@ -389,6 +389,13 @@ for name, params in PERIODS_DEF.items():
     except Exception as e:
         print(f"  ✗ Error for {name}: {e}", file=sys.stderr)
 
+if not periods_out:
+    print(
+        "ERROR: every period failed — refusing to overwrite data.json with empty data.",
+        file=sys.stderr,
+    )
+    sys.exit(1)
+
 output = {
     "lastUpdated":     datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
     "activeCampaigns": periods_out.get("month", {}).get("activeCampaigns", 0),
