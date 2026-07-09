@@ -109,13 +109,14 @@ class PageBuilder:
         self._draw_main_title()
         self._y -= 6
 
-        # "נעים להכיר" intro — fixed text, identical in every proposal
-        self._draw_section_heading("נעים להכיר")
-        self._y -= 4
-        for sentence in INTRO_SENTENCES:
-            self._draw_paragraph(sentence)
-            self._y -= 3
-        self._y -= 10
+        # "נעים להכיר" intro — skipped when show_intro is explicitly False
+        if self.content.get("show_intro", True):
+            self._draw_section_heading("נעים להכיר")
+            self._y -= 4
+            for sentence in INTRO_SENTENCES:
+                self._draw_paragraph(sentence)
+                self._y -= 3
+            self._y -= 10
 
         # Services
         for service in self.content.get("services", []):
