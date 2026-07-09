@@ -1,2 +1,3 @@
 [build]
-  publish = "clients/דיאט אנגל/dashboard"
+  base    = "clients/דיאט אנגל/dashboard"
+  publish = "."
