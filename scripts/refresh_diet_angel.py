@@ -230,6 +230,8 @@ def process_period(camp_rows, adset_rows, adset_status_map, camp_status_map, dat
         cst  = camp_status_map.get(cid, {}).get("status", "PAUSED")
         sp   = safe_float(c.get("spend", 0))
         r    = lead_count(c)
+        if typ == "אתגר" and sp > 0 and r == 0:
+            print(f"DEBUG אתגר actions for '{name}': {c.get('actions')}", file=sys.stderr)
         campaigns.append({
             "id": cid, "name": name, "type": typ, "status": cst,
             "spend": sp, "impr": safe_int(c.get("impressions", 0)),
