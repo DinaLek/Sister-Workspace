@@ -38,22 +38,26 @@ def meta(path, **kw):
 
 
 # ── Value extractors ──────────────────────────────────────────────────────────
+# אתגר 5 ימים תודה — Custom Conversion על דף התודה (לא ליד רגיל)
+CHALLENGE_THANKYOU_CONVERSION = "offsite_conversion.custom.872178985109937"
+
+LEAD_ACTION_TYPES = (
+    "lead", "onsite_conversion.lead_grouped",
+    "complete_registration", "offsite_conversion.fb_pixel_lead",
+    CHALLENGE_THANKYOU_CONVERSION,
+)
+
+
 def lead_count(item):
     for a in item.get("actions", []):
-        if a.get("action_type") in (
-            "lead", "onsite_conversion.lead_grouped",
-            "complete_registration", "offsite_conversion.fb_pixel_lead",
-        ):
+        if a.get("action_type") in LEAD_ACTION_TYPES:
             return int(float(a["value"]))
     return 0
 
 
 def cpl_val(item):
     for c in item.get("cost_per_action_type", []):
-        if c.get("action_type") in (
-            "lead", "onsite_conversion.lead_grouped",
-            "complete_registration", "offsite_conversion.fb_pixel_lead",
-        ):
+        if c.get("action_type") in LEAD_ACTION_TYPES:
             return round(float(c["value"]), 2)
     return 0.0
 
@@ -230,8 +234,6 @@ def process_period(camp_rows, adset_rows, adset_status_map, camp_status_map, dat
         cst  = camp_status_map.get(cid, {}).get("status", "PAUSED")
         sp   = safe_float(c.get("spend", 0))
         r    = lead_count(c)
-        if typ == "אתגר" and sp > 0 and r == 0:
-            print(f"DEBUG אתגר actions for '{name}': {c.get('actions')}", file=sys.stderr)
         campaigns.append({
             "id": cid, "name": name, "type": typ, "status": cst,
             "spend": sp, "impr": safe_int(c.get("impressions", 0)),
