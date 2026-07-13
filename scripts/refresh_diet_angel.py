@@ -38,26 +38,29 @@ def meta(path, **kw):
 
 
 # ── Value extractors ──────────────────────────────────────────────────────────
-# אתגר 5 ימים תודה — Custom Conversion על דף התודה (לא ליד רגיל)
-CHALLENGE_THANKYOU_CONVERSION = "offsite_conversion.custom.872178985109937"
-
 LEAD_ACTION_TYPES = (
     "lead", "onsite_conversion.lead_grouped",
     "complete_registration", "offsite_conversion.fb_pixel_lead",
-    CHALLENGE_THANKYOU_CONVERSION,
 )
+
+
+def is_lead_action(action_type):
+    # קמפייני אתגר ממירים בדף תודה — Custom Conversion, ה-ID משתנה בין קמפיינים
+    return action_type in LEAD_ACTION_TYPES or (
+        action_type or ""
+    ).startswith("offsite_conversion.custom.")
 
 
 def lead_count(item):
     for a in item.get("actions", []):
-        if a.get("action_type") in LEAD_ACTION_TYPES:
+        if is_lead_action(a.get("action_type")):
             return int(float(a["value"]))
     return 0
 
 
 def cpl_val(item):
     for c in item.get("cost_per_action_type", []):
-        if c.get("action_type") in LEAD_ACTION_TYPES:
+        if is_lead_action(c.get("action_type")):
             return round(float(c["value"]), 2)
     return 0.0
 
