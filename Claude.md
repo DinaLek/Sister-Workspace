@@ -10,55 +10,57 @@
 ### brand-dna.md
 **מתי:** לפני כל משימה שקשורה לעסק — מי אנחנו, מה אנחנו עושות,
 למי אנחנו פונות, מה מבדל אותנו.
-**נתיב:** `shared knowledge/brand-dna.md`
+**נתיב:** `sister/shared/brand-dna.md`
 
 ### business-context.md
 **מתי:** לפני החלטה עסקית, תכנון תוכן, או הצעת רעיון אסטרטגי —
 מודל הכנסה, מטרות, מגבלות.
-**נתיב:** `shared knowledge/business-context.md`
+**נתיב:** `sister/shared/business-context.md`
 
 ### voice-and-style.md
 **מתי:** לפני כתיבת תוכן עבור סיסטר מרקטינג עצמה בלבד —
 פוסטים, קופי, מיילים בשם הסוכנות.
 לתוכן עבור לקוחות — קרא את קובץ הסגנון הייעודי בתיקיית הלקוח.
-**נתיב:** `shared knowledge/voice-and-style.md`
+**נתיב:** `sister/shared/voice-and-style.md`
 
 ### platform-structure.md
 **מתי:** לפני כתיבת פוסט, קופי לריל, או סטורי עבור סיסטר מרקטינג —
 מבנה הוק/גוף/CTA לכל פלטפורמה, מה עולה לאיפה, פורמט טכני.
 קרא יחד עם voice-and-style.md, לא במקומו.
-**נתיב:** `shared knowledge/platform-structure.md`
+**נתיב:** `sister/shared/platform-structure.md`
 
 ### content-strategy.md
 **מתי:** לפני בניית גאנט תוכן, תכנון חודשי, או כשצריך להחליט
 על סוג הפוסט (קייס סטאדי / POV / קרן / RTM) — קצב חודשי,
 שלושה דליים קבועים, חלוקת פלטפורמות, RTM.
-**נתיב:** `shared knowledge/content-strategy.md`
+**נתיב:** `sister/shared/content-strategy.md`
 
 ### visual-style.md
 **מתי:** לפני פלט גרפי עבור סיסטר מרקטינג עצמה בלבד —
 עיצוב, בריף קריאייטיב, הנחיות ויזואליות בשם הסוכנות.
 לתוכן ויזואלי עבור לקוחות — קרא את הברנד-בוק בתיקיית הלקוח.
-**נתיב:** `shared knowledge/visual-style.md`
+**נתיב:** `sister/shared/visual-style.md`
 
 ### memory-index.md
 **מתי:** בתחילת כל שיחה — לדעת אילו קבצי זיכרון קיימים ולאן ללכת.
 וגם: כשמחפשים תובנה, לקח, באג שכבר פתרנו, או רעיון מהעבר —
 קרא קודם את האינדקס ומשם עבור לקובץ הנושא המתאים.
-**נתיב:** `shared knowledge/memory-index.md`
+**נתיב:** `sister/shared/memory-index.md`
 
 **קבצי הנושא:**
-- `shared knowledge/lessons-learned.md` — תובנות, העדפות, גישות שעבדו
-- `shared knowledge/bugs.md` — שגיאות ופתרונות
-- `shared knowledge/ideas.md` — רעיונות שלא מומשו, backlog
+- `sister/shared/lessons-learned.md` — תובנות, העדפות, גישות שעבדו
+- `sister/shared/bugs.md` — שגיאות ופתרונות
+- `sister/shared/ideas.md` — רעיונות שלא מומשו, backlog
 
 ---
 
 ## מבנה התיקיות
 
-- `shared knowledge/` — מסמכי הליבה של סיסטר (brand-dna, voice, visual, business-context, memory-index)
-- `agents/` — סוכנים ייעודיים. לכל סוכן תיקייה משלו עם הנחיות עבודה
-- `clients/` — לכל לקוח תיקייה ייעודית עם ברנד-בוק, בריף, ושירותים
+- `sister/shared/` — מסמכי הליבה של סיסטר (brand-dna, voice, visual, business-context, memory-index)
+- `tools/agents/` — סוכנים ייעודיים. לכל סוכן תיקייה משלו עם הנחיות עבודה
+- `clients/` — לכל לקוח `client-context/`, אזורי עבודה וקישורי outputs ל-Drive
+- `operations/` — CRM, מכירות והצעות מחיר
+- `shared/` — תבניות וידע רוחבי לצוות
 
 ---
 
@@ -76,5 +78,5 @@
 - האם קראתי את הברנד-בוק הרלוונטי (סיסטר או לקוח)?
 - האם המשימה ברורה?
 
-**עבודה עם לקוחות:** בכל פרויקט לקוח — חפש את `client_brief.md`
-בתיקיית הלקוח כדי להבין את הצרכים הספציפיים.
+**עבודה עם לקוחות:** בכל פרויקט לקוח — קרא את `README.md` ואת הקבצים
+בתיקיית `clients/<client>/client-context/` כדי להבין את הצרכים הספציפיים.

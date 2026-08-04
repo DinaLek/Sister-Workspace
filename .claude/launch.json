@@ -4,7 +4,7 @@
     {
       "name": "diet-angel-dashboard",
       "runtimeExecutable": "python",
-      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "clients/דיאט אנגל/dashboard"],
+      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "clients/דיאט אנגל/campaigns/working/dashboard"],
       "port": 8080
     }
   ]

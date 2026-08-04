@@ -1,0 +1,18 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "diet-angel-dashboard",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8080", "--directory", "clients/דיאט אנגל/dashboard"],
+      "port": 8080
+    },
+    {
+      "name": "content-calendar",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
+      "cwd": "content-calendar",
+      "port": 3000
+    }
+  ]
+}

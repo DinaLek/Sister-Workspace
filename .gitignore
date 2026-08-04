@@ -1,0 +1,26 @@
+# Local agent and editor state
+.claude/settings.local.json
+.claude/worktrees/
+.codex/
+
+# Temporary and generated files
+tmp/
+*.tmp
+*.log
+__pycache__/
+*.py[cod]
+.cache/
+node_modules/
+
+# Rendered media belongs in Google Drive
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+*.wav
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store

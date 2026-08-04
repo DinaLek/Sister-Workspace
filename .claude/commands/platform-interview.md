@@ -5,8 +5,8 @@
 ## לפני הכל
 
 קבע איפה ישמר הקובץ:
-- סיסטר עצמה → `shared knowledge/platform-structure.md`
-- לקוח → `clients/[שם-לקוח]/platform-structure.md`
+- סיסטר עצמה → `sister/shared/platform-structure.md`
+- לקוח → `clients/[שם-לקוח]/client-context/platform-structure.md`
 
 קרא את voice-and-style.md הרלוונטי לפני שמתחילים.
 **אל תשאל על שום דבר שכבר כתוב שם.**

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>לוח תוכן חודשי — Sister Marketing</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="app-header">
+  <div class="app-header__title">
+    <h1>לוח תוכן חודשי</h1>
+    <p>Sister Marketing</p>
+  </div>
+</header>
+
+<div class="toolbar">
+  <div class="products-bar" id="productsBar">
+    <span class="products-bar__label">מוצרים:</span>
+    <div class="products-bar__list" id="productsList"></div>
+    <button class="btn btn--ghost btn--small" id="addProductBtn">+ מוצר</button>
+  </div>
+
+  <div class="client-filter">
+    <label for="clientFilter">לקוח:</label>
+    <select id="clientFilter">
+      <option value="">כל הלקוחות</option>
+    </select>
+  </div>
+</div>
+
+<main class="calendar">
+  <div class="month-nav">
+    <button class="nav-btn" id="prevMonthBtn" aria-label="חודש קודם">‹</button>
+    <h2 id="monthLabel"></h2>
+    <button class="nav-btn" id="nextMonthBtn" aria-label="חודש הבא">›</button>
+    <button class="btn btn--ghost btn--small" id="todayBtn">היום</button>
+  </div>
+
+  <div class="weekday-header">
+    <div>ראשון</div>
+    <div>שני</div>
+    <div>שלישי</div>
+    <div>רביעי</div>
+    <div>חמישי</div>
+    <div>שישי</div>
+    <div>שבת</div>
+  </div>
+
+  <div class="calendar-grid" id="calendarGrid"></div>
+</main>
+
+<!-- Idea modal -->
+<div class="modal-overlay" id="ideaModal" hidden>
+  <div class="modal">
+    <div class="modal__header">
+      <h3 id="ideaModalTitle">רעיון חדש</h3>
+      <button class="modal__close" id="ideaModalClose" aria-label="סגור">×</button>
+    </div>
+    <form id="ideaForm">
+      <input type="hidden" id="ideaId">
+      <input type="hidden" id="ideaDate">
+
+      <label class="field">
+        <span>כותרת</span>
+        <input type="text" id="ideaTitleInput" required maxlength="120" placeholder="כותרת קצרה לרעיון">
+      </label>
+
+      <label class="field">
+        <span>תיאור</span>
+        <textarea id="ideaDescInput" rows="3" placeholder="פרטים נוספים..."></textarea>
+      </label>
+
+      <label class="field">
+        <span>מוצר</span>
+        <select id="ideaProductInput">
+          <option value="">בלי מוצר</option>
+        </select>
+      </label>
+
+      <label class="field">
+        <span>לקוח</span>
+        <select id="ideaClientInput">
+          <option value="">בלי לקוח</option>
+        </select>
+      </label>
+
+      <div class="field">
+        <span>סטטוס</span>
+        <div class="status-picker" id="ideaStatusPicker">
+          <button type="button" class="status-option" data-status="draft">טיוטה</button>
+          <button type="button" class="status-option" data-status="ready">מוכן</button>
+          <button type="button" class="status-option" data-status="published">פורסם</button>
+        </div>
+        <input type="hidden" id="ideaStatusInput" value="draft">
+      </div>
+
+      <label class="field">
+        <span>תמונה</span>
+        <input type="file" id="ideaImageInput" accept="image/*">
+      </label>
+      <div class="image-preview" id="ideaImagePreview" hidden>
+        <img id="ideaImagePreviewImg" alt="תצוגה מקדימה">
+        <button type="button" class="btn btn--ghost btn--small" id="ideaImageRemoveBtn">הסר תמונה</button>
+      </div>
+
+      <div class="modal__actions">
+        <button type="button" class="btn btn--danger" id="ideaDeleteBtn" hidden>מחיקה</button>
+        <div class="modal__actions-spacer"></div>
+        <button type="button" class="btn btn--ghost" id="ideaCancelBtn">ביטול</button>
+        <button type="submit" class="btn btn--primary">שמירה</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<!-- Product modal -->
+<div class="modal-overlay" id="productModal" hidden>
+  <div class="modal modal--small">
+    <div class="modal__header">
+      <h3 id="productModalTitle">מוצר חדש</h3>
+      <button class="modal__close" id="productModalClose" aria-label="סגור">×</button>
+    </div>
+    <form id="productForm">
+      <input type="hidden" id="productId">
+      <label class="field">
+        <span>שם המוצר</span>
+        <input type="text" id="productNameInput" required maxlength="60" placeholder="לדוגמה: תוכנית נשים">
+      </label>
+      <div class="field">
+        <span>צבע</span>
+        <div class="color-picker" id="productColorPicker"></div>
+        <input type="hidden" id="productColorInput">
+      </div>
+      <div class="modal__actions">
+        <button type="button" class="btn btn--danger" id="productDeleteBtn" hidden>מחיקה</button>
+        <div class="modal__actions-spacer"></div>
+        <button type="button" class="btn btn--ghost" id="productCancelBtn">ביטול</button>
+        <button type="submit" class="btn btn--primary">שמירה</button>
+      </div>
+    </form>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

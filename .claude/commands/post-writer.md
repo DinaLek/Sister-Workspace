@@ -5,8 +5,8 @@
 שאל שאלה אחת בכל פעם. בדוק שיש לך את כל הבאים:
 
 **א. למי הפוסט מיועד?**
-- לסיסטר עצמה → `shared knowledge/voice-and-style.md`
-- ללקוח ספציפי → `clients/[שם-לקוח]/voice-and-style.md`
+- לסיסטר עצמה → `sister/shared/voice-and-style.md`
+- ללקוח ספציפי → `clients/[שם-לקוח]/client-context/voice-and-style.md`
 אם לא צוין — שאל.
 
 **ב. מה הנושא / החומר הגלם?**
@@ -23,12 +23,12 @@
 ## שלב 2: קרא קבצי ליבה
 
 **לסיסטר:**
-- `shared knowledge/voice-and-style.md`
-- `shared knowledge/platform-structure.md`
+- `sister/shared/voice-and-style.md`
+- `sister/shared/platform-structure.md`
 
 **ללקוח:**
-- `clients/[שם-לקוח]/voice-and-style.md`
-- `shared knowledge/platform-structure.md`
+- `clients/[שם-לקוח]/client-context/voice-and-style.md`
+- `sister/shared/platform-structure.md`
 
 אם אחד הקבצים לא נמצא — עצור. הודע איזה קובץ חסר ושאל איפה הוא. אל תמשיך לכתוב על בסיס הנחות.
 

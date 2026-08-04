@@ -19,7 +19,7 @@
 
 ## שלב 1: קרא את הקובץ הנוכחי
 
-קרא את `_crm/pipeline.csv` — ספור כמה שורות נתונים קיימות (לא כולל כותרת).
+קרא את `operations/crm/pipeline.csv` — ספור כמה שורות נתונים קיימות (לא כולל כותרת).
 
 ---
 
@@ -46,7 +46,7 @@
 
 ## שלב 3: הוסף שורה לקובץ
 
-הוסף שורה חדשה בסוף `_crm/pipeline.csv` בפורמט CSV:
+הוסף שורה חדשה בסוף `operations/crm/pipeline.csv` בפורמט CSV:
 
 ```
 [שם לקוח],[איש קשר],[טלפון],[מייל],[תחום],[מקור],[DD/MM/YY],[שירותים],[סכום],,,ליד חם,,["הערות"]
@@ -64,7 +64,7 @@
 
 לאחר הוספת השורה ל-CSV, הרץ:
 ```powershell
-& "C:\Users\Dina lekhovitser\AppData\Local\Programs\Python\Python311\python.exe" "_crm/generate_excel.py"
+& "C:\Users\Dina lekhovitser\AppData\Local\Programs\Python\Python311\python.exe" "operations/crm/generate_excel.py"
 ```
 
 ---

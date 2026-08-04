@@ -22,7 +22,7 @@
 
 ## שלב 2: קרא וחפש
 
-קרא את `_crm/pipeline.csv`.  
+קרא את `operations/crm/pipeline.csv`.
 חפש את הלקוח בעמודה A — התאמה חלקית מותרת.  
 אם נמצאו כמה — הצג רשימה ובקש בחירה.
 
@@ -57,7 +57,7 @@
 
 ## שלב 5: עדכן את הקובץ
 
-קרא את כל תוכן `_crm/pipeline.csv`, ערוך את השורה הרלוונטית, כתוב בחזרה עם `Write`.
+קרא את כל תוכן `operations/crm/pipeline.csv`, ערוך את השורה הרלוונטית, כתוב בחזרה עם `Write`.
 
 שמור על כל השורות האחרות בדיוק כפי שהן.  
 בעמודה N (הערות): הוסף `[תאריך]: [הערה]` בסוף הערות הקיימות, אל תמחק.
@@ -67,7 +67,7 @@
 ## שלב 6: עדכן את ה-Excel
 
 ```powershell
-& "C:\Users\Dina lekhovitser\AppData\Local\Programs\Python\Python311\python.exe" "_crm/generate_excel.py"
+& "C:\Users\Dina lekhovitser\AppData\Local\Programs\Python\Python311\python.exe" "operations/crm/generate_excel.py"
 ```
 
 ---

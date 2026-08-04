@@ -16,12 +16,12 @@
 ## שלב 2 — קריאת הקשר
 
 **לסיסטר:**
-קרא `shared knowledge/content-strategy.md`.
+קרא `sister/shared/content-strategy.md`.
 חלץ: דליים, קצב חודשי, תמהיל פורמטים.
 
 **ללקוח:**
-קרא `clients/[שם]/client_brief.md`.
-קרא `clients/[שם]/content-strategy.md` אם קיים.
+קרא `clients/[שם]/client-context/client-brief.md`.
+קרא `clients/[שם]/client-context/content-strategy.md` אם קיים.
 חלץ: מי הלקוח, מה מציע, קהל יעד.
 
 **תמהיל פורמטים** — חייב להיות מוגדר בשדה "תמהיל_פורמטים" ב-client_brief.md.

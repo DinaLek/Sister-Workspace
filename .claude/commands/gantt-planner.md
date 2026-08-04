@@ -10,12 +10,12 @@
 ## שלב 2 — קריאת הקשר
 
 **לסיסטר מרקטינג:**
-- קרא `shared knowledge/content-strategy.md`
-- קרא `shared knowledge/voice-and-style.md`
+- קרא `sister/shared/content-strategy.md`
+- קרא `sister/shared/voice-and-style.md`
 
 **ללקוח:**
-- קרא `clients/[שם]/content-strategy.md` — אם קיים
-- קרא `clients/[שם]/client_brief.md` — אם קיים
+- קרא `clients/[שם]/client-context/content-strategy.md` — אם קיים
+- קרא `clients/[שם]/client-context/client-brief.md` — אם קיים
 - אם אין content-strategy.md מקומי: חפש ב-Drive עם `mcp__c9cd0aa6-0410-4212-b13e-c104282095b3__search_files` (query: "[שם לקוח] אסטרטגיה" או "[שם לקוח] בריף"), וקרא את המסמך שנמצא
 
 **אם אין מסמך אסטרטגיה בשום מקום:** עצור ושאל לפני שממשיכים.

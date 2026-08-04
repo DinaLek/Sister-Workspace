@@ -60,9 +60,9 @@
 
 | קטגוריה | קובץ |
 |---|---|
-| 🧠 תובנות אישיות / לקחים | `shared knowledge/lessons-learned.md` |
-| 🐛 באגים ופתרונות | `shared knowledge/bugs.md` |
-| 💡 רעיונות שלא מומשו | `shared knowledge/ideas.md` |
+| 🧠 תובנות אישיות / לקחים | `sister/shared/lessons-learned.md` |
+| 🐛 באגים ופתרונות | `sister/shared/bugs.md` |
+| 💡 רעיונות שלא מומשו | `sister/shared/ideas.md` |
 
 **פורמט כתיבה אחיד לכל קובץ:**
 ```markdown
@@ -76,7 +76,7 @@
 
 ## שלב 5 — עדכון האינדקס
 
-לאחר הכתיבה, עדכן את `shared knowledge/memory-index.md`:
+לאחר הכתיבה, עדכן את `sister/shared/memory-index.md`:
 
 - הוסף/עדכן שורת קובץ שנוסף לו תוכן בסשן הזה
 - פורמט: `| [שם קובץ] | [מה יש בו — 1 משפט] | [תאריך עדכון אחרון] |`
