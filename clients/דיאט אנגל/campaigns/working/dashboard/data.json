@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-09T05:43:09Z",
+  "lastUpdated": "2026-08-09T10:42:09Z",
   "activeCampaigns": 3,
   "periods": {
     "month": {
@@ -8,29 +8,29 @@
         "to": "2026-08-09",
         "label": "01.08 – 09.08.2026"
       },
-      "lastUpdated": "2026-08-09T05:42:59Z",
+      "lastUpdated": "2026-08-09T10:42:02Z",
       "activeCampaigns": 3,
       "overview": {
-        "spend": 11648,
-        "results": 490,
-        "cpl": 23.77,
-        "ctr": 2.76
+        "spend": 11854,
+        "results": 493,
+        "cpl": 23.94,
+        "ctr": 2.74
       },
       "byType": [
         {
           "type": "תכנית נשים",
           "color": "#7F77DD",
-          "spend": 4913,
-          "results": 102,
-          "cpl": 48.17,
+          "spend": 5058,
+          "results": 104,
+          "cpl": 48.63,
           "count": 1
         },
         {
           "type": "תכנית גברים",
           "color": "#BA7517",
-          "spend": 1042,
-          "results": 16,
-          "cpl": 65.12,
+          "spend": 1050,
+          "results": 17,
+          "cpl": 61.76,
           "count": 1
         },
         {
@@ -52,41 +52,41 @@
         {
           "type": "חשיפה",
           "color": "#888780",
-          "spend": 0,
+          "spend": 53,
           "results": 0,
           "cpl": 0,
-          "count": 0,
-          "reach": 0
+          "count": 1,
+          "reach": 786
         }
       ],
       "audiences": {
         "kpis": [
           {
             "name": "נשים כללי",
-            "leads": 30,
-            "spend": 1682.0,
-            "cpl": 56.06,
+            "leads": 32,
+            "spend": 1733.0,
+            "cpl": 54.17,
             "color": "#378ADD"
           },
           {
             "name": "גיל המעבר",
             "leads": 41,
-            "spend": 1622.0,
-            "cpl": 39.56,
+            "spend": 1665.0,
+            "cpl": 40.61,
             "color": "#D4537E"
           },
           {
             "name": "אחרי לידה",
             "leads": 31,
-            "spend": 1610.0,
-            "cpl": 51.94,
+            "spend": 1660.0,
+            "cpl": 53.54,
             "color": "#1D9E75"
           },
           {
             "name": "גברים",
-            "leads": 16,
-            "spend": 1042.0,
-            "cpl": 65.14,
+            "leads": 17,
+            "spend": 1050.0,
+            "cpl": 61.77,
             "color": "#BA7517"
           }
         ]
@@ -143,40 +143,40 @@
           "aud": "נשים כללי",
           "col": "#378ADD",
           "st": "פעיל",
-          "sp": 1681.89,
-          "r": 30,
-          "cpl": 56.06,
-          "ctr": 2.06
+          "sp": 1733.32,
+          "r": 32,
+          "cpl": 54.17,
+          "ctr": 2.07
         },
         {
           "n": "גיל המעבר רחב",
           "aud": "גיל המעבר",
           "col": "#D4537E",
           "st": "פעיל",
-          "sp": 1622.12,
+          "sp": 1665.19,
           "r": 41,
-          "cpl": 39.56,
-          "ctr": 2.03
+          "cpl": 40.61,
+          "ctr": 2.01
         },
         {
           "n": "נשים אחרי לידה",
           "aud": "אחרי לידה",
           "col": "#1D9E75",
           "st": "פעיל",
-          "sp": 1610.16,
+          "sp": 1659.87,
           "r": 31,
-          "cpl": 51.94,
-          "ctr": 1.61
+          "cpl": 53.54,
+          "ctr": 1.59
         },
         {
           "n": "‎תכנית לגברים | טופס לידים‎ (קמפיין נפרד)",
           "aud": "גברים",
           "col": "#BA7517",
           "st": "פעיל",
-          "sp": 1042.27,
-          "r": 16,
-          "cpl": 65.14,
-          "ctr": 1.74
+          "sp": 1050.03,
+          "r": 17,
+          "cpl": 61.77,
+          "ctr": 1.73
         }
       ]
     },
@@ -186,7 +186,7 @@
         "to": "2026-08-08",
         "label": "02.08 – 08.08.2026"
       },
-      "lastUpdated": "2026-08-09T05:43:02Z",
+      "lastUpdated": "2026-08-09T10:42:03Z",
       "activeCampaigns": 3,
       "overview": {
         "spend": 9175,
@@ -354,7 +354,7 @@
         "to": "2026-07-31",
         "label": "01.07 – 31.07.2026"
       },
-      "lastUpdated": "2026-08-09T05:43:04Z",
+      "lastUpdated": "2026-08-09T10:42:05Z",
       "activeCampaigns": 2,
       "overview": {
         "spend": 47148,
@@ -562,7 +562,7 @@
         "to": "2026-08-08",
         "label": "10.07 – 08.08.2026"
       },
-      "lastUpdated": "2026-08-09T05:43:06Z",
+      "lastUpdated": "2026-08-09T10:42:07Z",
       "activeCampaigns": 3,
       "overview": {
         "spend": 44886,
@@ -770,7 +770,7 @@
         "to": "2026-08-08",
         "label": "11.05 – 08.08.2026"
       },
-      "lastUpdated": "2026-08-09T05:43:09Z",
+      "lastUpdated": "2026-08-09T10:42:09Z",
       "activeCampaigns": 4,
       "overview": {
         "spend": 134749,
