@@ -1,0 +1,1113 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/47hhvn",
+    "id": "47hhvn",
+    "slide": 5,
+    "layoutId": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xobi94vq",
+      "id": "1",
+      "bbox": [
+        560,
+        54,
+        650,
+        65
+      ],
+      "geometry": "rect",
+      "text": "סרטונים שיצרנו באמצעות בינה מלאכותית",
+      "textPreview": "סרטונים שיצרנו באמצעות בינה מלאכותית",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "סרטונים שיצרנו באמצעות בינה מלאכותית"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "סרטונים שיצרנו באמצעות בינה מלאכותית",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "סרטונים שיצרנו באמצעות בינה מלאכותית",
+              "fontSize": 39,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/al0zypcz",
+      "id": "2",
+      "bbox": [
+        560,
+        119,
+        650,
+        47
+      ],
+      "geometry": "rect",
+      "text": "דרך נוספת לבנות סיפור, להמחיש רעיון ולייצר תוכן שגם נראה אחרת.",
+      "textPreview": "דרך נוספת לבנות סיפור, להמחיש רעיון ולייצר תוכן שגם נראה אחרת.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "דרך נוספת לבנות סיפור, להמחיש רעיון ולייצר תוכן שגם נראה אחרת."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "דרך נוספת לבנות סיפור, להמחיש רעיון ולייצר תוכן שגם נראה אחרת.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#7B7474",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "דרך נוספת לבנות סיפור, להמחיש רעיון ולייצר תוכן שגם נראה אחרת.",
+              "fontSize": 19,
+              "color": "#7B7474",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vm907udk",
+      "id": "3",
+      "bbox": [
+        70,
+        54,
+        155,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#F40C64",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8jihwfu9",
+      "id": "4",
+      "bbox": [
+        72,
+        650,
+        42,
+        24
+      ],
+      "geometry": "rect",
+      "text": "05",
+      "textPreview": "05",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#A59B9B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "05"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "05",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#A59B9B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "05",
+              "fontSize": 12,
+              "color": "#A59B9B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9kri5kvu",
+      "id": "5",
+      "bbox": [
+        902,
+        650,
+        308,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SISTER MARKETING AGENCY",
+      "textPreview": "SISTER MARKETING AGENCY",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#A59B9B",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SISTER MARKETING AGENCY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SISTER MARKETING AGENCY",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#A59B9B",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SISTER MARKETING AGENCY",
+              "fontSize": 11,
+              "color": "#A59B9B",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mx0zupc3",
+      "id": "6",
+      "bbox": [
+        115,
+        190,
+        295,
+        415
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#F9D9E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/q5wv6103",
+      "id": "7",
+      "bbox": [
+        133,
+        207,
+        259,
+        292
+      ],
+      "geometry": "roundRect",
+      "alt": "ai-lifestyle.jpg",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 4633"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "e48bb93f-b9cc-4bba-8e10-0cb49ea7619e",
+        "contentType": "image/jpeg",
+        "byteLength": 1106835
+      }
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0vihsfux",
+      "id": "8",
+      "bbox": [
+        227,
+        310,
+        72,
+        72
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(255, 255, 255, 0.86667)",
+      "lineColor": "#F9D9E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwri1kvi",
+      "id": "9",
+      "bbox": [
+        240,
+        321,
+        46,
+        48
+      ],
+      "geometry": "rect",
+      "text": "▶",
+      "textPreview": "▶",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#F40C64",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "▶"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "▶",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#F40C64",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▶",
+              "fontSize": 27,
+              "color": "#F40C64",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/1kru9k36",
+      "id": "10",
+      "bbox": [
+        137,
+        518,
+        251,
+        35
+      ],
+      "geometry": "rect",
+      "text": "לייפסטייל",
+      "textPreview": "לייפסטייל",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "לייפסטייל"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "לייפסטייל",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "לייפסטייל",
+              "fontSize": 21,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjit0f2l",
+      "id": "11",
+      "bbox": [
+        139,
+        555,
+        247,
+        38
+      ],
+      "geometry": "rect",
+      "text": "סצנה ודמות שנוצרו עבור סרטון נדל״ן",
+      "textPreview": "סצנה ודמות שנוצרו עבור סרטון נדל״ן",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "סצנה ודמות שנוצרו עבור סרטון נדל״ן"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "סצנה ודמות שנוצרו עבור סרטון נדל״ן",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#7B7474",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "סצנה ודמות שנוצרו עבור סרטון נדל״ן",
+              "fontSize": 15,
+              "color": "#7B7474",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fi9c7al0",
+      "id": "12",
+      "bbox": [
+        470,
+        190,
+        295,
+        415
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#F9D9E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 13,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/dcrmxkj6",
+      "id": "13",
+      "bbox": [
+        488,
+        207,
+        259,
+        292
+      ],
+      "geometry": "roundRect",
+      "alt": "ai-merhav.jpg",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 4633"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "d825f24b-7d35-4ff9-ab16-f31f1841c814",
+        "contentType": "image/jpeg",
+        "byteLength": 972990
+      }
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twra503a",
+      "id": "14",
+      "bbox": [
+        582,
+        310,
+        72,
+        72
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(255, 255, 255, 0.86667)",
+      "lineColor": "#F9D9E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svitwv2p",
+      "id": "15",
+      "bbox": [
+        595,
+        321,
+        46,
+        48
+      ],
+      "geometry": "rect",
+      "text": "▶",
+      "textPreview": "▶",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#F40C64",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "▶"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "▶",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#F40C64",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▶",
+              "fontSize": 27,
+              "color": "#F40C64",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ups3al4",
+      "id": "16",
+      "bbox": [
+        492,
+        518,
+        251,
+        35
+      ],
+      "geometry": "rect",
+      "text": "נדל״ן",
+      "textPreview": "נדל״ן",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "נדל״ן"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "נדל״ן",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "נדל״ן",
+              "fontSize": 21,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/6tgbu5kj",
+      "id": "17",
+      "bbox": [
+        494,
+        555,
+        247,
+        38
+      ],
+      "geometry": "rect",
+      "text": "הדמיה קולנועית שמכניסה את הפרויקט לחיים",
+      "textPreview": "הדמיה קולנועית שמכניסה את הפרויקט לחיים",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "הדמיה קולנועית שמכניסה את הפרויקט"
+          },
+          {
+            "index": 2,
+            "text": "לחיים"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "הדמיה קולנועית שמכניסה את הפרויקט לחיים",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#7B7474",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "הדמיה קולנועית שמכניסה את הפרויקט לחיים",
+              "fontSize": 15,
+              "color": "#7B7474",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5s7a103y",
+      "id": "18",
+      "bbox": [
+        825,
+        190,
+        295,
+        415
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#F9D9E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 19,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/vipkna1s",
+      "id": "19",
+      "bbox": [
+        843,
+        207,
+        259,
+        292
+      ],
+      "geometry": "roundRect",
+      "alt": "ai-blend.jpg",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 4633"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "b725a065-7187-4ba0-bd95-9748bffc58c3",
+        "contentType": "image/jpeg",
+        "byteLength": 510825
+      }
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb2t8va9",
+      "id": "20",
+      "bbox": [
+        937,
+        310,
+        72,
+        72
+      ],
+      "geometry": "roundRect",
+      "fillColor": "rgba(255, 255, 255, 0.86667)",
+      "lineColor": "#F9D9E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcbuh0bu",
+      "id": "21",
+      "bbox": [
+        950,
+        321,
+        46,
+        48
+      ],
+      "geometry": "rect",
+      "text": "▶",
+      "textPreview": "▶",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#F40C64",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "▶"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "▶",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#F40C64",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "▶",
+              "fontSize": 27,
+              "color": "#F40C64",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9kb6lc3",
+      "id": "22",
+      "bbox": [
+        847,
+        518,
+        251,
+        35
+      ],
+      "geometry": "rect",
+      "text": "קמפיין",
+      "textPreview": "קמפיין",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "קמפיין"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "קמפיין",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "קמפיין",
+              "fontSize": 21,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/batcfqto",
+      "id": "23",
+      "bbox": [
+        849,
+        555,
+        247,
+        38
+      ],
+      "geometry": "rect",
+      "text": "יצירת אווירה ותנועה סביב סיפור המותג",
+      "textPreview": "יצירת אווירה ותנועה סביב סיפור המותג",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "center",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "יצירת אווירה ותנועה סביב סיפור המותג"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "יצירת אווירה ותנועה סביב סיפור המותג",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#7B7474",
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "יצירת אווירה ותנועה סביב סיפור המותג",
+              "fontSize": 15,
+              "color": "#7B7474",
+              "alignment": "center"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

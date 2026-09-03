@@ -1,0 +1,188 @@
+{
+  "scenario_id": "man-turning-59",
+  "scenario_title_he": "גבר חוגג 59 — מסלול חיים בוגר",
+  "subject_category": "adult_man",
+  "rotation_group": "adult",
+  "series_id": "2026-08-31-man-turning-59",
+  "creation_date": "2026-08-31",
+  "fictional_status": "fictional",
+  "real_person_reference_used": false,
+  "visual_profile_id": "light-medium-cool-blue-gray-wide-eyes-black-small-coils-broad-round-oval-v1",
+  "character_bible": {
+    "name_he": "יונתן אזולאי",
+    "identity": "גבר ישראלי בדיוני בעל גוון עור בהיר־בינוני ניטרלי־קריר, פנים עגולות־אובליות רחבות עם עצמות לחיים גבוהות ולסת מתחדדת בעדינות, עיניים כחולות־אפורות רחוקות, גבות ישרות ונמוכות, אף רחב ומעט סולד, שפה תחתונה מלאה ושפה עליונה בינונית, ושיער שחור צפוף בתלתלים קטנים עם מפרץ עדין שהופך בהדרגה למלח־פלפל.",
+    "stable_identifying_features": [
+      "צלקת אלכסונית זעירה מעל הצד הימני של השפה העליונה",
+      "שיא עדין בגבה השמאלית"
+    ],
+    "personality_and_mood": "חכם, שובב ובעל הומור יבש; אלבום חיים פעיל ואמין ולא הפקת קמפיין.",
+    "wardrobe_logic": "פולו כחול ומכנסיים מחויטים־יומיומיים ב־1987; מעיל רוח שזיף ואפוד ציפה ב־1997; חולצת משבצות וסינר אוכרה ב־2007; אוברשירט ג׳ינס ב־2017; חולצת פשתן ירוקה־מרווה ב־2026.",
+    "photographic_language": "אלבום ישראלי אמין המתקדם מפילם צבעוני צרכני של 1987 ו־1997, דרך דיגיטל קומפקטי של 2007, לטלפון משפחתי של 2017 וטלפון עכשווי של 2026.",
+    "aging_logic": "בגיל 20 לחיים מלאות וקו לסת צעיר; בגיל 30 מרכז הפנים והאף מבוססים יותר; בגיל 40 מופיעים קווי עין ראשונים; בגיל 50 פוחת נפח הלחיים ומעמיקים קווי העיניים והחיוך עם כסוף ברקות; בגיל 59 ניכרים קווי מצח וצוואר, ריכוך לסת ושיער מלח־פלפל תוך שמירת העיניים, האף, השפתיים והסימנים המזהים."
+  },
+  "supporting_people": [
+    {
+      "relationship": "friend",
+      "relationship_he": "שני חברים מתקופת הלימודים",
+      "identity_notes": "שני גברים ישראלים בדיוניים בני כ־20 בשנת 1987, בלבוש יומיומי תקופתי ובתפקיד משני.",
+      "frames": [1]
+    },
+    {
+      "relationship": "child",
+      "relationship_he": "בת בוגרת בת 22",
+      "identity_notes": "אישה ישראלית בדיונית בת 22 בשנת 2017, גוון עור בינוני־חם, פנים אובליות, עיניים חומות ושיער חום כהה חלק עד הכתפיים.",
+      "frames": [4]
+    }
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 20,
+      "approx_year": 1987,
+      "scene_summary_he": "יונתן מסיים תעלול קלפים קטן במועדון סטודנטים צנוע בבאר שבע, כששני חברים צוחקים לצדו והוא מביט למצלמה בחיוך שובב.",
+      "setting_id": "beer-sheva-student-club-card-magic-friends-1987",
+      "setting_family": "event",
+      "capture_style": "1987 consumer 35mm color-negative family snapshot",
+      "color_mode": "consumer_color_film",
+      "wardrobe": "פולו סרוג כחול־קובלט, מכנסי קפלים בגוון חול וחגורה כהה.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "young_adult",
+        "action_family": "performance",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "friend",
+        "setting_family": "event",
+        "composition_family": "group_snapshot"
+      }
+    },
+    {
+      "file": "02.png",
+      "age": 30,
+      "approx_year": 1997,
+      "scene_summary_he": "יונתן חותר בקיאק פנאי בקטע רגוע של הירדן ומביט שמאלה אל עיקול הנהר באמצע חתירה.",
+      "setting_id": "upper-jordan-recreational-kayak-1997",
+      "setting_family": "nature",
+      "capture_style": "1997 point-and-shoot 35mm consumer film snapshot",
+      "color_mode": "consumer_color_film",
+      "wardrobe": "מעיל רוח שזיף, חולצת טריקו מנטה בהירה, אפוד ציפה שחור ומכנסיים קצרים כהים.",
+      "gaze": "off_camera_left",
+      "scene_signature": {
+        "age_band": "young_adult",
+        "action_family": "sport",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "nature",
+        "composition_family": "moving_action"
+      }
+    },
+    {
+      "file": "03.png",
+      "age": 40,
+      "approx_year": 2007,
+      "scene_summary_he": "יונתן עוצר משיוף כיסא עץ במסגרת תחביב נגרות בסדנה עירונית בקריית גת ומביט בגאווה למצלמה.",
+      "setting_id": "kiryat-gat-municipal-woodworking-hobby-chair-2007",
+      "setting_family": "studio_or_workshop",
+      "capture_style": "2007 compact digital-camera snapshot with built-in flash",
+      "color_mode": "compact_digital_color",
+      "wardrobe": "סינר קנבס אוכרה מעל חולצת משבצות בורדו ומכנסי צ׳ינו אפורים.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "midlife",
+        "action_family": "craft",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "studio_or_workshop",
+        "composition_family": "over_table"
+      }
+    },
+    {
+      "file": "04.png",
+      "age": 50,
+      "approx_year": 2017,
+      "scene_summary_he": "יונתן ובתו הבוגרת מצטלמים עם כרטיסים ביציאה מהקרנת אנימציה בקולנוע עצמאי בשדרות.",
+      "setting_id": "sderot-independent-cinema-animation-screening-daughter-2017",
+      "setting_family": "city",
+      "capture_style": "2017 ordinary smartphone family snapshot",
+      "color_mode": "phone_color",
+      "wardrobe": "אוברשירט ג׳ינס דהוי מעל חולצת פחם ומכנסיים כחולים כהים.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "mature_adult",
+        "action_family": "culture",
+        "interaction_type": "intergenerational",
+        "supporting_relationship": "child",
+        "setting_family": "city",
+        "composition_family": "standing_medium"
+      }
+    },
+    {
+      "file": "05.png",
+      "age": 59,
+      "approx_year": 2026,
+      "scene_summary_he": "יונתן מפזר פטרוזיליה על שקשוקה במטבח דירתו בראשון לציון ופונה למצלמת הטלפון בחיוך משועשע.",
+      "setting_id": "rishon-lezion-apartment-weekend-shakshuka-2026",
+      "setting_family": "home",
+      "capture_style": "2026 current smartphone main-camera gallery photograph",
+      "color_mode": "current_phone_color",
+      "wardrobe": "חולצת פשתן ירוקה־מרווה עם שרוולים מקופלים פעם אחת, מכנסיים חומים כהים ושעון אנלוגי פשוט.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "mature_adult",
+        "action_family": "food",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "home",
+        "composition_family": "standing_medium"
+      }
+    }
+  ],
+  "series_arc_signature": "young_adult|performance|peer_group|friend|event|group_snapshot > young_adult|sport|solo_action|none|nature|moving_action > midlife|craft|posed_solo|none|studio_or_workshop|over_table > mature_adult|culture|intergenerational|child|city|standing_medium > mature_adult|food|posed_solo|none|home|standing_medium",
+  "action_families": ["performance", "sport", "craft", "culture", "food"],
+  "interaction_composition_combinations": [
+    "peer_group|group_snapshot",
+    "solo_action|moving_action",
+    "posed_solo|over_table",
+    "intergenerational|standing_medium",
+    "posed_solo|standing_medium"
+  ],
+  "eye_contact_frames": [1, 3, 4, 5],
+  "supporting_people_frames": [1, 4],
+  "israeli_setting_ids": [
+    "beer-sheva-student-club-card-magic-friends-1987",
+    "upper-jordan-recreational-kayak-1997",
+    "kiryat-gat-municipal-woodworking-hobby-chair-2007",
+    "sderot-independent-cinema-animation-screening-daughter-2017",
+    "rishon-lezion-apartment-weekend-shakshuka-2026"
+  ],
+  "recent_manifest_review": {
+    "available_manifest_count": 11,
+    "reviewed_dates": ["2026-08-12", "2026-08-13", "2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-23", "2026-08-24", "2026-08-26", "2026-08-30"],
+    "note_he": "נבדקו כל אחד־עשר המניפסטים הזמינים מקומית ובתיקיית ה־Drive הראשית. במניפסטים הישנים והחלקיים מ־12–13 באוגוסט ובמניפסטים ללא חתימות מלאות הוסקו הקטגוריה, הפעולות, הקשרים, הפתיחה והסיום מהשדות הזמינים ומהיסטוריית האוטומציה."
+  },
+  "diversity_note_he": "חמש משפחות הפעולה, חמש משפחות הלוקיישן וחמשת שילובי האינטראקציה־קומפוזיציה שונים. מול סדרת הגבר הבוגר הקודמת מ־2026-08-17 לא חוזרת אף אחת ממשפחות הפעולה שהוסקו ממנה — טיול או טבע, זוגיות, עבודה, ביקור משפחתי ותחבורה. לא נמצאה חזרה על חתימת פריים מלאה, חתימת פתיחה, חתימת סיום או חתימת רצף. הפתיחה בהופעת קלפים עם חברים והסיום בבישול ביתי אינם חוזרים על חמש הסדרות האחרונות; אין חוף, טיילת, גג או מרפסת.",
+  "character_diversity_note_he": "יונתן שונה מכל אחד־עשר פרופילי הזהות הזמינים בלפחות ארבעה ממדים: פנים עגולות־אובליות רחבות עם עצמות לחיים גבוהות, עיניים כחולות־אפורות רחוקות, שיער שחור צפוף בתלתלים קטנים עם מפרץ עדין, אף רחב ומעט סולד, צלקת מעל השפה ושיא בגבה השמאלית. לא נעשה שימוש ברפרנס זהות קודם.",
+  "capture_style": "אלבום חיים ישראלי תקופתי מ־1987 עד 2026: פילם צבעוני צרכני, דיגיטל קומפקטי ושני דורות של צילום טלפון טבעי.",
+  "color_mode": "color",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "quality_control": {
+    "status": "pass",
+    "identity_continuity": "pass_shared_reference_and_stable_facial_geometry",
+    "anatomical_aging": "pass_clear_20_30_40_50_59_progression",
+    "era_authenticity": "pass_1987_and_1997_film_2007_compact_digital_2017_phone_2026_phone",
+    "hands_teeth_objects_furniture_tools": "pass_cards_cups_chairs_kayak_paddle_chair_sanding_block_tools_tickets_glass_bicycles_parsley_pan_eggs_hob_spoon_cabinets",
+    "setting_variety": "pass_five_distinct_families",
+    "action_family_variety": "pass_five_distinct_families",
+    "interaction_composition_variety": "pass_five_distinct_combinations",
+    "eye_contact_requirement": "pass_four_frames",
+    "supporting_people_requirement": "pass_exactly_two_frames",
+    "unwanted_text_logo_watermark": "pass_none_visible",
+    "dimensions_verified": true,
+    "contact_sheet_reviewed": true
+  },
+  "approval_status": "not_required_by_explicit_automation_instruction"
+}

@@ -1,0 +1,577 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/wweth3",
+    "id": "wweth3",
+    "slide": 2,
+    "layoutId": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/o3u5k7mh",
+      "id": "1",
+      "bbox": [
+        560,
+        54,
+        650,
+        65
+      ],
+      "geometry": "rect",
+      "text": "נעים להכיר, אנחנו סיסטר",
+      "textPreview": "נעים להכיר, אנחנו סיסטר",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "נעים להכיר, אנחנו סיסטר"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "נעים להכיר, אנחנו סיסטר",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "נעים להכיר, אנחנו סיסטר",
+              "fontSize": 39,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/32l4b25w",
+      "id": "2",
+      "bbox": [
+        560,
+        119,
+        650,
+        47
+      ],
+      "geometry": "rect",
+      "text": "סוכנות שיווק דיגיטלי שנוסדה ב־2013 על ידי קרן חיים.",
+      "textPreview": "סוכנות שיווק דיגיטלי שנוסדה ב־2013 על ידי קרן חיים.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "סוכנות שיווק דיגיטלי שנוסדה ב־2013 על ידי קרן חיים."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "סוכנות שיווק דיגיטלי שנוסדה ב־2013 על ידי קרן חיים.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#7B7474",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "סוכנות שיווק דיגיטלי שנוסדה ב־2013 על ידי קרן חיים.",
+              "fontSize": 19,
+              "color": "#7B7474",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/21cnix4b",
+      "id": "3",
+      "bbox": [
+        70,
+        54,
+        155,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#F40C64",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/103m9sn6",
+      "id": "4",
+      "bbox": [
+        72,
+        650,
+        42,
+        24
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#A59B9B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#A59B9B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 12,
+              "color": "#A59B9B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gza5gnml",
+      "id": "5",
+      "bbox": [
+        902,
+        650,
+        308,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SISTER MARKETING AGENCY",
+      "textPreview": "SISTER MARKETING AGENCY",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#A59B9B",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SISTER MARKETING AGENCY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SISTER MARKETING AGENCY",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#A59B9B",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SISTER MARKETING AGENCY",
+              "fontSize": 11,
+              "color": "#A59B9B",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ydw7m9wz",
+      "id": "6",
+      "bbox": [
+        72,
+        170,
+        430,
+        470
+      ],
+      "geometry": "roundRect",
+      "alt": "s element2.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 2791"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "8ff2005d-496a-4413-87a4-23068f32be66",
+        "contentType": "image/png",
+        "byteLength": 1881750
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/udsned4f",
+      "id": "7",
+      "bbox": [
+        585,
+        220,
+        590,
+        110
+      ],
+      "geometry": "rect",
+      "text": "אנחנו מלוות עסקים שרוצים לעשות שיווק טוב, אבל לא תמיד רוצים או יכולים להחזיק את כל התחומים בתוך העסק.",
+      "textPreview": "אנחנו מלוות עסקים שרוצים לעשות שיווק טוב, אבל לא תמיד רוצים או יכולים להחזיק את כל התחומים בתוך העסק.",
+      "resolvedFontSize": 27,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 27,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אנחנו מלוות עסקים שרוצים לעשות שיווק טוב, אבל לא"
+          },
+          {
+            "index": 2,
+            "text": "תמיד רוצים או יכולים להחזיק את כל התחומים בתוך"
+          },
+          {
+            "index": 3,
+            "text": "העסק."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אנחנו מלוות עסקים שרוצים לעשות שיווק טוב, אבל לא תמיד רוצים או יכולים להחזיק את כל התחומים בתוך העסק.",
+          "resolvedTextStyle": {
+            "fontSize": 27,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אנחנו מלוות עסקים שרוצים לעשות שיווק טוב, אבל לא תמיד רוצים או יכולים להחזיק את כל התחומים בתוך העסק.",
+              "fontSize": 27,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/lwn6lc3a",
+      "id": "8",
+      "bbox": [
+        585,
+        350,
+        590,
+        145
+      ],
+      "geometry": "rect",
+      "text": "אנחנו נכנסות לעבודה, מכירות את העסק ומחברות בין אסטרטגיה, קריאייטיב, תוכן, מדיה וטכנולוגיה. כך כל מי שעובדת על השיווק רואה את אותה התמונה.",
+      "textPreview": "אנחנו נכנסות לעבודה, מכירות את העסק ומחברות בין אסטרטגיה, קריאייטיב, תוכן, מדיה וטכנולוגיה. כך כל מי שעובדת על השיווק רואה את אותה התמונה.",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 3,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אנחנו נכנסות לעבודה, מכירות את העסק ומחברות בין אסטרטגיה,"
+          },
+          {
+            "index": 2,
+            "text": "קריאייטיב, תוכן, מדיה וטכנולוגיה. כך כל מי שעובדת על השיווק רואה את"
+          },
+          {
+            "index": 3,
+            "text": "אותה התמונה."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אנחנו נכנסות לעבודה, מכירות את העסק ומחברות בין אסטרטגיה, קריאייטיב, תוכן, מדיה וטכנולוגיה. כך כל מי שעובדת על השיווק רואה את אותה התמונה.",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#7B7474",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אנחנו נכנסות לעבודה, מכירות את העסק ומחברות בין אסטרטגיה, קריאייטיב, תוכן, מדיה וטכנולוגיה. כך כל מי שעובדת על השיווק רואה את אותה התמונה.",
+              "fontSize": 21,
+              "color": "#7B7474",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0ve5srmp",
+      "id": "9",
+      "bbox": [
+        585,
+        520,
+        590,
+        58
+      ],
+      "geometry": "rect",
+      "text": "וכשמשהו דורש תשומת לב, אנחנו אומרות. גם אם עוד לא שאלו אותנו.",
+      "textPreview": "וכשמשהו דורש תשומת לב, אנחנו אומרות. גם אם עוד לא שאלו אותנו.",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "#F40C64",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "וכשמשהו דורש תשומת לב, אנחנו אומרות. גם אם עוד לא שאלו אותנו."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "וכשמשהו דורש תשומת לב, אנחנו אומרות. גם אם עוד לא שאלו אותנו.",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "#F40C64",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "וכשמשהו דורש תשומת לב, אנחנו אומרות. גם אם עוד לא שאלו אותנו.",
+              "fontSize": 20,
+              "color": "#F40C64",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

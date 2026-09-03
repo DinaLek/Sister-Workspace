@@ -1,0 +1,188 @@
+{
+  "scenario_id": "bar-mitzvah-growth",
+  "scenario_title_he": "ילד גדל עד בר מצווה",
+  "subject_category": "boy_growth",
+  "rotation_group": "child_growth",
+  "series_id": "2026-08-26-bar-mitzvah-growth",
+  "creation_date": "2026-08-26",
+  "fictional_status": "fictional",
+  "real_person_reference_used": false,
+  "visual_profile_id": "medium-neutral-warm-dark-wide-downturned-eyes-near-black-soft-waves-broad-rectangular-v1",
+  "character_bible": {
+    "name_he": "אורי לביא",
+    "identity": "ילד ישראלי בדיוני בעל גוון עור בינוני ניטרלי־חמים, פנים מלבניות רחבות עם לסת מעוגלת ברכות ועצמות לחיים בינוניות־גבוהות, עיניים חומות־שוקולד מעט שמוטות ובמרווח רחב, גבות ישרות וחזקות, אף באורך בינוני עם גשר נמוך וחלק וקצה מרובע־רך, שפתיים בינוניות עם שפה תחתונה מלאה מעט יותר ושיער כמעט שחור, צפוף וגלי ברכות עם קו שיער טבעי לא אחיד.",
+    "stable_identifying_features": [
+      "שקע זעיר בתנוך האוזן השמאלית",
+      "נקודת חן קטנה נמוכה בלחי הימנית סמוך לקו הלסת"
+    ],
+    "personality_and_mood": "מתבונן, סקרן ובעל הומור שובב; תיעוד אישי אמין של אלבום משפחתי ישראלי ולא קמפיין.",
+    "wardrobe_logic": "חמש צלליות וצבעים מובילים שונים: סרבל סרוג טורקיז וסינר חלודה; אוברשירט חרדל וחולצת נייבי; מעיל רוח חלודה וחולצה אפורה; קפוצ'ון קובלט וחולצת חול; אוברשירט שזיף וחולצת שמנת.",
+    "photographic_language": "צילום משפחתי וטלפוני יומיומי בעומק שדה עמוק ובצבע ניטרלי, המתקדם מטלפון משפחתי של 2014 למצלמת טלפון ראשית עדכנית ב־2026.",
+    "aging_logic": "מלאות לחיים גבוהה, מרכז פנים קצר וגשר אף רך בגיל 1 מתחלפים בהפחתה הדרגתית של מלאות הלחיים, הארכת מרכז הפנים, התבססות גשר האף, הלסת והסנטר והקטנת היחס החזותי של העיניים בגילי 4, 7, 10 ו־13, תוך שמירת העיניים, השיער וסימני הזיהוי. פריים גיל 10 הוחלף כדי לחדד את המעבר האנטומי אל גיל 13."
+  },
+  "supporting_people": [
+    {
+      "relationship": "sibling",
+      "relationship_he": "אחות גדולה",
+      "identity_notes": "ילדה ישראלית בדיונית בת 9 בשנת 2017, גוון עור בינוני־בהיר וחם, פנים עגולות, עיניים חומות ושיער כהה מתולתל עד הכתפיים.",
+      "frames": [2]
+    },
+    {
+      "relationship": "teacher_or_caregiver",
+      "relationship_he": "מדריך כלי הקשה",
+      "identity_notes": "גבר ישראלי בדיוני בן 34 בשנת 2023, גוון זית בהיר, פנים אובליות צרות, עיניים חומות, תלתלים קצרים בגוון מלח־פלפל וזיפים עדינים.",
+      "frames": [4]
+    }
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 1,
+      "approx_year": 2014,
+      "scene_summary_he": "אורי יושב בכיסא אוכל ומאכיל את עצמו ביוגורט ובננה בארוחת בוקר במטבח דירה בנס ציונה.",
+      "setting_id": "ness-ziona-apartment-kitchen-self-feeding-2014",
+      "setting_family": "home",
+      "capture_style": "2014 mid-range family smartphone snapshot",
+      "color_mode": "phone_color",
+      "wardrobe": "סרבל סרוג טורקיז מעל חולצת כותנה שמנת וסינר קטן בגוון חלודה.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "infant",
+        "action_family": "food",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "home",
+        "composition_family": "seated_medium"
+      }
+    },
+    {
+      "file": "02.png",
+      "age": 4,
+      "approx_year": 2017,
+      "scene_summary_he": "אורי מצטלם עם אחותו הגדולה בתוך קרון רכבת בדרכם לטיול בעמק יזרעאל.",
+      "setting_id": "jezreel-valley-intercity-train-siblings-2017",
+      "setting_family": "transport",
+      "capture_style": "2017 ordinary family smartphone group snapshot",
+      "color_mode": "phone_color",
+      "wardrobe": "אוברשירט כותנה חרדל, חולצת נייבי, מכנסיים קצרים זית ונעלי ספורט אפורות.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "preschool",
+        "action_family": "transport",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "sibling",
+        "setting_family": "transport",
+        "composition_family": "group_snapshot"
+      }
+    },
+    {
+      "file": "03.png",
+      "age": 7,
+      "approx_year": 2020,
+      "scene_summary_he": "אורי אוסף אצטרובלים לשקיק בד תוך כדי הליכה על שביל מוצל ביער ביריה.",
+      "setting_id": "birya-forest-pinecone-collecting-2020",
+      "setting_family": "nature",
+      "capture_style": "2020 ordinary family smartphone action snapshot",
+      "color_mode": "phone_color",
+      "wardrobe": "מעיל רוח חלודה, חולצת טריקו אפורה, מכנסי נייבי קצרים ונעלי שביל טורקיז כהה.",
+      "gaze": "off_camera_down_left",
+      "scene_signature": {
+        "age_band": "early_childhood",
+        "action_family": "nature",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "nature",
+        "composition_family": "moving_action"
+      }
+    },
+    {
+      "file": "04.png",
+      "age": 10,
+      "approx_year": 2023,
+      "scene_summary_he": "אורי מחזיק דרבוקה לצד מדריך כלי ההקשה בהפסקה משיעור קצב במרכז קהילתי ברמלה.",
+      "setting_id": "ramla-community-center-rhythm-room-2023",
+      "setting_family": "studio_or_workshop",
+      "capture_style": "2023 ordinary smartphone music-class snapshot",
+      "color_mode": "phone_color",
+      "wardrobe": "קפוצ'ון רוכסן קובלט, חולצת כותנה בגוון חול, מכנסי צ'ינו שזופים ונעלי ספורט שחורות.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "preteen",
+        "action_family": "performance",
+        "interaction_type": "caregiver_child",
+        "supporting_relationship": "teacher_or_caregiver",
+        "setting_family": "studio_or_workshop",
+        "composition_family": "full_body"
+      }
+    },
+    {
+      "file": "05.png",
+      "age": 13,
+      "approx_year": 2026,
+      "scene_summary_he": "אורי עומד לצד צילום נוף שהציג בתערוכת צילום נוער בחלל גלריה תעשייתי בבאר שבע.",
+      "setting_id": "beer-sheva-industrial-youth-photo-gallery-2026",
+      "setting_family": "museum",
+      "capture_style": "2026 smartphone main-camera gallery snapshot",
+      "color_mode": "current_phone_color",
+      "wardrobe": "אוברשירט קצר שזיף כהה, חולצת שמנת, מכנסיים רחבים פחם ונעלי ספורט לבנות.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "teen",
+        "action_family": "culture",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "museum",
+        "composition_family": "environmental_wide"
+      }
+    }
+  ],
+  "series_arc_signature": "infant|food|solo_action|none|home|seated_medium > preschool|transport|peer_group|sibling|transport|group_snapshot > early_childhood|nature|solo_action|none|nature|moving_action > preteen|performance|caregiver_child|teacher_or_caregiver|studio_or_workshop|full_body > teen|culture|posed_solo|none|museum|environmental_wide",
+  "action_families": ["food", "transport", "nature", "performance", "culture"],
+  "interaction_composition_combinations": [
+    "solo_action|seated_medium",
+    "peer_group|group_snapshot",
+    "solo_action|moving_action",
+    "caregiver_child|full_body",
+    "posed_solo|environmental_wide"
+  ],
+  "eye_contact_frames": [1, 2, 4, 5],
+  "supporting_people_frames": [2, 4],
+  "israeli_setting_ids": [
+    "ness-ziona-apartment-kitchen-self-feeding-2014",
+    "jezreel-valley-intercity-train-siblings-2017",
+    "birya-forest-pinecone-collecting-2020",
+    "ramla-community-center-rhythm-room-2023",
+    "beer-sheva-industrial-youth-photo-gallery-2026"
+  ],
+  "recent_manifest_review": {
+    "available_manifest_count": 9,
+    "reviewed_dates": ["2026-08-12", "2026-08-13", "2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-23", "2026-08-24"],
+    "note_he": "נבדקו כל תשעת המניפסטים שהיו זמינים מקומית ובתיקיית ה־Drive הראשית; לא היו עשרה מניפסטים זמינים. בשני מניפסטים ישנים ללא חתימות מלאות הוסקו הפעולות, הקשרים והפתיחה או הסיום מהשדות הזמינים."
+  },
+  "diversity_note_he": "הסדרה משתמשת בחמש משפחות פעולה, חמש משפחות לוקיישן וחמישה שילובי אינטראקציה־קומפוזיציה. מול סדרת הילד הקודמת מ־2026-08-16 לא חוזרת אף משפחת פעולה: אין צעדים עם אב מאחור, משחק במתקן פארק, תיק בית ספר, סדנת יצירה בספרייה או סיום באולם אירוע. הפתיחה בארוחה עצמאית והסיום בהישג צילום אינם חוזרים על פתיחות, סיומים או חתימות רצף זמינים. אין חוף, טיילת, גג או מרפסת.",
+  "character_diversity_note_he": "אורי שונה מכל תשעת הפרופילים הזמינים בלפחות ארבעה ממדים: גוון בינוני ניטרלי־חמים, פנים מלבניות רחבות עם לסת מעוגלת, עיניים חומות־שוקולד מעט שמוטות ובמרווח רחב, שיער כמעט שחור וגלי ברכות, שקע בתנוך שמאל ונקודת חן נמוכה בלחי ימין. לא נעשה שימוש ברפרנס זהות קודם.",
+  "capture_style": "אלבום טלפון משפחתי ישראלי תקופתי מ־2014 עד 2026, בצבע ניטרלי, עומק שדה עמוק ומסגור יומיומי מעט לא מושלם.",
+  "color_mode": "color",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "quality_control": {
+    "status": "pass",
+    "identity_continuity": "pass",
+    "anatomical_aging": "pass_after_targeted_replacement_of_frame_4_for_clear_age_10_to_13_step",
+    "era_authenticity": "pass_2014_to_2026_phone_progression",
+    "hands_teeth_objects_furniture_tools": "pass_spoon_bowl_train_seats_pinecones_pouch_drums_stand_camera_gallery_mounts",
+    "setting_variety": "pass_five_distinct_families",
+    "action_family_variety": "pass_five_distinct_families",
+    "interaction_composition_variety": "pass_five_distinct_combinations",
+    "eye_contact_requirement": "pass_four_frames",
+    "supporting_people_requirement": "pass_exactly_two_frames",
+    "unwanted_text_logo_watermark": "pass_none_visible",
+    "dimensions_verified": true,
+    "contact_sheet_reviewed": true
+  },
+  "approval_status": "pending"
+}

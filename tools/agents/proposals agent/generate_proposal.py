@@ -124,6 +124,8 @@ class PageBuilder:
             if self._y - needed < CONTENT_BOTTOM:
                 self._end_page()
                 self._new_page()
+                self._draw_header_line()
+                self._y -= 10
             self._draw_service_block(service)
             self._y -= 10
 
@@ -182,10 +184,11 @@ class PageBuilder:
             self._draw_paragraph(lead, font="Assistant-SemiBold", size=12)
             self._y -= 5
 
-        self._c.setFont("Assistant-Bold", 12)
-        self._c.setFillColor(RED)
-        self._c.drawRightString(TEXT_RIGHT, self._y, rtl("מה כולל השירות:"))
-        self._y -= 16
+        if service.get("show_includes_heading", True):
+            self._c.setFont("Assistant-Bold", 12)
+            self._c.setFillColor(RED)
+            self._c.drawRightString(TEXT_RIGHT, self._y, rtl("מה כולל השירות:"))
+            self._y -= 16
 
         for bullet in service.get("bullets", []):
             self._draw_bullet(bullet)
@@ -194,6 +197,12 @@ class PageBuilder:
 
         options = service.get("options", [])
         if options:
+            price = service.get("price", "")
+            if price:
+                self._c.setFont("Assistant-Bold", 12)
+                self._c.setFillColor(DARK)
+                self._c.drawRightString(TEXT_RIGHT, self._y, rtl(price))
+                self._y -= 20
             for option in options:
                 self._draw_option_block(option)
         else:
@@ -297,7 +306,7 @@ class PageBuilder:
             15 + len(opt.get("bullets", [])) * 16 + (18 if opt.get("price") else 0) + 6
             for opt in service.get("options", [])
         )
-        price   = 16 if service.get("price") and not service.get("options") else 0
+        price   = 20 if service.get("price") and service.get("options") else (16 if service.get("price") else 0)
         note    = 36 if service.get("note") else 0
         return base + bullets + options + price + note + 24
 
@@ -336,27 +345,65 @@ def build_work_order_page(content: dict) -> BytesIO:
     return buf
 
 
+def build_header_overlay(content: dict, y: float = CONTENT_TOP, size: float = 12,
+                         color=DARK) -> BytesIO:
+    """Creates a transparent client/date overlay for fixed template pages."""
+    buf = BytesIO()
+    c = rl_canvas.Canvas(buf, pagesize=A4)
+    c.setFont("Assistant-SemiBold", size)
+    c.setFillColor(color)
+    c.drawRightString(TEXT_RIGHT, y, rtl(f"לכבוד: {content.get('client_name', '')}"))
+
+    c.setFont("Assistant", size)
+    c.drawString(MARGIN_LEFT, y, content.get("date", ""))
+
+    c.save()
+    buf.seek(0)
+    return buf
+
+
 # ── PDF Assembly ────────────────────────────────────────────────────────────────
 def assemble_pdf(content_pages: list[BytesIO], output_path: Path, content: dict):
     writer = PdfWriter()
+    # Keep source readers alive until the final write. Some pypdf versions leave
+    # merged pages with lazy indirect references; allowing a temporary reader to
+    # be garbage-collected can make the branded background disappear.
+    source_readers = []
 
     # Page 1: cover (as-is)
-    writer.append(PdfReader(str(COVER_PDF)))
+    cover_reader = PdfReader(str(COVER_PDF))
+    source_readers.append(cover_reader)
+    writer.append(cover_reader)
 
     # Content pages: fresh reader per page avoids cross-reference issues
     for buf in content_pages:
-        blank_page = PdfReader(str(BLANK_PDF)).pages[0]
-        text_page  = PdfReader(buf).pages[0]
+        blank_reader = PdfReader(str(BLANK_PDF))
+        text_reader = PdfReader(buf)
+        source_readers.extend([blank_reader, text_reader])
+        blank_page = blank_reader.pages[0]
+        text_page  = text_reader.pages[0]
         blank_page.merge_page(text_page)
         writer.add_page(blank_page)
 
     # Terms (as-is)
-    writer.append(PdfReader(str(TERMS_PDF)))
+    terms_reader = PdfReader(str(TERMS_PDF))
+    # Keep the fixed terms-page body untouched by placing the compact metadata
+    # at the lower edge of the gradient masthead, away from the centered logo.
+    terms_overlay_buf = build_header_overlay(
+        content, y=PAGE_H - 98, size=9.5, color=colors.white
+    )
+    terms_overlay_reader = PdfReader(terms_overlay_buf)
+    source_readers.extend([terms_reader, terms_overlay_reader])
+    terms_page = terms_reader.pages[0]
+    terms_page.merge_page(terms_overlay_reader.pages[0])
+    writer.add_page(terms_page)
 
     # Work order — built from order.png with overlaid client name and date
     if ORDER_PNG.exists():
         order_buf = build_work_order_page(content)
-        writer.append(PdfReader(order_buf))
+        order_reader = PdfReader(order_buf)
+        source_readers.append(order_reader)
+        writer.append(order_reader)
 
     output_path.parent.mkdir(parents=True, exist_ok=True)
     with open(output_path, "wb") as f:

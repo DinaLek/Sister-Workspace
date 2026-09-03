@@ -1,0 +1,44 @@
+{
+  "scenario_id": "sweet-sixteen-growth",
+  "scenario_title_he": "נערה גדלה עד גיל 16",
+  "subject_category": "teen_girl",
+  "rotation_group": "teen_growth",
+  "series_id": "2026-08-24-sweet-sixteen-growth",
+  "creation_date": "2026-08-24",
+  "fictional_status": "fictional",
+  "real_person_reference_used": false,
+  "visual_profile_id": "fair-freckled-hazel-green-eyes-auburn-straight-hair-heart-oval-face-v1",
+  "character_bible": {
+    "identity": "יעל ברק היא נערה ישראלית בדיונית בעלת גוון עור בהיר ניטרלי־חמים ונמשים עדינים על האף והלחיים העליונות, עיניים ירוקות־לוז מעט רחוקות זו מזו, פנים המתקדמות מלב לילדות לאובל עם סנטר עדין, ושיער ערמוני־בינוני ישר ודק.",
+    "stable_identifying_features": ["חריץ עדין בגבה הימנית", "נקודת חן קטנה גבוהה בלחי השמאלית ליד האוזן"],
+    "personality_and_mood": "סקרנית, שקטה ובטוחה בעצמה; תיעוד אישי אמין של אלבום משפחתי ישראלי.",
+    "wardrobe_logic": "אוברול צהוב ופסים בגיל 2; קפוצ'ון קורל בגיל 5; מעיל גשם קובלט בגיל 9; אוברשירט חלודה בגיל 13; אוברשירט ירוק־טחב בגיל 16.",
+    "photographic_language": "צילום משפחתי וטלפוני יומיומי בעומק שדה עמוק ובצבע ניטרלי, מתקדם מטלפון מוקדם ב־2012 לטלפון עדכני ב־2026.",
+    "aging_logic": "מלאות לחיים ומרכז פנים קצר בגיל 2 מתחלפים בהארכת אמצע הפנים, התבססות גשר האף והסנטר, ירידה הדרגתית במלאות הלחיים ומבנה נערי בוגר בגיל 16, תוך שמירת העיניים, צבע השיער וסימני הזיהוי."
+  },
+  "supporting_people": [
+    {"relationship": "grandmother", "relationship_he": "סבתא", "identity_notes": "אישה בדיונית בת 66 ב־2015, תספורת בוב כסופה ומשקפיים עגולים ודקים.", "frames": [2]},
+    {"relationship": "friends", "relationship_he": "שני חברים מחוג התיאטרון", "identity_notes": "שני בני נוער בדיוניים המופיעים ברקע כחלק מחזרה, בלי להתחרות בנושא הראשי.", "frames": [4]}
+  ],
+  "frames": [
+    {"file": "01.png", "age": 2, "approx_year": 2012, "scene_summary_he": "יעל יושבת ובונה עיר מקוביות עץ על שטיח בדירה משפחתית במודיעין.", "setting_id": "modiin-family-apartment-terrazzo-block-city-2012", "setting_family": "home", "capture_style": "2012 early smartphone family snapshot", "color_mode": "phone_color", "wardrobe": "אוברול כותנה צהוב מעל חולצת פסים נייבי.", "gaze": "direct_camera", "scene_signature": {"age_band": "preschool", "action_family": "craft", "interaction_type": "solo_action", "supporting_relationship": "none", "setting_family": "home", "composition_family": "seated_medium"}},
+    {"file": "02.png", "age": 5, "approx_year": 2015, "scene_summary_he": "יעל מתנסה עם סבתה בפריזמה ושולחן אור במוזיאון הילדים והמדע בחולון.", "setting_id": "holon-childrens-science-museum-light-table-2015", "setting_family": "museum", "capture_style": "2015 family smartphone snapshot", "color_mode": "phone_color", "wardrobe": "קפוצ'ון קורל, חולצה לבנה, חצאית ג'ינס וגרביונים אפורים.", "gaze": "direct_camera", "scene_signature": {"age_band": "early_childhood", "action_family": "learning", "interaction_type": "intergenerational", "supporting_relationship": "grandparent", "setting_family": "museum", "composition_family": "over_table"}},
+    {"file": "03.png", "age": 9, "approx_year": 2019, "scene_summary_he": "יעל יורדת מקרון רכבת ישראל ברציף בית שמש עם מזוודת יד טורקיז.", "setting_id": "beit-shemesh-israel-railways-platform-carry-on-2019", "setting_family": "transport", "capture_style": "2019 ordinary phone travel snapshot", "color_mode": "phone_color", "wardrobe": "מעיל גשם קובלט, חולצה אפורה, טייץ פחם ונעלי ספורט לבנות.", "gaze": "off_camera_right", "scene_signature": {"age_band": "preteen", "action_family": "transport", "interaction_type": "solo_action", "supporting_relationship": "none", "setting_family": "transport", "composition_family": "moving_action"}},
+    {"file": "04.png", "age": 13, "approx_year": 2023, "scene_summary_he": "יעל עומדת במרכז חזרת תיאטרון נוער עם שני חברים בסטודיו בחיפה.", "setting_id": "haifa-youth-theatre-rehearsal-studio-2023", "setting_family": "studio_or_workshop", "capture_style": "2023 ordinary smartphone group snapshot", "color_mode": "phone_color", "wardrobe": "אוברשירט חלודה, חולצת פחם, ג'ינס שחור ונעלי בד.", "gaze": "direct_camera", "scene_signature": {"age_band": "teen", "action_family": "performance", "interaction_type": "peer_group", "supporting_relationship": "friend", "setting_family": "studio_or_workshop", "composition_family": "group_snapshot"}},
+    {"file": "05.png", "age": 16, "approx_year": 2026, "scene_summary_he": "יעל מניחה ספר בארון ספרים קהילתי ברחוב מגורים מוצל בתל אביב.", "setting_id": "tel-aviv-residential-street-free-library-book-swap-2026", "setting_family": "city", "capture_style": "2026 smartphone main-camera snapshot", "color_mode": "current_phone_color", "wardrobe": "אוברשירט ירוק־טחב, חולצת כותנה שמנת, מכנסיים רחבים נייבי ותיק קנבס.", "gaze": "direct_camera", "scene_signature": {"age_band": "teen", "action_family": "community", "interaction_type": "posed_solo", "supporting_relationship": "none", "setting_family": "city", "composition_family": "standing_medium"}}
+  ],
+  "series_arc_signature": "preschool|craft|solo_action|none|home|seated_medium > early_childhood|learning|intergenerational|grandparent|museum|over_table > preteen|transport|solo_action|none|transport|moving_action > teen|performance|peer_group|friend|studio_or_workshop|group_snapshot > teen|community|posed_solo|none|city|standing_medium",
+  "action_families": ["craft", "learning", "transport", "performance", "community"],
+  "interaction_composition_combinations": ["solo_action|seated_medium", "intergenerational|over_table", "solo_action|moving_action", "peer_group|group_snapshot", "posed_solo|standing_medium"],
+  "eye_contact_frames": [1, 2, 4, 5],
+  "supporting_people_frames": [2, 4],
+  "israeli_setting_ids": ["modiin-family-apartment-terrazzo-block-city-2012", "holon-childrens-science-museum-light-table-2015", "beit-shemesh-israel-railways-platform-carry-on-2019", "haifa-youth-theatre-rehearsal-studio-2023", "tel-aviv-residential-street-free-library-book-swap-2026"],
+  "recent_manifest_review": {"available_manifest_count": 6, "reviewed_dates": ["2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-23"], "note_he": "נבדקו כל ששת המניפסטים המקומיים הזמינים; לא היו עשרה זמינים. סדרה זו בקטגוריית נערה לא חוזרת על פתיחה, סיום, לוקיישן חתימה או רצף מהסדרות הזמינות."},
+  "diversity_note_he": "הסדרה משתמשת בחמש משפחות פעולה, חמש משפחות לוקיישן וחמישה שילובי אינטראקציה־קומפוזיציה. הפתיחה ביצירת קוביות וסיום החלפת ספרים קהילתית אינם מופיעים בסדרות האחרונות. מול סדרת נערה קודמת שאינה זמינה במלואה נבחר רצף שאינו כולל תיק בית ספר, מתקן פארק רגיל, סיום עם שני הורים או אולם אירוע. אין חוף, טיילת, גג או מרפסת.",
+  "character_diversity_note_he": "יעל שונה מהדמויות בשש הסדרות הזמינות בגוון בהיר ונמשים, עיניים ירוקות־לוז מעט מרוחקות, שיער ערמוני ישר ודק, פנים לבביות־אובליות וחריץ בגבה הימנית. לא נעשה שימוש ברפרנס זהות קודם.",
+  "capture_style": "אלבום ישראלי תקופתי מ־2012 עד 2026, עם מעבר טבעי מטלפון מוקדם לטלפון עדכני.",
+  "color_mode": "color",
+  "dimensions": {"width": 1080, "height": 1920, "orientation": "portrait", "aspect_ratio": "9:16"},
+  "quality_control": {"status": "pass", "identity_continuity": "pass", "anatomical_aging": "pass", "hands_teeth_objects_furniture_tools": "pass", "setting_variety": "pass_five_distinct_families", "action_family_variety": "pass_five_distinct_families", "interaction_composition_variety": "pass_five_distinct_combinations", "eye_contact_requirement": "pass_four_frames", "supporting_people_requirement": "pass_exactly_two_frames", "unwanted_text_logo_watermark": "pass_none_visible", "dimensions_verified": true, "contact_sheet_reviewed": true},
+  "approval_status": "pending"
+}

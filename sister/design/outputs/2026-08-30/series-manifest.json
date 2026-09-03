@@ -1,0 +1,190 @@
+{
+  "scenario_id": "grandmother-legacy-88",
+  "scenario_title_he": "סיפור חיים של סבתא בת 88 — מארכיון ועד היום",
+  "subject_category": "very_old_woman",
+  "rotation_group": "very_old_legacy",
+  "series_id": "2026-08-30-grandmother-legacy-88",
+  "creation_date": "2026-08-30",
+  "fictional_status": "fictional",
+  "living_status": "living_present_day",
+  "real_person_reference_used": false,
+  "visual_profile_id": "medium-deep-neutral-amber-close-hooded-straight-chestnut-soft-square-v1",
+  "character_bible": {
+    "name_he": "רחל סגל",
+    "identity": "אישה ישראלית בדיונית בעלת גוון עור בינוני־כהה ניטרלי עם תת־גוון קריר קל, פנים מרובעות־רכות ולסת תחתונה רחבה, עצמות לחיים נמוכות, עיני ענבר־חום קרובות ומעט מכוסות, אף ישר וארוך עם קצה מעוגל, שפה עליונה צרה ותחתונה מלאה יותר, ושיער עבה וישר מאוד בגוון ערמון כהה עם מפרץ קדמי מודגש שהופך בהדרגה ללבן־כסוף.",
+    "stable_identifying_features": [
+      "שקע אנכי עדין בסנטר",
+      "נקודת חן זעירה ברקה הימנית החיצונית"
+    ],
+    "personality_and_mood": "סקרנית, מעשית, עצמאית ובעלת הומור יבש; סיפור חיים פעיל ומכבד ולא פורטרט נוסטלגי פסיבי.",
+    "wardrobe_logic": "שמלת כותנה מודפסת בילדות; חולצת משבצות וחצאית כהה בצעירות; סריג חלודה ומכנסי בז' באמצע החיים; קרדיגן שזיף בגיל 67; חולצת פשתן אוכרה ומכנסיים כהים בגיל 88.",
+    "photographic_language": "אלבום משפחתי ישראלי אמין המתקדם משני הדפסי שחור־לבן, דרך פילם צבעוני דהוי, מצלמה דיגיטלית קומפקטית ועד צילום טלפון עכשווי.",
+    "aging_logic": "פנים ילדותיות עם לחיים מלאות וקו לסת קטן בגיל 9 מתארכות ומקבלות לסת מרובעת ברורה בגיל 24; בגיל 45 מופיעים ריכוך קל וקמטי הבעה; בגיל 67 יש ריכוך בינוני ושיער מלח־פלפל; ובגיל 88 ניכרים קמטים עמוקים יותר, רפיון טבעי בלסת ובצוואר, כתמי גיל וידיים גרמיות יותר, תוך שמירת גאומטריית העיניים, האף, השפתיים, הסנטר וקו השיער."
+  },
+  "supporting_people": [
+    {
+      "relationship": "friend",
+      "relationship_he": "שתי חברות מבית הספר",
+      "identity_notes": "שתי ילדות ישראליות בדיוניות בנות כ־9 בשנת 1947, בלבוש יומיומי תקופתי ובתפקיד משני.",
+      "frames": [1]
+    },
+    {
+      "relationship": "grandchild",
+      "relationship_he": "נכדה בת 15",
+      "identity_notes": "נערה ישראלית בדיונית בת 15 בשנת 2005, שיער כהה אסוף וחולצת טריקו ירוקה פשוטה.",
+      "frames": [4]
+    }
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 9,
+      "approx_year": 1947,
+      "scene_summary_he": "רחל עוצרת אחרי משחק בחבל עם שתי חברות בחצר בית ספר צנועה ליד רחובות ומביטה למצלמה בחיוך שובב.",
+      "setting_id": "rehovot-stone-schoolyard-jump-rope-friends-1947",
+      "setting_family": "school",
+      "capture_style": "1947 black-and-white consumer family print",
+      "color_mode": "black_and_white",
+      "wardrobe": "שמלת כותנה מודפסת באורך הברך, גרביים עד הקרסול ונעלי עור שחוקות; צמות פשוטות.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "early_childhood",
+        "action_family": "sport",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "friend",
+        "setting_family": "school",
+        "composition_family": "group_snapshot"
+      }
+    },
+    {
+      "file": "02.png",
+      "age": 24,
+      "approx_year": 1962,
+      "scene_summary_he": "רחל, טכנאית צעירה, עוצרת לרגע ליד מקלט רדיו פתוח ומד אנלוגי בבית מלאכה קטן ומביטה ישירות למצלמה.",
+      "setting_id": "central-israel-radio-repair-workbench-1962",
+      "setting_family": "work_or_study",
+      "capture_style": "1962 black-and-white 35mm amateur family photograph",
+      "color_mode": "black_and_white",
+      "wardrobe": "חולצת משבצות קצרה, חצאית כהה בגזרה גבוהה ושיער ערמון כהה אסוף לאחור.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "young_adult",
+        "action_family": "work",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "work_or_study",
+        "composition_family": "over_table"
+      }
+    },
+    {
+      "file": "03.png",
+      "age": 45,
+      "approx_year": 1983,
+      "scene_summary_he": "רחל מגיעה לחופשת סוף שבוע בחצר אכסניית אבן קטנה בצפת, מסדרת את תיק הנסיעה וצוחקת לעבר מישהו מחוץ לפריים.",
+      "setting_id": "safed-stone-guesthouse-arrival-1983",
+      "setting_family": "city",
+      "capture_style": "1983 faded consumer color-film snapshot",
+      "color_mode": "consumer_color_film",
+      "wardrobe": "סריג חלודה, מכנסי בז', נעליים שטוחות ושעון אנלוגי פשוט.",
+      "gaze": "off_camera_right",
+      "scene_signature": {
+        "age_band": "midlife",
+        "action_family": "travel",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "city",
+        "composition_family": "moving_action"
+      }
+    },
+    {
+      "file": "04.png",
+      "age": 67,
+      "approx_year": 2005,
+      "scene_summary_he": "רחל ונכדתה מגלגלות שמיכות לחבילות סיוע בחדר התנדבות שכונתי בכפר סבא ומחייכות זו לזו ולמצלמה.",
+      "setting_id": "kfar-saba-neighborhood-volunteer-blanket-packing-2005",
+      "setting_family": "event",
+      "capture_style": "2005 early compact-digital family snapshot with direct flash",
+      "color_mode": "compact_digital_color",
+      "wardrobe": "קרדיגן שזיף מעל חולצת שמנת; שיער חלק בגוון מלח־פלפל עד הסנטר.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "mature_adult",
+        "action_family": "community",
+        "interaction_type": "intergenerational",
+        "supporting_relationship": "grandchild",
+        "setting_family": "event",
+        "composition_family": "seated_medium"
+      }
+    },
+    {
+      "file": "05.png",
+      "age": 88,
+      "approx_year": 2026,
+      "scene_summary_he": "רחל בוחרת עציץ רוזמרין במשתלה שכונתית מוצלת בכפר סבא ומציגה אותו למצלמת הטלפון בחיוך מרוצה.",
+      "setting_id": "kfar-saba-shaded-neighborhood-plant-nursery-rosemary-2026",
+      "setting_family": "market",
+      "capture_style": "2026 current smartphone gallery photograph",
+      "color_mode": "current_phone_color",
+      "wardrobe": "חולצת פשתן רחבה בגוון אוכרה, מכנסיים כהים ונעליים תומכות.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "older_adult",
+        "action_family": "nature",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "market",
+        "composition_family": "standing_medium"
+      }
+    }
+  ],
+  "series_arc_signature": "early_childhood|sport|peer_group|friend|school|group_snapshot > young_adult|work|solo_action|none|work_or_study|over_table > midlife|travel|solo_action|none|city|moving_action > mature_adult|community|intergenerational|grandchild|event|seated_medium > older_adult|nature|posed_solo|none|market|standing_medium",
+  "action_families": ["sport", "work", "travel", "community", "nature"],
+  "interaction_composition_combinations": [
+    "peer_group|group_snapshot",
+    "solo_action|over_table",
+    "solo_action|moving_action",
+    "intergenerational|seated_medium",
+    "posed_solo|standing_medium"
+  ],
+  "eye_contact_frames": [1, 2, 4, 5],
+  "supporting_people_frames": [1, 4],
+  "israeli_setting_ids": [
+    "rehovot-stone-schoolyard-jump-rope-friends-1947",
+    "central-israel-radio-repair-workbench-1962",
+    "safed-stone-guesthouse-arrival-1983",
+    "kfar-saba-neighborhood-volunteer-blanket-packing-2005",
+    "kfar-saba-shaded-neighborhood-plant-nursery-rosemary-2026"
+  ],
+  "recent_manifest_review": {
+    "available_manifest_count": 10,
+    "reviewed_dates": ["2026-08-12", "2026-08-13", "2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-23", "2026-08-24", "2026-08-26"],
+    "note_he": "נבדקו עשרת המניפסטים האחרונים שהיו זמינים מקומית ובתיקיית ה־Drive הראשית. בשני מניפסטים ישנים וחלקיים הוסקו הפעולות, הקשרים, הפתיחה והסיום מהשדות הזמינים."
+  },
+  "diversity_note_he": "לא נמצאה חזרה על חתימת פריים מלאה, חתימת פתיחה, חתימת סיום או חתימת רצף. חמש משפחות הפעולה שונות זו מזו, וחמש משפחות הלוקיישן וחמשת שילובי האינטראקציה־קומפוזיציה שונים. מול סדרת האדם בן 75+ האחרונה מ־2026-08-19 חוזרת משפחת פעולה אחת בלבד — community — ואין חזרה על מלאכה, אוכל, חברות או פורטרט שקט. הפתיחה במשחק חבל בחצר בית ספר והסיום בבחירת רוזמרין במשתלה אינם חוזרים על פתיחות או סיומים זמינים; אין חוף, טיילת, גג, מרפסת, קבר, נר או סמל אבל.",
+  "character_diversity_note_he": "רחל שונה מפרופילי הזהות הזמינים בעשרת המניפסטים האחרונים בלפחות ארבעה ממדים: גוון בינוני־כהה ניטרלי, פנים מרובעות־רכות עם עצמות לחיים נמוכות, עיני ענבר קרובות ומכוסות מעט, שיער ערמון ישר מאוד עם מפרץ קדמי מודגש, שקע אנכי בסנטר ונקודת חן ברקה הימנית. לא נעשה שימוש ברפרנס זהות מסדרה קודמת.",
+  "capture_style": "אלבום משפחתי ישראלי אמין מ־1947 עד 2026: שני פריימים בשחור־לבן, פילם צבעוני דהוי, דיגיטל קומפקטי וטלפון עכשווי.",
+  "color_mode": "archival_to_color",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "quality_control": {
+    "status": "pass",
+    "identity_continuity": "pass_shared_reference_and_stable_facial_geometry",
+    "anatomical_aging": "pass_after_targeted_replacements_at_ages_24_67_and_88",
+    "era_authenticity": "pass_1947_bw_1962_bw_1983_color_film_2005_compact_digital_2026_phone",
+    "hands_teeth_objects_furniture_tools": "pass_jump_rope_handles_radio_meter_probe_duffel_blankets_boxes_rosemary_pot_tables_shoes",
+    "setting_variety": "pass_five_distinct_families",
+    "action_family_variety": "pass_five_distinct_families",
+    "interaction_composition_variety": "pass_five_distinct_combinations",
+    "eye_contact_requirement": "pass_four_frames",
+    "supporting_people_requirement": "pass_exactly_two_frames",
+    "unwanted_text_logo_watermark": "pass_none_visible",
+    "mourning_symbol_check": "pass_none_present",
+    "dimensions_verified": true,
+    "contact_sheet_reviewed": true
+  },
+  "approval_status": "not_required_by_explicit_user_instruction"
+}

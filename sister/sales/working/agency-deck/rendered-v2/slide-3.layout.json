@@ -1,0 +1,844 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/q5b296",
+    "id": "q5b296",
+    "slide": 3,
+    "layoutId": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8rixgru",
+      "id": "1",
+      "bbox": [
+        560,
+        54,
+        650,
+        65
+      ],
+      "geometry": "rect",
+      "text": "לפני שמתחילות, אנחנו מכירות את העסק",
+      "textPreview": "לפני שמתחילות, אנחנו מכירות את העסק",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "לפני שמתחילות, אנחנו מכירות את העסק"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "לפני שמתחילות, אנחנו מכירות את העסק",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "לפני שמתחילות, אנחנו מכירות את העסק",
+              "fontSize": 39,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/250jm18j",
+      "id": "2",
+      "bbox": [
+        560,
+        119,
+        650,
+        47
+      ],
+      "geometry": "rect",
+      "text": "מה מוכרים, למי, מה כבר עובד ומה השיווק צריך לעשות עכשיו.",
+      "textPreview": "מה מוכרים, למי, מה כבר עובד ומה השיווק צריך לעשות עכשיו.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "מה מוכרים, למי, מה כבר עובד ומה השיווק צריך לעשות עכשיו."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "מה מוכרים, למי, מה כבר עובד ומה השיווק צריך לעשות עכשיו.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#7B7474",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "מה מוכרים, למי, מה כבר עובד ומה השיווק צריך לעשות עכשיו.",
+              "fontSize": 19,
+              "color": "#7B7474",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n690v694",
+      "id": "3",
+      "bbox": [
+        70,
+        54,
+        155,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#F40C64",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjy1kbqd",
+      "id": "4",
+      "bbox": [
+        72,
+        650,
+        42,
+        24
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#A59B9B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#A59B9B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 12,
+              "color": "#A59B9B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/14ritgry",
+      "id": "5",
+      "bbox": [
+        902,
+        650,
+        308,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SISTER MARKETING AGENCY",
+      "textPreview": "SISTER MARKETING AGENCY",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#A59B9B",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SISTER MARKETING AGENCY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SISTER MARKETING AGENCY",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#A59B9B",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SISTER MARKETING AGENCY",
+              "fontSize": 11,
+              "color": "#A59B9B",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/r6tsr2dc",
+      "id": "6",
+      "bbox": [
+        92,
+        196,
+        112,
+        112
+      ],
+      "geometry": "roundRect",
+      "alt": "1.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 10714"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "8bb552a4-3e5b-4aef-b429-5b4672a82682",
+        "contentType": "image/png",
+        "byteLength": 354264
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/fip0r69s",
+      "id": "7",
+      "bbox": [
+        245,
+        212,
+        310,
+        48
+      ],
+      "geometry": "rect",
+      "text": "מכירות את העסק",
+      "textPreview": "מכירות את העסק",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "מכירות את העסק"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "מכירות את העסק",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "מכירות את העסק",
+              "fontSize": 25,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kf21wvqx",
+      "id": "8",
+      "bbox": [
+        570,
+        212,
+        610,
+        62
+      ],
+      "geometry": "rect",
+      "text": "נכנסות לפרטים, שואלות שאלות ומבינות מה חשוב לקדם.",
+      "textPreview": "נכנסות לפרטים, שואלות שאלות ומבינות מה חשוב לקדם.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "נכנסות לפרטים, שואלות שאלות ומבינות מה חשוב לקדם."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "נכנסות לפרטים, שואלות שאלות ומבינות מה חשוב לקדם.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#7B7474",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "נכנסות לפרטים, שואלות שאלות ומבינות מה חשוב לקדם.",
+              "fontSize": 19,
+              "color": "#7B7474",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0b250r2",
+      "id": "9",
+      "bbox": [
+        245,
+        309,
+        935,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#F9D9E2",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/qtcfqt4f",
+      "id": "10",
+      "bbox": [
+        92,
+        328,
+        112,
+        112
+      ],
+      "geometry": "roundRect",
+      "alt": "2.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 10714"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "645e95d9-73f7-48c0-a09f-6d360e9338ce",
+        "contentType": "image/png",
+        "byteLength": 25396
+      }
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/g7mxwru1",
+      "id": "11",
+      "bbox": [
+        245,
+        344,
+        310,
+        48
+      ],
+      "geometry": "rect",
+      "text": "מתכננות את העבודה",
+      "textPreview": "מתכננות את העבודה",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "מתכננות את העבודה"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "מתכננות את העבודה",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "מתכננות את העבודה",
+              "fontSize": 25,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/f6dwnmdg",
+      "id": "12",
+      "bbox": [
+        570,
+        344,
+        610,
+        62
+      ],
+      "geometry": "rect",
+      "text": "מחליטות מה אומרים, איפה מפרסמים ואיזה תוכן צריך להכין.",
+      "textPreview": "מחליטות מה אומרים, איפה מפרסמים ואיזה תוכן צריך להכין.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "מחליטות מה אומרים, איפה מפרסמים ואיזה תוכן צריך להכין."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "מחליטות מה אומרים, איפה מפרסמים ואיזה תוכן צריך להכין.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#7B7474",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "מחליטות מה אומרים, איפה מפרסמים ואיזה תוכן צריך להכין.",
+              "fontSize": 19,
+              "color": "#7B7474",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/u54fuhcv",
+      "id": "13",
+      "bbox": [
+        245,
+        441,
+        935,
+        1
+      ],
+      "geometry": "rect",
+      "fillColor": "#F9D9E2",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/yxwfut4b",
+      "id": "14",
+      "bbox": [
+        92,
+        460,
+        112,
+        112
+      ],
+      "geometry": "roundRect",
+      "alt": "3.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 10714"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "5aef45f5-b22c-4f39-81ba-b1836cfa3c08",
+        "contentType": "image/png",
+        "byteLength": 603444
+      }
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/s3mdsrup",
+      "id": "15",
+      "bbox": [
+        245,
+        476,
+        310,
+        48
+      ],
+      "geometry": "rect",
+      "text": "מנהלות ומשפרות",
+      "textPreview": "מנהלות ומשפרות",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "מנהלות ומשפרות"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "מנהלות ומשפרות",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "מנהלות ומשפרות",
+              "fontSize": 25,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/72dwjmd4",
+      "id": "16",
+      "bbox": [
+        570,
+        476,
+        610,
+        62
+      ],
+      "geometry": "rect",
+      "text": "עוקבות אחרי העבודה והתוצאות, ומשנות כשצריך.",
+      "textPreview": "עוקבות אחרי העבודה והתוצאות, ומשנות כשצריך.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "עוקבות אחרי העבודה והתוצאות, ומשנות כשצריך."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "עוקבות אחרי העבודה והתוצאות, ומשנות כשצריך.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#7B7474",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "עוקבות אחרי העבודה והתוצאות, ומשנות כשצריך.",
+              "fontSize": 19,
+              "color": "#7B7474",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

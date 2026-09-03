@@ -1,0 +1,229 @@
+{
+  "schema_version": 2,
+  "series_id": "2026-09-02-sweet-sixteen-growth",
+  "scenario_id": "sweet-sixteen-growth",
+  "scenario_title_he": "נערה גדלה עד גיל 16",
+  "subject_category": "teen_girl",
+  "fictional_status": "fictional",
+  "real_person_reference": false,
+  "creation_date": "2026-09-02",
+  "created_at": "2026-09-02T01:00:00+03:00",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "approval_status": "pending",
+  "series_color_mode": "color",
+  "visual_profile_id": "medium-light-neutral-olive-close-amber-eyes-dark-loose-corkscrew-curls-inverted-triangle-v1",
+  "selection_reason_he": "נבחר תרחיש נערה לפי רוטציה מאוזנת לאחר שלוש סדרות בוגרות או מבוגרות. אין יותר משתי סדרות צעירות ברצף, ובחלון שש הסדרות נכללת דמות בת 88.",
+  "character_bible": {
+    "name_he": "נועה טל",
+    "identity": "נערה ישראלית בדיונית בעלת גוון עור בהיר־בינוני זיתי נייטרלי, פנים רחבות בצורת משולש הפוך עם סנטר מרובע־רך, עיני ענבר־חום עמוקות וצמודות יחסית עם עפעף עליון מעט כבד, אף ישר ברוחב בינוני עם קצה מעט יורד, שפה עליונה מלאה יותר מהתחתונה, גבות עבות וישרות ושיער חום כהה מאוד, צפוף ומתולתל בתלתלי חולץ־פקקים רפויים ולא אחידים.",
+    "stable_identifying_features": [
+      "נקודת חן קטנה גבוה בלחי הימנית סמוך לאוזן",
+      "חריץ זעיר בגבה השמאלית"
+    ],
+    "personality_and_mood": "סקרנית, חברותית ובעלת ביטחון שקט; התמונות מרגישות כמו אלבום משפחתי וגלריית טלפון אמינים.",
+    "wardrobe_logic": "חמש צלליות וחמישה צבעים מובילים שונים: אוברול קורל בגיל 2, שמלת חרדל בגיל 5, בגדי טיפוס כחול־קובלט וחלודה בגיל 9, סריג שזיף וסינר זית בגיל 13, ואוברשירט אדום־לבנה עם אינדיגו בגיל 16.",
+    "photographic_language": "צילום משפחתי ישראלי תואם שנים 2012–2026, מטלפון או מצלמה קומפקטית מוקדמת ועד מצלמת טלפון עכשווית, בצבע נייטרלי, עומק שדה עמוק ומרקם עור טבעי.",
+    "aging_logic": "בגיל 2 ראש גדול יחסית, לחיים מלאות, מרכז פנים קצר וגשר אף רך; בגיל 5 מרכז הפנים מתארך והסנטר מתחיל להתבסס; בגיל 9 גשר האף והלסת מפותחים יותר ומלאות הלחיים יורדת; בגיל 13 הפנים והכתפיים מקבלים פרופורציות של מתבגרת צעירה; ובגיל 16 מרכז הפנים, האף, הלסת והסנטר בשלים יותר תוך שמירת העיניים, השיער ושני הסימנים המזהים."
+  },
+  "supporting_people": [
+    {
+      "relationship": "grandparent",
+      "relationship_he": "סבא",
+      "identity_notes": "גבר ישראלי בדיוני בסוף שנות השישים בשנת 2012, גוון עור בינוני, פנים מלבניות, שיער כסוף גלי וחולצת משבצות בגוון מרווה.",
+      "frames": [1]
+    },
+    {
+      "relationship": "friend",
+      "relationship_he": "חברה קרובה",
+      "identity_notes": "נערה ישראלית בדיונית בת 13 בשנת 2023, גוון עור בהיר־בינוני חם, שיער בלונד כהה חלק עד הכתפיים ומשקפיים אפורים עגולים.",
+      "frames": [4]
+    }
+  ],
+  "israeli_setting_ids": [
+    "kiryat-tivon-shared-apartment-courtyard-bubbles-2012",
+    "petah-tikva-educational-farm-goat-pen-2015",
+    "karmiel-municipal-indoor-climbing-gym-2019",
+    "rehovot-community-youth-cooking-workshop-2023",
+    "ashkelon-community-arts-percussion-hall-2026"
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 2,
+      "approx_year": 2012,
+      "scene_summary_he": "נועה בת 2 משחקת בבועות סבון לצד סבה בחצר משותפת מוצלת בקריית טבעון ומביטה ישירות למצלמה.",
+      "setting_id": "kiryat-tivon-shared-apartment-courtyard-bubbles-2012",
+      "setting_family": "family_visit",
+      "capture_style": "2012 early family smartphone or compact-camera snapshot with modest detail and dynamic range",
+      "color_mode": "phone_color",
+      "wardrobe": "אוברול כותנה קורל מעל חולצת שמנת וסנדלים כחולים כהים.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "מוטה מעט שמאלה",
+        "face_direction": "כמעט חזיתי",
+        "body_angle": "ישיבה בזווית קלה ימינה",
+        "camera_height": "גובה עיני פעוטה",
+        "camera_distance": "קלוז־מדיום"
+      },
+      "scene_signature": {
+        "age_band": "preschool",
+        "action_family": "play",
+        "interaction_type": "intergenerational",
+        "supporting_relationship": "grandparent",
+        "setting_family": "family_visit",
+        "composition_family": "seated_medium"
+      }
+    },
+    {
+      "file": "02.png",
+      "age": 5,
+      "approx_year": 2015,
+      "scene_summary_he": "נועה בת 5 מאכילה עז קטנה בעלים בחווה לימודית ליד פתח תקווה ומביטה אל החיה.",
+      "setting_id": "petah-tikva-educational-farm-goat-pen-2015",
+      "setting_family": "nature",
+      "capture_style": "2015 ordinary family smartphone snapshot with deep focus and mild compression",
+      "color_mode": "phone_color",
+      "wardrobe": "שמלת סינר חרדל מעל חולצת כותנה טורקיז בהיר ונעלי בד בורדו.",
+      "gaze": "off_camera_right",
+      "pose_plan": {
+        "head": "מוטה מעט מטה",
+        "face_direction": "פרופיל ימינה",
+        "body_angle": "הגוף שמאלה והידיים נשלחות ימינה",
+        "camera_height": "גובה חזה של ילדה",
+        "camera_distance": "גוף מלא מרחוק"
+      },
+      "scene_signature": {
+        "age_band": "early_childhood",
+        "action_family": "nature",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "nature",
+        "composition_family": "moving_action"
+      }
+    },
+    {
+      "file": "03.png",
+      "age": 9,
+      "approx_year": 2019,
+      "scene_summary_he": "נועה בת 9 עוצרת אחרי טיפוס מתחילים בקיר עירוני בכרמיאל, מחזיקה קסדה ומביטה בגאווה למצלמה.",
+      "setting_id": "karmiel-municipal-indoor-climbing-gym-2019",
+      "setting_family": "sport",
+      "capture_style": "2019 mid-range smartphone family snapshot with neutral color and moderate processing",
+      "color_mode": "phone_color",
+      "wardrobe": "חולצת ספורט כחול־קובלט, מכנסי טיפוס חלודה, רתמה אפורה ונעלי טיפוס טורקיז.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "זקוף",
+        "face_direction": "שלושת־רבעי שמאלה",
+        "body_angle": "הגוף פונה ימינה",
+        "camera_height": "מעט מתחת לגובה החזה",
+        "camera_distance": "מדיום־פול"
+      },
+      "scene_signature": {
+        "age_band": "preteen",
+        "action_family": "sport",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "sport",
+        "composition_family": "full_body"
+      }
+    },
+    {
+      "file": "04.png",
+      "age": 13,
+      "approx_year": 2023,
+      "scene_summary_he": "נועה בת 13 וחברה קרובה מכינות פיתות עם ירקות בסדנת בישול לנוער ברחובות; נועה מביטה אל חברתה.",
+      "setting_id": "rehovot-community-youth-cooking-workshop-2023",
+      "setting_family": "work_or_study",
+      "capture_style": "2023 ordinary smartphone main-camera snapshot with neutral color and deep focus",
+      "color_mode": "current_phone_color",
+      "wardrobe": "סריג שזיף וסינר קנבס זית.",
+      "gaze": "off_camera_left",
+      "pose_plan": {
+        "head": "נוטה קדימה",
+        "face_direction": "שמאלה ולמטה",
+        "body_angle": "צד ימין של הגוף קרוב לשולחן",
+        "camera_height": "גובה משטח העבודה",
+        "camera_distance": "מדיום מעל השולחן"
+      },
+      "scene_signature": {
+        "age_band": "teen",
+        "action_family": "food",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "friend",
+        "setting_family": "work_or_study",
+        "composition_family": "over_table"
+      }
+    },
+    {
+      "file": "05.png",
+      "age": 16,
+      "approx_year": 2026,
+      "scene_summary_he": "נועה בת 16 מצטלמת עם דרבוקה אחרי הופעת נוער קטנה באולם אמנויות קהילתי באשקלון.",
+      "setting_id": "ashkelon-community-arts-percussion-hall-2026",
+      "setting_family": "event",
+      "capture_style": "2026 current smartphone main-camera gallery photo with neutral color, natural texture and deep focus",
+      "color_mode": "current_phone_color",
+      "wardrobe": "אוברשירט אדום־לבנה מעל חולצה אפורה, מכנסי אינדיגו ונעלי ספורט לבנות.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "סנטר מורם קלות",
+        "face_direction": "שלושת־רבעי ימינה",
+        "body_angle": "הכתפיים והאגן פונים שמאלה",
+        "camera_height": "מעט מעל גובה העיניים",
+        "camera_distance": "צילום סביבתי רחב"
+      },
+      "scene_signature": {
+        "age_band": "teen",
+        "action_family": "performance",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "event",
+        "composition_family": "environmental_wide"
+      }
+    }
+  ],
+  "series_arc_signature": "preschool|play|intergenerational|grandparent|family_visit|seated_medium > early_childhood|nature|solo_action|none|nature|moving_action > preteen|sport|posed_solo|none|sport|full_body > teen|food|peer_group|friend|work_or_study|over_table > teen|performance|posed_solo|none|event|environmental_wide",
+  "action_families": ["play", "nature", "sport", "food", "performance"],
+  "interaction_composition_combinations": [
+    "intergenerational|seated_medium",
+    "solo_action|moving_action",
+    "posed_solo|full_body",
+    "peer_group|over_table",
+    "posed_solo|environmental_wide"
+  ],
+  "eye_contact_frames": [1, 3, 5],
+  "off_camera_frames": [2, 4],
+  "supporting_people_frames": [1, 4],
+  "recent_manifest_review": {
+    "available_manifest_count": 11,
+    "reviewed_dates": ["2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-23", "2026-08-24", "2026-08-26", "2026-08-30", "2026-08-31", "2026-09-01"],
+    "note_he": "נבדקו כל אחד־עשר המניפסטים המקומיים הזמינים. בחתימות חסרות הוסקו פתיחה, סיום, פעולות וקשרים משדות הסצנה והזיכרון."
+  },
+  "diversity_note_he": "חמש משפחות פעולה, חמש משפחות לוקיישן וחמישה שילובי אינטראקציה־קומפוזיציה שונים. מול סדרת הנערה הקודמת חוזרת רק משפחת הפעולה performance, בהתאם למגבלה. הפתיחה עם סבא ובועות והסיום עם דרבוקה אינם חוזרים על פתיחות או סיומים בחמש הסדרות האחרונות. אין חוף, טיילת, גג או מרפסת.",
+  "character_diversity_note_he": "נועה שונה מהדמויות הזמינות במבנה פנים משולש הפוך וסנטר מרובע־רך, עיני ענבר צמודות עם עפעף כבד, תלתלים כהים רפויים וצפופים, יחס שפתיים הפוך ושני סימני זיהוי חדשים. לא נעשה שימוש ברפרנס זהות קודם.",
+  "capture_style": "אלבום ילדות ישראלי תואם תקופה מ־2012 עד 2026, מצילום טלפון או קומפקטי מוקדם לצילום טלפון עכשווי טבעי בעומק שדה עמוק.",
+  "color_mode": "color",
+  "quality_control": {
+    "status": "pass",
+    "identity_continuity": "pass_shared_reference_and_stable_facial_geometry",
+    "anatomical_aging": "pass_after_targeted_age_corrections_of_frames_1_and_4",
+    "era_authenticity": "pass_2012_2015_2019_2023_2026_capture_progression",
+    "hands_teeth_objects_furniture_tools": "pass_bubble_wands_bottles_chair_goat_feed_fence_trough_climbing_holds_helmet_harness_shoes_bowls_spoon_pita_vegetables_cabinets_table_darbuka_stage_chairs",
+    "setting_variety": "pass_five_distinct_families",
+    "action_family_variety": "pass_five_distinct_families",
+    "interaction_composition_variety": "pass_five_distinct_combinations",
+    "head_pose_and_crop_variation": "pass",
+    "eye_contact_requirement": "pass_three_frames",
+    "supporting_people_requirement": "pass_exactly_two_frames",
+    "unwanted_text_logo_watermark": "pass_none_visible",
+    "floating_duplicate_or_impossible_objects": "none_observed",
+    "dimensions_verified": true,
+    "contact_sheet_reviewed": true
+  }
+}

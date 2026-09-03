@@ -1,0 +1,528 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/53zri2",
+    "id": "53zri2",
+    "slide": 8,
+    "layoutId": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/i1kzyloj",
+      "id": "1",
+      "bbox": [
+        38,
+        35,
+        530,
+        650
+      ],
+      "geometry": "roundRect",
+      "alt": "s element2.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 2264"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "b2715953-97b4-4479-9d3e-e3e09f0d76a9",
+        "contentType": "image/png",
+        "byteLength": 1881750
+      }
+    },
+    {
+      "order": 2,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/54bit07u",
+      "id": "2",
+      "bbox": [
+        855,
+        70,
+        305,
+        116
+      ],
+      "geometry": "roundRect",
+      "alt": "LOGO@3000x.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 10345"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "5c301e1f-6a18-42c8-b271-f4c20ab23061",
+        "contentType": "image/png",
+        "byteLength": 168390
+      }
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xk3m94ju",
+      "id": "3",
+      "bbox": [
+        600,
+        245,
+        560,
+        70
+      ],
+      "geometry": "rect",
+      "text": "נראה איך זה יכול לעבוד אצלכם.",
+      "textPreview": "נראה איך זה יכול לעבוד אצלכם.",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "נראה איך זה יכול לעבוד אצלכם."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "נראה איך זה יכול לעבוד אצלכם.",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "נראה איך זה יכול לעבוד אצלכם.",
+              "fontSize": 39,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/2ts3up07",
+      "id": "4",
+      "bbox": [
+        650,
+        340,
+        510,
+        105
+      ],
+      "geometry": "rect",
+      "text": "ספרו לנו איפה השיווק עומד היום ומה הייתם רוצים שיקרה. משם נחשוב יחד מה חסר ומה נכון לעשות.",
+      "textPreview": "ספרו לנו איפה השיווק עומד היום ומה הייתם רוצים שיקרה. משם נחשוב יחד מה חסר ומה נכון לעשות.",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ספרו לנו איפה השיווק עומד היום ומה הייתם רוצים שיקרה."
+          },
+          {
+            "index": 2,
+            "text": "משם נחשוב יחד מה חסר ומה נכון לעשות."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ספרו לנו איפה השיווק עומד היום ומה הייתם רוצים שיקרה. משם נחשוב יחד מה חסר ומה נכון לעשות.",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#7B7474",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ספרו לנו איפה השיווק עומד היום ומה הייתם רוצים שיקרה. משם נחשוב יחד מה חסר ומה נכון לעשות.",
+              "fontSize": 22,
+              "color": "#7B7474",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3u1k3u1s",
+      "id": "5",
+      "bbox": [
+        650,
+        488,
+        510,
+        2
+      ],
+      "geometry": "rect",
+      "fillColor": "#F9D9E2",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ovalwzid",
+      "id": "6",
+      "bbox": [
+        650,
+        512,
+        510,
+        34
+      ],
+      "geometry": "rect",
+      "text": "קרן חיים  |  054-7529756",
+      "textPreview": "קרן חיים  |  054-7529756",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#F40C64",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "קרן חיים  |  054-7529756"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "קרן חיים  |  054-7529756",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#F40C64",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "קרן חיים  |  054-7529756",
+              "fontSize": 19,
+              "color": "#F40C64",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/pwjm54jy",
+      "id": "7",
+      "bbox": [
+        650,
+        552,
+        510,
+        30
+      ],
+      "geometry": "rect",
+      "text": "keren@sistermarketing.co.il",
+      "textPreview": "keren@sistermarketing.co.il",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "keren@sistermarketing.co.il"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "keren@sistermarketing.co.il",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#474747",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "keren@sistermarketing.co.il",
+              "fontSize": 17,
+              "color": "#474747",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mpc36t0b",
+      "id": "8",
+      "bbox": [
+        650,
+        585,
+        510,
+        30
+      ],
+      "geometry": "rect",
+      "text": "sistermarketing.co.il",
+      "textPreview": "sistermarketing.co.il",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "sistermarketing.co.il"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "sistermarketing.co.il",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#474747",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "sistermarketing.co.il",
+              "fontSize": 17,
+              "color": "#474747",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7ql4fyhw",
+      "id": "9",
+      "bbox": [
+        650,
+        634,
+        510,
+        28
+      ],
+      "geometry": "rect",
+      "text": "EVERYONE NEEDS A S!STER",
+      "textPreview": "EVERYONE NEEDS A S!STER",
+      "resolvedFontSize": 17,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 17,
+        "typeface": "+mn-lt",
+        "color": "#F40C64",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EVERYONE NEEDS A S!STER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EVERYONE NEEDS A S!STER",
+          "resolvedTextStyle": {
+            "fontSize": 17,
+            "color": "#F40C64",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EVERYONE NEEDS A S!STER",
+              "fontSize": 17,
+              "color": "#F40C64",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

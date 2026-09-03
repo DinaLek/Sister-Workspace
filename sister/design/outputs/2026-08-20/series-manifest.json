@@ -1,0 +1,188 @@
+{
+  "scenario_id": "woman-monochrome-life",
+  "scenario_title_he": "סיפור חיים נשי — מארכיון לצבע",
+  "subject_category": "older_woman",
+  "rotation_group": "older_adult",
+  "adult_retrospective": true,
+  "series_id": "2026-08-20-woman-monochrome-life",
+  "creation_date": "2026-08-20",
+  "fictional_status": "fictional",
+  "real_person_reference_used": false,
+  "visual_profile_id": "fair-neutral-blue-gray-eyes-dark-corkscrew-trapezoid-face-v1",
+  "character_bible": {
+    "identity": "אישה ישראלית בדיונית בעלת גוון עור בהיר עד בינוני בגוון ניטרלי־חם, פנים טרפזיות צרות עם לסת רחבה ורכה ומצח מעט צר יותר, עיניים כחולות־אפורות עם עפעף עליון מעט מכוסה, שיער חום כהה מאוד בתלתלי חולץ־פקקים צפופים, גבות ישרות וחזקות כשהימנית מעט גבוהה יותר, אף בולט עם גשר צר וכיפוף עדין, שפה עליונה מעט מלאה יותר וקו לסת מרובע־מעוגל.",
+    "stable_identifying_features": [
+      "נקודת חן זעירה ליד הרקה השמאלית",
+      "שקע קטן בתנוך האוזן הימנית"
+    ],
+    "personality_and_mood": "ערנית, עצמאית ובעלת חום יבש; אלבום חיים פעיל, יומיומי ואמין ולא הפקת פרסום.",
+    "wardrobe_logic": "חמש צלליות וצבעים מובילים שונים התואמים לשנים 1983–2026: סריג חלודה ומכנסיים מחויטים, מעיל רוח קובלט וג'ינס בהיר, בגדי טיפוס מג'נטה־פחם, חולצת פשתן טורקיז, וסט כתום־חלודה ובגדי טיול מרווה.",
+    "photographic_language": "התקדמות מהדפס שחור־לבן משנת 1983, דרך פילם צבעוני צרכני, מצלמה דיגיטלית קומפקטית וצילום טלפון מוקדם, ועד צילום טלפון טבעי משנת 2026; עומק שדה קריא, צבע ניטרלי ומרקם עור אמין.",
+    "aging_logic": "בין 22 ל־65 נשמרים מבנה הלסת, העיניים, האף והסימנים העדינים, תוך ירידה הדרגתית במלאות הלחיים והרקות, התארכות מרכז הפנים, התפתחות גשר האף והלסת, העמקת קווי העין והחיוך, ריכוך הצוואר והלבנה הדרגתית של התלתלים."
+  },
+  "supporting_people": [
+    {
+      "relationship": "friend",
+      "relationship_he": "חברה קרובה",
+      "identity_notes": "אישה בדיונית בת 22 בשנת 1983, פנים עגולות, עיניים כהות ושיער חום בהיר חלק וקצר.",
+      "frames": [1]
+    },
+    {
+      "relationship": "child",
+      "relationship_he": "בת בוגרת",
+      "identity_notes": "אישה בדיונית בת כ־27 בשנת 2016, פנים אובליות, עיניים חומות חמות ושיער ערמוני חלק בקוקו נמוך.",
+      "frames": [4]
+    }
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 22,
+      "approx_year": 1983,
+      "scene_summary_he": "מצטלמת עם חברה בזמן הפסקה מחזרת ריקוד באולם קהילתי צנוע באשדוד.",
+      "setting_id": "ashdod-community-dance-hall-terrazzo-1983",
+      "setting_family": "event",
+      "capture_style": "1983 black-and-white consumer family print scan",
+      "color_mode": "black_and_white",
+      "wardrobe": "סריג חלודה רפוי, מכנסיים מחויטים גבוהים בגוון נייבי ונעלי בד כהות.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "young_adult",
+        "action_family": "performance",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "friend",
+        "setting_family": "event",
+        "composition_family": "group_snapshot"
+      }
+    },
+    {
+      "file": "02.png",
+      "age": 32,
+      "approx_year": 1993,
+      "scene_summary_he": "עולה לנסיעת אוטובוס בין־עירוני עם תיק בד ברציף מוצל בטבריה.",
+      "setting_id": "tiberias-intercity-bus-platform-1993",
+      "setting_family": "transport",
+      "capture_style": "1993 point-and-shoot consumer color film print",
+      "color_mode": "consumer_color_film",
+      "wardrobe": "מעיל רוח קובלט, חולצת ריב שמנת, ג'ינס בהיר בגזרה גבוהה, נעלי הליכה חומות ותיק בד זית.",
+      "gaze": "off_camera_left",
+      "scene_signature": {
+        "age_band": "young_adult",
+        "action_family": "transport",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "transport",
+        "composition_family": "moving_action"
+      }
+    },
+    {
+      "file": "03.png",
+      "age": 44,
+      "approx_year": 2005,
+      "scene_summary_he": "עוצרת בגאווה אחרי מסלול טיפוס בקיר עירוני מקורה בכרמיאל.",
+      "setting_id": "karmiel-municipal-indoor-climbing-wall-2005",
+      "setting_family": "sport",
+      "capture_style": "2005 compact digital-camera snapshot",
+      "color_mode": "compact_digital_color",
+      "wardrobe": "גופיית ספורט מג'נטה מעל שכבת בסיס אפורה, מכנסי טיפוס פחם, רתמה אפורה ושק גיר חרדל.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "midlife",
+        "action_family": "sport",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "sport",
+        "composition_family": "full_body"
+      }
+    },
+    {
+      "file": "04.png",
+      "age": 55,
+      "approx_year": 2016,
+      "scene_summary_he": "מבקרת עם בתה הבוגרת בתצוגת קרמיקה מופשטת במוזיאון לאמנות בעין חרוד.",
+      "setting_id": "ein-harod-art-museum-ceramic-display-2016",
+      "setting_family": "museum",
+      "capture_style": "2016 ordinary mid-range smartphone family snapshot",
+      "color_mode": "phone_color",
+      "wardrobe": "חולצת פשתן טורקיז עם שרוולי שלושת־רבעי, מכנסיים שחורים ישרים ונעליים שטוחות בגוון חול.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "mature_adult",
+        "action_family": "culture",
+        "interaction_type": "intergenerational",
+        "supporting_relationship": "child",
+        "setting_family": "museum",
+        "composition_family": "over_table"
+      }
+    },
+    {
+      "file": "05.png",
+      "age": 65,
+      "approx_year": 2026,
+      "scene_summary_he": "עוצרת עם משקפת במסתור צפרות המשקיף אל אגמון החולה.",
+      "setting_id": "hula-valley-birdwatching-hide-2026",
+      "setting_family": "nature",
+      "capture_style": "2026 ordinary smartphone main-camera snapshot",
+      "color_mode": "current_phone_color",
+      "wardrobe": "וסט קווילט כתום־חלודה מעל חולצת כותנה שמנת, מכנסי טיול מרווה, נעלי שביל ותיק יום נייבי.",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "older_adult",
+        "action_family": "nature",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "nature",
+        "composition_family": "environmental_wide"
+      }
+    }
+  ],
+  "series_arc_signature": "young_adult|performance|peer_group|friend|event|group_snapshot > young_adult|transport|solo_action|none|transport|moving_action > midlife|sport|solo_action|none|sport|full_body > mature_adult|culture|intergenerational|child|museum|over_table > older_adult|nature|solo_action|none|nature|environmental_wide",
+  "action_families": ["performance", "transport", "sport", "culture", "nature"],
+  "interaction_composition_combinations": [
+    "peer_group|group_snapshot",
+    "solo_action|moving_action",
+    "solo_action|full_body",
+    "intergenerational|over_table",
+    "solo_action|environmental_wide"
+  ],
+  "eye_contact_frames": [1, 3, 4, 5],
+  "supporting_people_frames": [1, 4],
+  "israeli_setting_ids": [
+    "ashdod-community-dance-hall-terrazzo-1983",
+    "tiberias-intercity-bus-platform-1993",
+    "karmiel-municipal-indoor-climbing-wall-2005",
+    "ein-harod-art-museum-ceramic-display-2016",
+    "hula-valley-birdwatching-hide-2026"
+  ],
+  "capture_style": "period-aware Israeli personal album progressing from a 1983 black-and-white print through 1993 consumer color film, 2005 compact digital, 2016 phone capture and a 2026 smartphone snapshot",
+  "color_mode": "archival_to_color",
+  "recent_manifest_review": {
+    "available_manifest_count": 6,
+    "reviewed_dates": ["2026-08-12", "2026-08-13", "2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19"],
+    "note_he": "נבדקו כל ששת המניפסטים שהיו זמינים בתיקיית Drive הראשית ובתיקייה המקומית; לא היו עשרה מניפסטים זמינים. במניפסטים ללא חתימות הוסקו ככל האפשר הפעולות, הקשרים והקומפוזיציות מתיאורי הסצנות. מניפסט 2026-08-12 הכיל גילאים בלבד ללא תיאורי סצנה, ולכן נבחר מולו רצף מבוגר חדש שאינו משתמש בזוגיות, עבודה, משפחה או יום הולדת."
+  },
+  "diversity_note_he": "הסדרה פותחת בחזרת ריקוד עם חברה ומסתיימת בצפרות סולו — פתיחה, סיום ורצף שלא הופיעו בשש הסדרות הזמינות. נעשה שימוש בחמש משפחות פעולה, בחמש משפחות לוקיישן ובחמישה שילובי אינטראקציה־קומפוזיציה. אין חוף, טיילת, גג, מרפסת, גינה קהילתית, שש־בש, פריים עבודה, זוגיות, פורטרט יום הולדת או סיום משפחתי פורמלי. מול הסדרה האחרונה הזמינה של אישה בוגרת, שמניפסטה לא כלל תיאורי פעולה, נבחר במכוון רצף חמש פעולות לא־סטנדרטי.",
+  "character_diversity_note_he": "הדמות שונה מהפרופילים הזמינים האחרונים בלפחות ארבעה ממדים: פנים טרפזיות עם לסת רחבה, עיניים כחולות־אפורות ועפעף מכוסה, שיער חום כהה בתלתלי חולץ־פקקים צפופים, אף בעל כיפוף עדין, גוון עור ניטרלי־חם וסימני זיהוי חדשים. לא נעשה שימוש ברפרנס זהות קודם.",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "quality_control": {
+    "status": "pass",
+    "identity_continuity": "pass_same_face_geometry_eye_color_nose_brows_curls_and_identifying_marks",
+    "anatomical_aging": "pass_clear_progression_in_cheek_and_temple_volume_midface_eye_lines_jaw_neck_skin_and_hair",
+    "era_authenticity": "pass_1983_bw_1993_film_2005_compact_digital_2016_phone_2026_phone",
+    "hands_teeth_objects_furniture_tools": "pass",
+    "setting_variety": "pass_five_distinct_families",
+    "action_family_variety": "pass_five_distinct_families",
+    "interaction_composition_variety": "pass_five_distinct_combinations",
+    "eye_contact_requirement": "pass_four_frames",
+    "supporting_people_requirement": "pass_exactly_two_frames",
+    "unwanted_text_logo_watermark": "pass_none_visible",
+    "dimensions_verified": true,
+    "contact_sheet_reviewed": true
+  },
+  "approval_status": "pending"
+}

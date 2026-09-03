@@ -1,0 +1,113 @@
+{
+  "scenario_id": "bar-mitzvah-growth",
+  "scenario_title_he": "ילד גדל עד בר מצווה",
+  "subject_category": "boy_growth",
+  "series_id": "2026-08-16-bar-mitzvah-growth",
+  "creation_date": "2026-08-16",
+  "fictional_status": "fictional",
+  "real_person_reference_used": false,
+  "visual_profile_id": "deep-warm-complexion-tight-curls-dark-eyes-oval-face-v1",
+  "character_bible": {
+    "identity": "ילד ישראלי בדיוני בעל גוון עור חום עמוק וחם, פנים אובליות צרות, עיניים חומות כהות ושקדיות במרווח מעט רחב, שיער שחור צפוף ומתולתל מאוד, גבות מלאות וקמורות בעדינות, אף ישר ברוחב בינוני עם קצה מעוגל, שפתיים בינוניות וסנטר מחודד בעדינות.",
+    "stable_identifying_features": [
+      "נקודת חן זעירה מתחת לזווית החיצונית של עין שמאל",
+      "גומת חן קלה בלחי ימין בעת חיוך"
+    ],
+    "personality_and_mood": "סקרן, רגוע וחם; אלבום משפחתי אמין ולא הפקת קמפיין.",
+    "wardrobe_logic": "בכל גיל צללית וצבע דומיננטי אחרים, מלבוש תינוקות ועד לבוש חגיגי ישראלי מאופק.",
+    "photographic_language": "צילום משפחתי או טלפוני תואם תקופה, עומק שדה עמוק, צבע ניטרלי, מרקם עור טבעי וללא טשטוש פורטרט.",
+    "aging_logic": "התארכות הדרגתית של מרכז הפנים, ירידה במלאות הלחיים, התפתחות גשר האף, הלסת והסנטר והקטנת היחס החזותי של העיניים לאורך חמשת הגילים."
+  },
+  "supporting_people": [
+    {
+      "relationship": "father",
+      "identity_notes": "גבר בדיוני בשנות השלושים לחייו, גוון עור בינוני וחם, שיער כהה קצר ומתולתל, פנים מלבניות וזקן קצר ומסודר.",
+      "frames": [1]
+    }
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 1,
+      "approx_year": 2014,
+      "scene_summary_he": "צעדים ראשונים בסלון ישראלי, כשהאב כורע מאחור ושומר עליו.",
+      "setting_id": "israeli-apartment-terrazzo-shutters",
+      "setting_family": "home",
+      "capture_style": "2014 family smartphone snapshot",
+      "wardrobe": "בגד גוף קרם בדוגמה כחולה עדינה וגרביים אפורים",
+      "gaze": "direct_camera"
+    },
+    {
+      "file": "02.png",
+      "age": 4,
+      "approx_year": 2017,
+      "scene_summary_he": "משחק על קורת שיווי משקל נמוכה בגינת שכונה ים־תיכונית.",
+      "setting_id": "neighborhood-garden-olive-rosemary-play-bars",
+      "setting_family": "park",
+      "capture_style": "2017 parent phone snapshot",
+      "wardrobe": "אוברול קצר חרדל, חולצת כותנה תכלת ונעלי בד כחולות",
+      "gaze": "direct_camera"
+    },
+    {
+      "file": "03.png",
+      "age": 7,
+      "approx_year": 2020,
+      "scene_summary_he": "צילום יום ראשון בבית הספר בכניסה מוצלת מאבן מקומית.",
+      "setting_id": "primary-school-limestone-shade-sails",
+      "setting_family": "school",
+      "capture_style": "2020 mid-range smartphone snapshot",
+      "wardrobe": "חולצת פולו פסים בורדו־קרם, מכנסי זית ותיק גב כחול",
+      "gaze": "direct_camera"
+    },
+    {
+      "file": "04.png",
+      "age": 10,
+      "approx_year": 2023,
+      "scene_summary_he": "מצייר במחברת בסדנת יצירה בספרייה עירונית.",
+      "setting_id": "municipal-library-creative-workshop",
+      "setting_family": "hobby_culture",
+      "capture_style": "2023 ordinary smartphone snapshot",
+      "wardrobe": "קפוצ'ון כתום־חלודה, חולצת פחם וג'ינס כהה",
+      "gaze": "off_camera_down_right"
+    },
+    {
+      "file": "05.png",
+      "age": 13,
+      "approx_year": 2026,
+      "scene_summary_he": "פורטרט חגיגי ובטוח בעצמו באולם קהילתי לקראת בר המצווה.",
+      "setting_id": "community-event-hall-limestone-olive-branches",
+      "setting_family": "event",
+      "capture_style": "2026 recent smartphone snapshot",
+      "wardrobe": "אוברשירט ירוק מרווה, חולצת צווארון לבנה ומכנסיים כחולים כהים",
+      "gaze": "direct_camera"
+    }
+  ],
+  "eye_contact_frames": [1, 2, 3, 5],
+  "supporting_people_frames": [1],
+  "israeli_setting_ids": [
+    "israeli-apartment-terrazzo-shutters",
+    "neighborhood-garden-olive-rosemary-play-bars",
+    "primary-school-limestone-shade-sails",
+    "municipal-library-creative-workshop",
+    "community-event-hall-limestone-olive-branches"
+  ],
+  "capture_style": "period-aware family album progressing from 2014 phone capture to 2026 recent smartphone capture",
+  "color_mode": "color",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "quality_control": {
+    "status": "pass",
+    "identity_continuity": "pass",
+    "anatomical_aging": "pass",
+    "hands_teeth_objects_furniture_tools": "pass",
+    "setting_variety": "pass",
+    "eye_contact_requirement": "pass",
+    "supporting_people_requirement": "pass",
+    "dimensions_verified": true
+  },
+  "approval_status": "pending"
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {"brand": "MOTIV8 (codename)", "system": "Editorial Momentum", "version": "0.1-design-validation"},
+  "color": {
+    "warmIvory": "#F4F0E7",
+    "paper": "#FFFCF6",
+    "ink": "#171717",
+    "cobalt": "#2457F5",
+    "coral": "#F06B57",
+    "softGrey": "#C9C6BE",
+    "mutedInk": "#686660"
+  },
+  "type": {
+    "display": "Instrument Sans",
+    "utility": "Inter",
+    "fallback": "Arial, sans-serif",
+    "weights": [500, 600, 700]
+  },
+  "canvas": {"feed": [1080, 1350], "reel": [1080, 1920], "safeMargin": 72},
+  "motion": {"durationSeconds": [7, 15], "ease": "power3.out", "forbidden": ["bounce", "elastic", "spin transition"]},
+  "image": {"grainOpacity": 0.09, "directEyeContact": false, "textInGeneration": false}
+}

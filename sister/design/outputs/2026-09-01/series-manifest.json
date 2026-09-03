@@ -1,0 +1,205 @@
+{
+  "schema_version": 2,
+  "series_id": "2026-09-01-woman-monochrome-life",
+  "scenario_id": "woman-monochrome-life",
+  "scenario_title_he": "סיפור חיים נשי — מארכיון לצבע",
+  "subject_category": "older_woman",
+  "fictional_status": "fictional",
+  "real_person_reference": false,
+  "creation_date": "2026-09-01",
+  "created_at": "2026-09-01T01:00:00+03:00",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "approval_status": "pending",
+  "series_color_mode": "archival_to_color",
+  "visual_profile_id": "medium-neutral-cool-bronze-espresso-upturned-eyes-dark-coarse-s-waves-long-pentagonal-v1",
+  "character_bible": {
+    "name_he": "ליאורה בן־שחר",
+    "identity": "אישה ישראלית בדיונית בעלת גוון עור בינוני נייטרלי־קריר בגוון ברונזה, פנים ארוכות־מחומשות עם מצח גבוה וצר, עצמות לחיים גבוהות ורחבות וסנטר קטן מרובע ומתחדד, עיני אספרסו צרות ומעט מורמות במרווח בינוני־קרוב, אף ארוך וישר עם קצה מעוגל, שפה עליונה בינונית־צרה ותחתונה מלאה יותר, ושיער חום כהה מאוד, עבה וגס בגלי S רפויים המאפיר בהדרגה.",
+    "stable_identifying_features": [
+      "חריץ קטן בשליש החיצוני של הגבה השמאלית",
+      "צלקת חיוורת זעירה בצורת סהר בקו הלסת הימני"
+    ],
+    "personality_and_mood": "ערנית, עצמאית ובעלת הומור יבש; אלבום חיים חם ואמין בלי מראה פרסומי.",
+    "wardrobe_logic": "חמש צלליות וחמישה צבעים מובילים שונים: חולצת חלודה וסינר ב־1983, ז׳קט ג׳ינס טורקיז ומכנסי שזיף ב־1993, קרדיגן זית ב־2005, ז׳קט כתום־שרוף ב־2016 ואוברשירט פשתן אינדיגו ב־2026.",
+    "photographic_language": "התקדמות מפילם צבעוני צרכני של 1983 ו־1993, דרך מצלמה דיגיטלית קומפקטית של 2005 וטלפון משפחתי של 2016, ועד צילום טלפון טבעי עכשווי עם עומק שדה עמוק וצבע נייטרלי.",
+    "aging_logic": "בגיל 22 פנים חלקות ומלאות יותר עם לסת וצוואר צעירים; בגיל 32 מרכז פנים מבוסס וקווי חיוך ראשונים; בגיל 44 ירידה מתונה בנפח וקווי עין טבעיים; בגיל 55 קווי עין ומצח עמוקים יותר, ריכוך לסת ופס כסוף קדמי; ובגיל 65 אובדן נפח נוסף, מרקם עור בוגר ושיער כסוף ברובו, תוך שמירת הגאומטריה, העיניים, האף, הסנטר ושני הסימנים המזהים."
+  },
+  "supporting_people": [
+    {
+      "relationship": "friend",
+      "relationship_he": "חברה קרובה",
+      "identity_notes": "אישה ישראלית בדיונית בת כ־31 בשנת 1993, גוון עור בהיר־בינוני חם, פנים עגולות, שיער בלונד כהה קצר וחלק וז׳קט רוח חרדל.",
+      "frames": [2]
+    },
+    {
+      "relationship": "sibling",
+      "relationship_he": "אחות גדולה",
+      "identity_notes": "אישה ישראלית בדיונית בת 48 בשנת 2005, פנים אובליות מלאות יותר, עיניים כהות רחבות יותר ושיער כהה חלק עם מעט שיבה; דומה באופן משפחתי אך אינה כפילה.",
+      "frames": [3]
+    }
+  ],
+  "israeli_setting_ids": [
+    "lod-municipal-printmaking-workshop-1983",
+    "afula-neighborhood-ice-cream-street-1993",
+    "nahariya-lived-in-sister-apartment-kitchen-2005",
+    "yokneam-community-center-seed-library-2016",
+    "hod-hasharon-neighborhood-cafe-2026"
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 22,
+      "approx_year": 1983,
+      "scene_summary_he": "ליאורה בת 22 מרימה הדפס לינולאום טרי ליד מכבש בסדנת הדפס עירונית צנועה בלוד ומביטה ישירות למצלמה.",
+      "setting_id": "lod-municipal-printmaking-workshop-1983",
+      "setting_family": "studio_or_workshop",
+      "capture_style": "1983 consumer color-negative family print with modest grain and mild lab warmth",
+      "color_mode": "consumer_color_film",
+      "wardrobe": "חולצת כותנה חלודה, מכנסי אינדיגו בגזרה גבוהה וסינר קנבס בהיר.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "זקוף",
+        "face_direction": "כמעט חזיתי",
+        "body_angle": "שלושת־רבעי לימין",
+        "camera_height": "גובה העיניים",
+        "camera_distance": "מרחק בינוני"
+      },
+      "scene_signature": {
+        "age_band": "young_adult",
+        "action_family": "craft",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "studio_or_workshop",
+        "composition_family": "standing_medium"
+      }
+    },
+    {
+      "file": "02.png",
+      "age": 32,
+      "approx_year": 1993,
+      "scene_summary_he": "ליאורה בת 32 וחברה קרובה עוצרות עם גביעי גלידה מחוץ לחנות שכונתית ברחוב מגורים בעפולה ומצטלמות יחד.",
+      "setting_id": "afula-neighborhood-ice-cream-street-1993",
+      "setting_family": "city",
+      "capture_style": "1993 point-and-shoot 35mm family print with direct fill flash",
+      "color_mode": "consumer_color_film",
+      "wardrobe": "ז׳קט ג׳ינס טורקיז רחב, חולצת סריג שמנת ומכנסי שזיף ישרים.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "סנטר מורם קלות",
+        "face_direction": "שלושת־רבעי ימינה",
+        "body_angle": "חזיתי",
+        "camera_height": "מעט מעל גובה העיניים",
+        "camera_distance": "צילום גוף מלא מרחוק"
+      },
+      "scene_signature": {
+        "age_band": "young_adult",
+        "action_family": "friendship",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "friend",
+        "setting_family": "city",
+        "composition_family": "group_snapshot"
+      }
+    },
+    {
+      "file": "03.png",
+      "age": 44,
+      "approx_year": 2005,
+      "scene_summary_he": "ליאורה בת 44 ואחותה הגדולה מקפלות עלי גפן במטבח דירה ותיק בנהריה; ליאורה צוחקת ומביטה אל אחותה.",
+      "setting_id": "nahariya-lived-in-sister-apartment-kitchen-2005",
+      "setting_family": "home",
+      "capture_style": "2005 compact digital-camera snapshot with built-in flash and mild small-sensor noise",
+      "color_mode": "compact_digital_color",
+      "wardrobe": "קרדיגן זית מעל חולצת כותנה לבנה.",
+      "gaze": "off_camera_left",
+      "pose_plan": {
+        "head": "מוטה מעט קדימה",
+        "face_direction": "שמאלה ולמטה",
+        "body_angle": "ישיבה בזווית שמאלה",
+        "camera_height": "גובה השולחן",
+        "camera_distance": "קלוז־מדיום מעל השולחן"
+      },
+      "scene_signature": {
+        "age_band": "midlife",
+        "action_family": "food",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "sibling",
+        "setting_family": "home",
+        "composition_family": "over_table"
+      }
+    },
+    {
+      "file": "04.png",
+      "age": 55,
+      "approx_year": 2016,
+      "scene_summary_he": "ליאורה בת 55 מציגה שקיק זרעים ליד ספריית זרעים קהילתית שאירגנה במרכז קהילתי ביקנעם.",
+      "setting_id": "yokneam-community-center-seed-library-2016",
+      "setting_family": "event",
+      "capture_style": "2016 ordinary mid-range smartphone snapshot with deep focus and neutral color",
+      "color_mode": "phone_color",
+      "wardrobe": "ז׳קט כתום־שרוף מעל חולצת פחם, מכנסי בז׳ ונעליים כהות.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "זקוף, סנטר מאוזן",
+        "face_direction": "שמאלה קלות",
+        "body_angle": "שלושת־רבעי שמאלה",
+        "camera_height": "מעט מתחת לגובה החזה",
+        "camera_distance": "גוף מלא סביבתי"
+      },
+      "scene_signature": {
+        "age_band": "mature_adult",
+        "action_family": "community",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "event",
+        "composition_family": "full_body"
+      }
+    },
+    {
+      "file": "05.png",
+      "age": 65,
+      "approx_year": 2026,
+      "scene_summary_he": "ליאורה בת 65 עוצרת עם כוס קפה ומחברת סגורה בבית קפה שכונתי בהוד השרון ומביטה למצלמת הטלפון בחיוך משועשע.",
+      "setting_id": "hod-hasharon-neighborhood-cafe-2026",
+      "setting_family": "cafe_or_restaurant",
+      "capture_style": "2026 current smartphone main-camera gallery photo with neutral color and deep focus",
+      "color_mode": "current_phone_color",
+      "wardrobe": "אוברשירט פשתן אינדיגו מעל סריג חול בהיר ומכנסי זית כהים.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "הטיה עדינה ימינה",
+        "face_direction": "שלושת־רבעי ימינה",
+        "body_angle": "כתפיים שמאלה בישיבה",
+        "camera_height": "מעט מעל גובה העיניים",
+        "camera_distance": "פורטרט ישיבה קרוב"
+      },
+      "scene_signature": {
+        "age_band": "older_adult",
+        "action_family": "quiet_portrait",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "cafe_or_restaurant",
+        "composition_family": "seated_medium"
+      }
+    }
+  ],
+  "series_arc_signature": "young_adult|craft|posed_solo|none|studio_or_workshop|standing_medium > young_adult|friendship|peer_group|friend|city|group_snapshot > midlife|food|peer_group|sibling|home|over_table > mature_adult|community|posed_solo|none|event|full_body > older_adult|quiet_portrait|posed_solo|none|cafe_or_restaurant|seated_medium",
+  "quality_gate": {
+    "identity_consistency": "passed",
+    "anatomical_aging": "passed_after_targeted_regeneration_of_frames_1_and_2",
+    "period_authenticity": "passed",
+    "eye_contact_frames": [1, 2, 4, 5],
+    "off_camera_frames": [3],
+    "supporting_people_frames": [2, 3],
+    "five_action_families": true,
+    "five_setting_families": true,
+    "head_pose_and_crop_variation": "passed",
+    "hands_teeth_objects_furniture_tools": "passed",
+    "floating_duplicate_or_impossible_objects": "none_observed",
+    "dimensions_verified": true
+  }
+}

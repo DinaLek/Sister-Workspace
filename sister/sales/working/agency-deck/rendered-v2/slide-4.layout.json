@@ -1,0 +1,87 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/gqii3e",
+    "id": "gqii3e",
+    "slide": 4,
+    "layoutId": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    }
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/lkjidgba",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        1280,
+        720
+      ],
+      "geometry": "rect",
+      "alt": "brand-services-slide.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "rect"
+      },
+      "asset": {
+        "assetId": "33b3cc98-4b71-4ecf-88a1-2d04b55d6e96",
+        "contentType": "image/png",
+        "byteLength": 650320
+      }
+    }
+  ],
+  "composeRuns": []
+}

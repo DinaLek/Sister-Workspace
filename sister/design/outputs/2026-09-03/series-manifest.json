@@ -1,0 +1,230 @@
+{
+  "schema_version": 2,
+  "series_id": "2026-09-03-bat-mitzvah-growth",
+  "scenario_id": "bat-mitzvah-growth",
+  "scenario_title_he": "ילדה גדלה עד בת מצווה",
+  "subject_category": "girl_growth",
+  "rotation_group": "child_growth",
+  "fictional_status": "fictional",
+  "real_person_reference": false,
+  "creation_date": "2026-09-03",
+  "created_at": "2026-09-03T09:07:42.4814972+03:00",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "approval_status": "pending",
+  "series_color_mode": "color",
+  "visual_profile_id": "light-medium-cool-rosy-gray-green-wide-eyes-honey-brown-s-waves-narrow-long-oval-v1",
+  "selection_reason_he": "נבחר תרחיש ילדה לפי רוטציית LRU: זו הקטגוריה שלא הופיעה מאז 18.08.2026. הסדרה הקודמת הייתה נערה ולכן נשמרת מגבלת שתי סדרות צעירות לכל היותר; בשלוש האחרונות נכללת אישה בוגרת ובחלון שש נכללת דמות בת 88.",
+  "character_bible": {
+    "name_he": "מיה ארז",
+    "identity": "ילדה ישראלית בדיונית בעלת גוון עור בהיר־בינוני בגוון בז' קריר עם תת־גוון ורדרד טבעי, פנים צרות ואובליות־ארוכות עם סנטר מרובע־רך, עיניים עגולות אפורות־ירוקות במרווח רחב עם עפעף עליון מעט כבד, אף ישר בינוני עם גשר צר וקצה מעוגל ברכות, שפה עליונה דקה ותחתונה מלאה יותר, גבות עבות בקשת רכה ושיער חום־דבש עבה בגלי S קפיציים ולא אחידים.",
+    "stable_identifying_features": [
+      "חריץ זעיר בשפה העליונה של אפרכסת האוזן הימנית",
+      "נמש בודד קטן ממש מתחת לעין השמאלית"
+    ],
+    "personality_and_mood": "סקרנית, שקולה ובעלת ביטחון שקט; האלבום יומיומי ואמין, עם הבעות טבעיות ובלי ליטוש פרסומי.",
+    "wardrobe_logic": "חמש צלליות וחמישה צבעים מובילים שונים: סינר קורדרוי חלודה בגיל 1, חלוק קרמיקה קובלט בגיל 4, ז'קט ירוק־אזמרגד ומכנסי חלודה בגיל 7, וסט קורל וחצאית־מכנס זית בגיל 10, ואוברשירט שזיף עם מכנסי אינדיגו בגיל 12.",
+    "photographic_language": "גלריית טלפון משפחתית ישראלית תואמת שנים 2015–2026, מצילום סמארטפון מוקדם בעל טווח דינמי מוגבל ועד מצלמת טלפון עכשווית בצבע ניטרלי, עומק שדה עמוק ומרקם עור טבעי.",
+    "aging_logic": "בגיל 1 גולגולת גדולה יחסית, לחיים מלאות, אמצע פנים קצר, גשר אף נמוך ולסת זעירה; בגיל 4 אמצע הפנים מתארך וגשר האף והסנטר מתחילים להתבסס; בגיל 7 מלאות הלחיים יורדת והלסת נעשית ברורה יותר; בגיל 10 האף, אמצע הפנים והסנטר מפותחים יותר והעיניים קטנות יחסית לפנים; ובגיל 12 הפנים צרות ומוארכות יותר עם גשר אף, לסת וסנטר טרום־מתבגרים תוך שמירת העיניים, השיער ושני סימני הזיהוי."
+  },
+  "supporting_people": [
+    {
+      "relationship": "parent",
+      "relationship_he": "אמא",
+      "identity_notes": "אישה ישראלית בדיונית בת 34 בשנת 2015, גוון עור בינוני־בהיר ניטרלי, פנים מוארכות, עיניים חומות ושיער חום כהה אסוף ברישול; חולצת מרווה וג'ינס כהה.",
+      "frames": [1]
+    },
+    {
+      "relationship": "friend",
+      "relationship_he": "חברה קרובה",
+      "identity_notes": "ילדה ישראלית בדיונית בת 10 בשנת 2024, גוון עור חום עמוק וחם, פנים עגולות, עיניים חומות כהות ושיער שחור בתלתלים צפופים קצרים; מעיל רוח חרדל וחצאית אינדיגו.",
+      "frames": [4]
+    }
+  ],
+  "israeli_setting_ids": [
+    "givatayim-neighborhood-library-toddler-corner-2015",
+    "kfar-saba-municipal-ceramics-studio-clay-cat-2018",
+    "ramat-hasharon-community-puppet-theatre-2021",
+    "petah-tikva-shaded-neighborhood-toy-swap-2024",
+    "acre-old-city-stone-lane-day-trip-2026"
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 1,
+      "approx_year": 2015,
+      "scene_summary_he": "מיה בת שנה ממיינת חלקי עץ גדולים בפינת פעוטות של ספרייה שכונתית בגבעתיים לצד אמה ומביטה ישירות למצלמה.",
+      "setting_id": "givatayim-neighborhood-library-toddler-corner-2015",
+      "setting_family": "work_or_study",
+      "capture_style": "2015 mid-range family smartphone snapshot with modest detail, limited dynamic range and mild compression",
+      "color_mode": "phone_color",
+      "wardrobe": "שמלת־סינר קורדרוי חלודה מעל בגד גוף שמנת וגרביים כחולים כהים.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "מוטה קלות ימינה",
+        "face_direction": "חזיתי",
+        "body_angle": "ישיבה בשלושת־רבעי שמאלה",
+        "camera_height": "גובה עיני פעוטה",
+        "camera_distance": "קלוז־מדיום בישיבה"
+      },
+      "scene_signature": {
+        "age_band": "infant",
+        "action_family": "learning",
+        "interaction_type": "caregiver_child",
+        "supporting_relationship": "parent",
+        "setting_family": "work_or_study",
+        "composition_family": "seated_medium"
+      }
+    },
+    {
+      "file": "02.png",
+      "age": 4,
+      "approx_year": 2018,
+      "scene_summary_he": "מיה בת 4 מחברת אוזניים לדמות חתול מחימר ליד שולחן עבודה בסטודיו קרמיקה עירוני בכפר סבא ומביטה מטה אל היצירה.",
+      "setting_id": "kfar-saba-municipal-ceramics-studio-clay-cat-2018",
+      "setting_family": "studio_or_workshop",
+      "capture_style": "2018 ordinary family smartphone snapshot with restrained processing and deep focus",
+      "color_mode": "phone_color",
+      "wardrobe": "חלוק כותנה קובלט מעל חולצת חרדל, טייץ פחם ונעלי בד בורדו.",
+      "gaze": "off_camera_down_left",
+      "pose_plan": {
+        "head": "מורכן עם נטייה שמאלה",
+        "face_direction": "פרופיל שמאלה ולמטה",
+        "body_angle": "עמידה כשהגוף פונה ימינה אל השולחן",
+        "camera_height": "גובה המותניים של הילדה",
+        "camera_distance": "גוף מלא"
+      },
+      "scene_signature": {
+        "age_band": "preschool",
+        "action_family": "craft",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "studio_or_workshop",
+        "composition_family": "full_body"
+      }
+    },
+    {
+      "file": "03.png",
+      "age": 7,
+      "approx_year": 2021,
+      "scene_summary_he": "מיה בת 7 מציגה בובת יד בצורת שועל אחרי חזרה בתיאטרון בובות קהילתי ברמת השרון ומביטה בגאווה למצלמה.",
+      "setting_id": "ramat-hasharon-community-puppet-theatre-2021",
+      "setting_family": "event",
+      "capture_style": "2021 ordinary family smartphone snapshot with moderate processing and mixed indoor light",
+      "color_mode": "phone_color",
+      "wardrobe": "ז'קט ירוק־אזמרגד מעל סריג לבנדר, מכנסיים רחבים בגוון חלודה ונעלי ספורט אפורות.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "זקוף והסנטר מורם מעט",
+        "face_direction": "כמעט חזיתי",
+        "body_angle": "עמידה חזיתית עם משקל על רגל שמאל",
+        "camera_height": "מעט מתחת לגובה החזה",
+        "camera_distance": "מדיום בעמידה, חיתוך מתחת לברכיים"
+      },
+      "scene_signature": {
+        "age_band": "early_childhood",
+        "action_family": "performance",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "event",
+        "composition_family": "standing_medium"
+      }
+    },
+    {
+      "file": "04.png",
+      "age": 10,
+      "approx_year": 2024,
+      "scene_summary_he": "מיה בת 10 וחברה קרובה מסיימות לסדר צעצועי עץ חלקים בדוכן החלפה קהילתי בכיכר מוצלת בפתח תקווה ומביטות ישירות למצלמה.",
+      "setting_id": "petah-tikva-shaded-neighborhood-toy-swap-2024",
+      "setting_family": "market",
+      "capture_style": "2024 smartphone main-camera group snapshot with neutral color, restrained HDR and deep focus",
+      "color_mode": "current_phone_color",
+      "wardrobe": "וסט סרוג קורל מעל חולצה תכולה, חצאית־מכנס רחבה בגוון זית ונעלי בד לבנות.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "מסובב שמאלה עם נטייה קלה שמאלה",
+        "face_direction": "שלושת־רבעי שמאלה עם קיצור פרספקטיבי ברור",
+        "body_angle": "הגוף פונה 45 מעלות ימינה מן המצלמה",
+        "camera_height": "גובה חזה של מבוגר",
+        "camera_distance": "מדיום מעל השולחן, חיתוך באזור הירכיים"
+      },
+      "scene_signature": {
+        "age_band": "preteen",
+        "action_family": "community",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "friend",
+        "setting_family": "market",
+        "composition_family": "over_table"
+      }
+    },
+    {
+      "file": "05.png",
+      "age": 12,
+      "approx_year": 2026,
+      "scene_summary_he": "מיה בת 12 עוצרת במהלך טיול משפחתי בסמטת אבן היסטורית בעכו, מסדרת את רצועת תיק היום ומסתובבת להביט למצלמת הטלפון.",
+      "setting_id": "acre-old-city-stone-lane-day-trip-2026",
+      "setting_family": "city",
+      "capture_style": "2026 current smartphone main-camera gallery photo with neutral color, natural texture and deep focus",
+      "color_mode": "current_phone_color",
+      "wardrobe": "אוברשירט קל בגוון שזיף מעל חולצת ריב חול, מכנסי אינדיגו רחבים עד הברך, סנדלי הליכה טורקיז ותיק יום פחם.",
+      "gaze": "direct_camera",
+      "pose_plan": {
+        "head": "סנטר מונמך קלות ללא הטיה לצד",
+        "face_direction": "מסתובבת לאחור אל העדשה, קרוב לחזיתי",
+        "body_angle": "הגוף פונה באלכסון ימינה במנח הליכה",
+        "camera_height": "מעט מעל גובה העיניים",
+        "camera_distance": "צילום סביבתי רחב בגוף מלא"
+      },
+      "scene_signature": {
+        "age_band": "preteen",
+        "action_family": "travel",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "city",
+        "composition_family": "environmental_wide"
+      }
+    }
+  ],
+  "series_arc_signature": "infant|learning|caregiver_child|parent|work_or_study|seated_medium > preschool|craft|solo_action|none|studio_or_workshop|full_body > early_childhood|performance|posed_solo|none|event|standing_medium > preteen|community|peer_group|friend|market|over_table > preteen|travel|posed_solo|none|city|environmental_wide",
+  "action_families": ["learning", "craft", "performance", "community", "travel"],
+  "interaction_composition_combinations": [
+    "caregiver_child|seated_medium",
+    "solo_action|full_body",
+    "posed_solo|standing_medium",
+    "peer_group|over_table",
+    "posed_solo|environmental_wide"
+  ],
+  "eye_contact_frames": [1, 3, 4, 5],
+  "off_camera_frames": [2],
+  "supporting_people_frames": [1, 4],
+  "recent_manifest_review": {
+    "available_manifest_count": 12,
+    "reviewed_dates": ["2026-08-16", "2026-08-17", "2026-08-18", "2026-08-19", "2026-08-20", "2026-08-23", "2026-08-24", "2026-08-26", "2026-08-30", "2026-08-31", "2026-09-01", "2026-09-02"],
+    "note_he": "נבדקו כל שנים־עשר המניפסטים המקומיים הזמינים. בחתימות חסרות הוסקו הפעולות, הקשרים, הפתיחה והסיום משדות הסצנה והזיכרון."
+  },
+  "diversity_note_he": "חמש משפחות פעולה, חמש משפחות לוקיישן וחמישה שילובי אינטראקציה־קומפוזיציה שונים. מול סדרת הילדה הקודמת חוזרת לכל היותר משפחת פעולה אחת; לא חזרו פתיחת צעדים ראשונים, תיק בית ספר או סיום עם שני הורים. הפתיחה בספרייה והסיום בטיול בסמטת עכו אינם חוזרים על חמש הפתיחות או הסיומים האחרונים. אין חוף, טיילת, גג או מרפסת.",
+  "character_diversity_note_he": "מיה שונה מכל הפרופילים הזמינים בלפחות ארבעה ממדים: גוון בז' קריר־ורדרד, פנים צרות ואובליות־ארוכות עם סנטר מרובע־רך, עיניים אפורות־ירוקות עגולות ורחבות, שיער חום־דבש בגלי S קפיציים ושני סימני זיהוי חדשים. לא נעשה שימוש ברפרנס זהות קודם.",
+  "capture_style": "אלבום טלפון משפחתי ישראלי תקופתי מ־2015 עד 2026, בצבע ניטרלי, עומק שדה עמוק, מסגור יומיומי מעט לא מושלם וללא טשטוש פורטרט.",
+  "color_mode": "color",
+  "quality_control": {
+    "status": "pass_after_targeted_replacement_of_frame_4",
+    "identity_continuity": "pass_shared_age_12_reference_and_stable_eye_face_hair_geometry",
+    "anatomical_aging": "pass_clear_progression_in_cheek_volume_midface_nose_bridge_jaw_chin_and_eye_ratio",
+    "era_authenticity": "pass_2015_2018_2021_2024_2026_smartphone_progression",
+    "hands_teeth_objects_furniture_tools": "pass_puzzle_pieces_library_shelves_clay_cat_hands_pottery_shelves_sink_table_puppet_seams_stage_curtain_plain_toy_truck_blocks_soft_toy_folding_table_backpack_straps_sandals_stone_arch_door",
+    "setting_variety": "pass_five_distinct_families",
+    "action_family_variety": "pass_five_distinct_families",
+    "interaction_composition_variety": "pass_five_distinct_combinations",
+    "head_pose_and_crop_variation": "pass_after_replacement_and_targeted_safe_crops",
+    "eye_contact_requirement": "pass_four_frames",
+    "supporting_people_requirement": "pass_exactly_two_frames",
+    "unwanted_text_logo_watermark": "pass_none_visible_after_frame_4_replacement",
+    "floating_duplicate_or_impossible_objects": "none_observed",
+    "dimensions_verified": true,
+    "contact_sheet_reviewed": true
+  }
+}

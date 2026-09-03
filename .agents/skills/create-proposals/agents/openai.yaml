@@ -1,0 +1,4 @@
+interface:
+  display_name: "יצירת הצעות מחיר"
+  short_description: "הפקת הצעות מחיר ממותגות ללקוחות Sister"
+  default_prompt: "Use $create-proposals to create a branded Hebrew PDF proposal for a Sister Marketing client."

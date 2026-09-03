@@ -1,0 +1,898 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/3hhjbh",
+    "id": "3hhjbh",
+    "slide": 3,
+    "layoutId": "353eb1e1-bb68-4846-921b-22708c5994ff",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "353eb1e1-bb68-4846-921b-22708c5994ff",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2pgbaxg",
+      "id": "1",
+      "bbox": [
+        48,
+        660,
+        45,
+        24
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "rgba(105, 93, 93, 0.66667)",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "rgba(105, 93, 93, 0.66667)",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 13,
+              "color": "rgba(105, 93, 93, 0.66667)",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8nyxkfe1",
+      "id": "2",
+      "bbox": [
+        940,
+        660,
+        292,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SISTER MARKETING AGENCY",
+      "textPreview": "SISTER MARKETING AGENCY",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "rgba(105, 93, 93, 0.66667)",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SISTER MARKETING AGENCY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SISTER MARKETING AGENCY",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "rgba(105, 93, 93, 0.66667)",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SISTER MARKETING AGENCY",
+              "fontSize": 12,
+              "color": "rgba(105, 93, 93, 0.66667)",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9o7ydkfm",
+      "id": "3",
+      "bbox": [
+        660,
+        55,
+        570,
+        70
+      ],
+      "geometry": "rect",
+      "text": "אותה מטרה. דרך אחרת לכל עסק",
+      "textPreview": "אותה מטרה. דרך אחרת לכל עסק",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#302929",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אותה מטרה. דרך אחרת לכל עסק"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אותה מטרה. דרך אחרת לכל עסק",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#302929",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אותה מטרה. דרך אחרת לכל עסק",
+              "fontSize": 39,
+              "color": "#302929",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/yxwfe5gz",
+      "id": "4",
+      "bbox": [
+        660,
+        124,
+        570,
+        42
+      ],
+      "geometry": "rect",
+      "text": "כי One Size Fits All לא עובד בשיווק.",
+      "textPreview": "כי One Size Fits All לא עובד בשיווק.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#695D5D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "כי One Size Fits All לא עובד בשיווק."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "כי One Size Fits All לא עובד בשיווק.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#695D5D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "כי One Size Fits All לא עובד בשיווק.",
+              "fontSize": 19,
+              "color": "#695D5D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zy5g7axk",
+      "id": "5",
+      "bbox": [
+        85,
+        210,
+        90,
+        70
+      ],
+      "geometry": "rect",
+      "text": "01",
+      "textPreview": "01",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#F0394C",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "01"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "01",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#F0394C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "01",
+              "fontSize": 38,
+              "color": "#F0394C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/0zyxgvep",
+      "id": "6",
+      "bbox": [
+        205,
+        208,
+        320,
+        42
+      ],
+      "geometry": "rect",
+      "text": "מכירות לפני רעש",
+      "textPreview": "מכירות לפני רעש",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#302929",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "מכירות לפני רעש"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "מכירות לפני רעש",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#302929",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "מכירות לפני רעש",
+              "fontSize": 25,
+              "color": "#302929",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l07y90fa",
+      "id": "7",
+      "bbox": [
+        205,
+        252,
+        840,
+        55
+      ],
+      "geometry": "rect",
+      "text": "מתחילות במה שהעסק צריך להשיג, ורק אז בוחרות ערוצים ותוכן.",
+      "textPreview": "מתחילות במה שהעסק צריך להשיג, ורק אז בוחרות ערוצים ותוכן.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#695D5D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "מתחילות במה שהעסק צריך להשיג, ורק אז בוחרות ערוצים ותוכן."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "מתחילות במה שהעסק צריך להשיג, ורק אז בוחרות ערוצים ותוכן.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#695D5D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "מתחילות במה שהעסק צריך להשיג, ורק אז בוחרות ערוצים ותוכן.",
+              "fontSize": 19,
+              "color": "#695D5D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtwfalgn",
+      "id": "8",
+      "bbox": [
+        85,
+        345,
+        90,
+        70
+      ],
+      "geometry": "rect",
+      "text": "02",
+      "textPreview": "02",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#F68B59",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "02"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "02",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#F68B59",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "02",
+              "fontSize": 38,
+              "color": "#F68B59",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bu5g3qx8",
+      "id": "9",
+      "bbox": [
+        205,
+        343,
+        320,
+        42
+      ],
+      "geometry": "rect",
+      "text": "קריאייטיב עם הקשר",
+      "textPreview": "קריאייטיב עם הקשר",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#302929",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "קריאייטיב עם הקשר"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "קריאייטיב עם הקשר",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#302929",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "קריאייטיב עם הקשר",
+              "fontSize": 25,
+              "color": "#302929",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vut43ydo",
+      "id": "10",
+      "bbox": [
+        205,
+        387,
+        840,
+        55
+      ],
+      "geometry": "rect",
+      "text": "כל פוסט, מודעה ודף נחיתה הם חלק מאותו סיפור.",
+      "textPreview": "כל פוסט, מודעה ודף נחיתה הם חלק מאותו סיפור.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#695D5D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "כל פוסט, מודעה ודף נחיתה הם חלק מאותו סיפור."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "כל פוסט, מודעה ודף נחיתה הם חלק מאותו סיפור.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#695D5D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "כל פוסט, מודעה ודף נחיתה הם חלק מאותו סיפור.",
+              "fontSize": 19,
+              "color": "#695D5D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/atk3adw3",
+      "id": "11",
+      "bbox": [
+        85,
+        480,
+        90,
+        70
+      ],
+      "geometry": "rect",
+      "text": "03",
+      "textPreview": "03",
+      "resolvedFontSize": 38,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 38,
+        "typeface": "+mn-lt",
+        "color": "#F0394C",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "03"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "03",
+          "resolvedTextStyle": {
+            "fontSize": 38,
+            "color": "#F0394C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "03",
+              "fontSize": 38,
+              "color": "#F0394C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwbm58vu",
+      "id": "12",
+      "bbox": [
+        205,
+        478,
+        320,
+        42
+      ],
+      "geometry": "rect",
+      "text": "אנשים + AI",
+      "textPreview": "אנשים + AI",
+      "resolvedFontSize": 25,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 25,
+        "typeface": "+mn-lt",
+        "color": "#302929",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אנשים + AI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אנשים + AI",
+          "resolvedTextStyle": {
+            "fontSize": 25,
+            "color": "#302929",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אנשים + AI",
+              "fontSize": 25,
+              "color": "#302929",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wv2lc3e9",
+      "id": "13",
+      "bbox": [
+        205,
+        522,
+        840,
+        55
+      ],
+      "geometry": "rect",
+      "text": "ידיים של אדם, קצב ועוצמה של טכנולוגיה.",
+      "textPreview": "ידיים של אדם, קצב ועוצמה של טכנולוגיה.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#695D5D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ידיים של אדם, קצב ועוצמה של טכנולוגיה."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ידיים של אדם, קצב ועוצמה של טכנולוגיה.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#695D5D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ידיים של אדם, קצב ועוצמה של טכנולוגיה.",
+              "fontSize": 19,
+              "color": "#695D5D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

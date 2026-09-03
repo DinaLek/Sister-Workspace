@@ -1,0 +1,1064 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/898t7h",
+    "id": "898t7h",
+    "slide": 7,
+    "layoutId": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "1be512c0-b481-4682-bfe1-28098c2ad476",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/md83ahkv",
+      "id": "1",
+      "bbox": [
+        560,
+        54,
+        650,
+        65
+      ],
+      "geometry": "rect",
+      "text": "אתרים ודפי נחיתה שבנינו",
+      "textPreview": "אתרים ודפי נחיתה שבנינו",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אתרים ודפי נחיתה שבנינו"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אתרים ודפי נחיתה שבנינו",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אתרים ודפי נחיתה שבנינו",
+              "fontSize": 39,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/9gz2lcjm",
+      "id": "2",
+      "bbox": [
+        560,
+        119,
+        650,
+        47
+      ],
+      "geometry": "rect",
+      "text": "האפיון, הקופי והעיצוב מתחברים לעמוד שקל להבין ונעים להתקדם בו.",
+      "textPreview": "האפיון, הקופי והעיצוב מתחברים לעמוד שקל להבין ונעים להתקדם בו.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#7B7474",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "האפיון, הקופי והעיצוב מתחברים לעמוד שקל להבין ונעים להתקדם בו."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "האפיון, הקופי והעיצוב מתחברים לעמוד שקל להבין ונעים להתקדם בו.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#7B7474",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "האפיון, הקופי והעיצוב מתחברים לעמוד שקל להבין ונעים להתקדם בו.",
+              "fontSize": 19,
+              "color": "#7B7474",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ofqlc721",
+      "id": "3",
+      "bbox": [
+        70,
+        54,
+        155,
+        3
+      ],
+      "geometry": "rect",
+      "fillColor": "#F40C64",
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vihknm1c",
+      "id": "4",
+      "bbox": [
+        72,
+        650,
+        42,
+        24
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "#A59B9B",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "#A59B9B",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 12,
+              "color": "#A59B9B",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ah83ehkr",
+      "id": "5",
+      "bbox": [
+        902,
+        650,
+        308,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SISTER MARKETING AGENCY",
+      "textPreview": "SISTER MARKETING AGENCY",
+      "resolvedFontSize": 11,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 11,
+        "typeface": "+mn-lt",
+        "color": "#A59B9B",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SISTER MARKETING AGENCY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SISTER MARKETING AGENCY",
+          "resolvedTextStyle": {
+            "fontSize": 11,
+            "color": "#A59B9B",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SISTER MARKETING AGENCY",
+              "fontSize": 11,
+              "color": "#A59B9B",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x4j2pwji",
+      "id": "6",
+      "bbox": [
+        58,
+        190,
+        380,
+        410
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#F9D9E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/w3qlgr2x",
+      "id": "7",
+      "bbox": [
+        72,
+        205,
+        352,
+        236
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F4F4F4",
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rmxkbi18",
+      "id": "8",
+      "bbox": [
+        88,
+        215,
+        7,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FF6F61",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qloj2xkn",
+      "id": "9",
+      "bbox": [
+        102,
+        215,
+        7,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FA8B5C",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/orehcfed",
+      "id": "10",
+      "bbox": [
+        116,
+        215,
+        7,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F40C64",
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ud8rehsj",
+      "id": "11",
+      "bbox": [
+        72,
+        229,
+        352,
+        212
+      ],
+      "geometry": "roundRect",
+      "alt": "site-fadlon.png",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5660"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "bbb8a588-2f74-4f26-a6ff-6442912354e1",
+        "contentType": "image/jpeg",
+        "byteLength": 29881
+      }
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/25wza5g7",
+      "id": "12",
+      "bbox": [
+        82,
+        466,
+        332,
+        50
+      ],
+      "geometry": "rect",
+      "text": "אתר קבוצת פדלון",
+      "textPreview": "אתר קבוצת פדלון",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אתר קבוצת פדלון"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אתר קבוצת פדלון",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אתר קבוצת פדלון",
+              "fontSize": 21,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3q503axs",
+      "id": "13",
+      "bbox": [
+        82,
+        526,
+        332,
+        30
+      ],
+      "geometry": "rect",
+      "text": "fadlon.co.il",
+      "textPreview": "fadlon.co.il",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#F40C64",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "fadlon.co.il"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "fadlon.co.il",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#F40C64",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "fadlon.co.il",
+              "fontSize": 15,
+              "color": "#F40C64",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cvehgzep",
+      "id": "14",
+      "bbox": [
+        466,
+        190,
+        380,
+        410
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#F9D9E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/dw7i9kfa",
+      "id": "15",
+      "bbox": [
+        480,
+        205,
+        352,
+        236
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F4F4F4",
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/qtwzepwj",
+      "id": "16",
+      "bbox": [
+        496,
+        215,
+        7,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FF6F61",
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bu507ux4",
+      "id": "17",
+      "bbox": [
+        510,
+        215,
+        7,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FA8B5C",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/szuh4vy5",
+      "id": "18",
+      "bbox": [
+        524,
+        215,
+        7,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F40C64",
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/q5sbm1sr",
+      "id": "19",
+      "bbox": [
+        480,
+        229,
+        352,
+        212
+      ],
+      "geometry": "roundRect",
+      "alt": "site-olam.png",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5660"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "75ec1421-ae95-4310-8c71-cdd75e4b0b65",
+        "contentType": "image/jpeg",
+        "byteLength": 88207
+      }
+    },
+    {
+      "order": 20,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twve1w7u",
+      "id": "20",
+      "bbox": [
+        490,
+        466,
+        332,
+        50
+      ],
+      "geometry": "rect",
+      "text": "דף הנחיתה של עולם ומלואה",
+      "textPreview": "דף הנחיתה של עולם ומלואה",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "דף הנחיתה של עולם ומלואה"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "דף הנחיתה של עולם ומלואה",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "דף הנחיתה של עולם ומלואה",
+              "fontSize": 21,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 21,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/8vmx8rq9",
+      "id": "21",
+      "bbox": [
+        490,
+        526,
+        332,
+        30
+      ],
+      "geometry": "rect",
+      "text": "lp.olamumloa.co.il",
+      "textPreview": "lp.olamumloa.co.il",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#F40C64",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "lp.olamumloa.co.il"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "lp.olamumloa.co.il",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#F40C64",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "lp.olamumloa.co.il",
+              "fontSize": 15,
+              "color": "#F40C64",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 22,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7udwzmpo",
+      "id": "22",
+      "bbox": [
+        874,
+        190,
+        380,
+        410
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineColor": "#F9D9E2",
+      "lineWidth": 1
+    },
+    {
+      "order": 23,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mt4f6h83",
+      "id": "23",
+      "bbox": [
+        888,
+        205,
+        352,
+        236
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F4F4F4",
+      "lineWidth": 0
+    },
+    {
+      "order": 24,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hkvy5w7q",
+      "id": "24",
+      "bbox": [
+        904,
+        215,
+        7,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FF6F61",
+      "lineWidth": 0
+    },
+    {
+      "order": 25,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/gjmxcrq5",
+      "id": "25",
+      "bbox": [
+        918,
+        215,
+        7,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FA8B5C",
+      "lineWidth": 0
+    },
+    {
+      "order": 26,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vydw3mpk",
+      "id": "26",
+      "bbox": [
+        932,
+        215,
+        7,
+        7
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F40C64",
+      "lineWidth": 0
+    },
+    {
+      "order": 27,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/xs7etkvm",
+      "id": "27",
+      "bbox": [
+        888,
+        229,
+        352,
+        212
+      ],
+      "geometry": "roundRect",
+      "alt": "site-career.png",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5660"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "abc527ee-aa12-4dd5-9c16-bb3c6209816b",
+        "contentType": "image/jpeg",
+        "byteLength": 82839
+      }
+    },
+    {
+      "order": 28,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/5ofy9g7m",
+      "id": "28",
+      "bbox": [
+        898,
+        466,
+        332,
+        50
+      ],
+      "geometry": "rect",
+      "text": "עמוד הקריירה של שפונדר פדלון",
+      "textPreview": "עמוד הקריירה של שפונדר פדלון",
+      "resolvedFontSize": 21,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 21,
+        "typeface": "+mn-lt",
+        "color": "#474747",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "עמוד הקריירה של שפונדר פדלון"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "עמוד הקריירה של שפונדר פדלון",
+          "resolvedTextStyle": {
+            "fontSize": 21,
+            "color": "#474747",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "עמוד הקריירה של שפונדר פדלון",
+              "fontSize": 21,
+              "color": "#474747",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 29,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4n6xgbqh",
+      "id": "29",
+      "bbox": [
+        898,
+        526,
+        332,
+        30
+      ],
+      "geometry": "rect",
+      "text": "sf-group.co.il/career",
+      "textPreview": "sf-group.co.il/career",
+      "resolvedFontSize": 15,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 15,
+        "typeface": "+mn-lt",
+        "color": "#F40C64",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "sf-group.co.il/career"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "sf-group.co.il/career",
+          "resolvedTextStyle": {
+            "fontSize": 15,
+            "color": "#F40C64",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "sf-group.co.il/career",
+              "fontSize": 15,
+              "color": "#F40C64",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

@@ -1,0 +1,1037 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/ga1j4x",
+    "id": "ga1j4x",
+    "slide": 4,
+    "layoutId": "353eb1e1-bb68-4846-921b-22708c5994ff",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#302929",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "353eb1e1-bb68-4846-921b-22708c5994ff",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/j6d0jm98",
+      "id": "1",
+      "bbox": [
+        48,
+        660,
+        45,
+        24
+      ],
+      "geometry": "rect",
+      "text": "04",
+      "textPreview": "04",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.66667)",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "04"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "04",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "rgba(255, 255, 255, 0.66667)",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "04",
+              "fontSize": 13,
+              "color": "rgba(255, 255, 255, 0.66667)",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/47mhcrqt",
+      "id": "2",
+      "bbox": [
+        940,
+        660,
+        292,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SISTER MARKETING AGENCY",
+      "textPreview": "SISTER MARKETING AGENCY",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.66667)",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SISTER MARKETING AGENCY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SISTER MARKETING AGENCY",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "rgba(255, 255, 255, 0.66667)",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SISTER MARKETING AGENCY",
+              "fontSize": 12,
+              "color": "rgba(255, 255, 255, 0.66667)",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/58vilwre",
+      "id": "3",
+      "bbox": [
+        660,
+        55,
+        570,
+        70
+      ],
+      "geometry": "rect",
+      "text": "מעטפת אחת. פחות קצוות פתוחים.",
+      "textPreview": "מעטפת אחת. פחות קצוות פתוחים.",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "מעטפת אחת. פחות קצוות פתוחים."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "מעטפת אחת. פחות קצוות פתוחים.",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "מעטפת אחת. פחות קצוות פתוחים.",
+              "fontSize": 39,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/uhkz6x8b",
+      "id": "4",
+      "bbox": [
+        660,
+        124,
+        570,
+        42
+      ],
+      "geometry": "rect",
+      "text": "אנחנו מחברות בין התוכן, המדיה והנכסים הדיגיטליים.",
+      "textPreview": "אנחנו מחברות בין התוכן, המדיה והנכסים הדיגיטליים.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.8)",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אנחנו מחברות בין התוכן, המדיה והנכסים הדיגיטליים."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אנחנו מחברות בין התוכן, המדיה והנכסים הדיגיטליים.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "rgba(255, 255, 255, 0.8)",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אנחנו מחברות בין התוכן, המדיה והנכסים הדיגיטליים.",
+              "fontSize": 19,
+              "color": "rgba(255, 255, 255, 0.8)",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vitgf29w",
+      "id": "5",
+      "bbox": [
+        90,
+        206,
+        1090,
+        64
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F0394C",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wj2h87qh",
+      "id": "6",
+      "bbox": [
+        820,
+        211,
+        315,
+        52
+      ],
+      "geometry": "rect",
+      "text": "ניהול סושיאל",
+      "textPreview": "ניהול סושיאל",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ניהול סושיאל"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ניהול סושיאל",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ניהול סושיאל",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/hkbihcr2",
+      "id": "7",
+      "bbox": [
+        140,
+        211,
+        620,
+        52
+      ],
+      "geometry": "rect",
+      "text": "אסטרטגיה, תוכן, עיצוב, רילס ופרסום",
+      "textPreview": "אסטרטגיה, תוכן, עיצוב, רילס ופרסום",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.83922)",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אסטרטגיה, תוכן, עיצוב, רילס ופרסום"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אסטרטגיה, תוכן, עיצוב, רילס ופרסום",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "rgba(255, 255, 255, 0.83922)",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אסטרטגיה, תוכן, עיצוב, רילס ופרסום",
+              "fontSize": 18,
+              "color": "rgba(255, 255, 255, 0.83922)",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/md0z2xsf",
+      "id": "8",
+      "bbox": [
+        90,
+        288,
+        1090,
+        64
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F68B59",
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/7e9gb290",
+      "id": "9",
+      "bbox": [
+        820,
+        293,
+        315,
+        52
+      ],
+      "geometry": "rect",
+      "text": "ניהול קמפיינים",
+      "textPreview": "ניהול קמפיינים",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ניהול קמפיינים"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ניהול קמפיינים",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ניהול קמפיינים",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/baxcfqlo",
+      "id": "10",
+      "bbox": [
+        140,
+        293,
+        620,
+        52
+      ],
+      "geometry": "rect",
+      "text": "Meta, Google, קופי, אופטימיזציה ומעקב",
+      "textPreview": "Meta, Google, קופי, אופטימיזציה ומעקב",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.83922)",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "Meta, Google, קופי, אופטימיזציה ומעקב"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Meta, Google, קופי, אופטימיזציה ומעקב",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "rgba(255, 255, 255, 0.83922)",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Meta, Google, קופי, אופטימיזציה ומעקב",
+              "fontSize": 18,
+              "color": "rgba(255, 255, 255, 0.83922)",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a9ob65kj",
+      "id": "11",
+      "bbox": [
+        90,
+        370,
+        1090,
+        64
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#453C3C",
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xcfuh0ju",
+      "id": "12",
+      "bbox": [
+        820,
+        375,
+        315,
+        52
+      ],
+      "geometry": "rect",
+      "text": "ימי צילום",
+      "textPreview": "ימי צילום",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ימי צילום"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ימי צילום",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ימי צילום",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wb6t8v29",
+      "id": "13",
+      "bbox": [
+        140,
+        375,
+        620,
+        52
+      ],
+      "geometry": "rect",
+      "text": "תכנון, תסריטים והפקת תוכן שוטף",
+      "textPreview": "תכנון, תסריטים והפקת תוכן שוטף",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.83922)",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "תכנון, תסריטים והפקת תוכן שוטף"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "תכנון, תסריטים והפקת תוכן שוטף",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "rgba(255, 255, 255, 0.83922)",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "תכנון, תסריטים והפקת תוכן שוטף",
+              "fontSize": 18,
+              "color": "rgba(255, 255, 255, 0.83922)",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/jehcja10",
+      "id": "14",
+      "bbox": [
+        90,
+        452,
+        1090,
+        64
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#453C3C",
+      "lineWidth": 0
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/ydoba5kf",
+      "id": "15",
+      "bbox": [
+        820,
+        457,
+        315,
+        52
+      ],
+      "geometry": "rect",
+      "text": "תוכן באמצעות AI",
+      "textPreview": "תוכן באמצעות AI",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "תוכן באמצעות AI"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "תוכן באמצעות AI",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "תוכן באמצעות AI",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/l0zulkj6",
+      "id": "16",
+      "bbox": [
+        140,
+        457,
+        620,
+        52
+      ],
+      "geometry": "rect",
+      "text": "וידאו ותוצרים שמרחיבים את האפשרויות",
+      "textPreview": "וידאו ותוצרים שמרחיבים את האפשרויות",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.83922)",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "וידאו ותוצרים שמרחיבים את האפשרויות"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "וידאו ותוצרים שמרחיבים את האפשרויות",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "rgba(255, 255, 255, 0.83922)",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "וידאו ותוצרים שמרחיבים את האפשרויות",
+              "fontSize": 18,
+              "color": "rgba(255, 255, 255, 0.83922)",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 17,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/kzqtcf2l",
+      "id": "17",
+      "bbox": [
+        90,
+        534,
+        1090,
+        64
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#453C3C",
+      "lineWidth": 0
+    },
+    {
+      "order": 18,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/zidc76lw",
+      "id": "18",
+      "bbox": [
+        820,
+        539,
+        315,
+        52
+      ],
+      "geometry": "rect",
+      "text": "דפי נחיתה ואתרים",
+      "textPreview": "דפי נחיתה ואתרים",
+      "resolvedFontSize": 23,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 23,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "דפי נחיתה ואתרים"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "דפי נחיתה ואתרים",
+          "resolvedTextStyle": {
+            "fontSize": 23,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "דפי נחיתה ואתרים",
+              "fontSize": 23,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 19,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/eh4bylkb",
+      "id": "19",
+      "bbox": [
+        140,
+        539,
+        620,
+        52
+      ],
+      "geometry": "rect",
+      "text": "אפיון, קופי, עיצוב ופיתוח",
+      "textPreview": "אפיון, קופי, עיצוב ופיתוח",
+      "resolvedFontSize": 18,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 18,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.83922)",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אפיון, קופי, עיצוב ופיתוח"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אפיון, קופי, עיצוב ופיתוח",
+          "resolvedTextStyle": {
+            "fontSize": 18,
+            "color": "rgba(255, 255, 255, 0.83922)",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אפיון, קופי, עיצוב ופיתוח",
+              "fontSize": 18,
+              "color": "rgba(255, 255, 255, 0.83922)",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

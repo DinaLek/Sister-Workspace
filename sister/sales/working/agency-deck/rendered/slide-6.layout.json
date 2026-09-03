@@ -1,0 +1,446 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/0p442w",
+    "id": "0p442w",
+    "slide": 6,
+    "layoutId": "353eb1e1-bb68-4846-921b-22708c5994ff",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFFFFF",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "353eb1e1-bb68-4846-921b-22708c5994ff",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/vyt8ju1g",
+      "id": "1",
+      "bbox": [
+        48,
+        660,
+        45,
+        24
+      ],
+      "geometry": "rect",
+      "text": "06",
+      "textPreview": "06",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "rgba(105, 93, 93, 0.66667)",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "06"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "06",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "rgba(105, 93, 93, 0.66667)",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "06",
+              "fontSize": 13,
+              "color": "rgba(105, 93, 93, 0.66667)",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/wz2psz2l",
+      "id": "2",
+      "bbox": [
+        940,
+        660,
+        292,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SISTER MARKETING AGENCY",
+      "textPreview": "SISTER MARKETING AGENCY",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "rgba(105, 93, 93, 0.66667)",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SISTER MARKETING AGENCY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SISTER MARKETING AGENCY",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "rgba(105, 93, 93, 0.66667)",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SISTER MARKETING AGENCY",
+              "fontSize": 12,
+              "color": "rgba(105, 93, 93, 0.66667)",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/x0bql4j6",
+      "id": "3",
+      "bbox": [
+        660,
+        55,
+        570,
+        70
+      ],
+      "geometry": "rect",
+      "text": "קריאייטיב שמכבד את המותג וגם מוכר",
+      "textPreview": "קריאייטיב שמכבד את המותג וגם מוכר",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#302929",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "קריאייטיב שמכבד את המותג וגם מוכר"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "קריאייטיב שמכבד את המותג וגם מוכר",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#302929",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "קריאייטיב שמכבד את המותג וגם מוכר",
+              "fontSize": 39,
+              "color": "#302929",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/mt07mpkj",
+      "id": "4",
+      "bbox": [
+        660,
+        124,
+        570,
+        42
+      ],
+      "geometry": "rect",
+      "text": "טעימה מעבודות קמפיין. הדוגמאות כאן מעולמות הנדל״ן.",
+      "textPreview": "טעימה מעבודות קמפיין. הדוגמאות כאן מעולמות הנדל״ן.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#695D5D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "טעימה מעבודות קמפיין. הדוגמאות כאן מעולמות הנדל״ן."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "טעימה מעבודות קמפיין. הדוגמאות כאן מעולמות הנדל״ן.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#695D5D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "טעימה מעבודות קמפיין. הדוגמאות כאן מעולמות הנדל״ן.",
+              "fontSize": 19,
+              "color": "#695D5D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/2lkrqd0j",
+      "id": "5",
+      "bbox": [
+        74,
+        205,
+        250,
+        390
+      ],
+      "geometry": "roundRect",
+      "alt": "banner-blend.jpg",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 4800"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "185688e8-d3f1-454a-9e1a-045dd71f69d7",
+        "contentType": "image/jpeg",
+        "byteLength": 362622
+      }
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/pobql8zu",
+      "id": "6",
+      "bbox": [
+        361,
+        205,
+        250,
+        390
+      ],
+      "geometry": "roundRect",
+      "alt": "banner-tarsat.jpg",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 4800"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "b471bf1f-238e-40e8-97b2-a501aa339c6c",
+        "contentType": "image/jpeg",
+        "byteLength": 305868
+      }
+    },
+    {
+      "order": 7,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/4n29s3i9",
+      "id": "7",
+      "bbox": [
+        648,
+        205,
+        250,
+        390
+      ],
+      "geometry": "roundRect",
+      "alt": "banner-heart.jpg",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 4800"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "39547a75-1338-4fcd-9982-90901ae148da",
+        "contentType": "image/jpeg",
+        "byteLength": 239460
+      }
+    },
+    {
+      "order": 8,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/rqt8nih0",
+      "id": "8",
+      "bbox": [
+        935,
+        205,
+        250,
+        390
+      ],
+      "geometry": "roundRect",
+      "alt": "banner-sharon.jpg",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 4800"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "f1b19001-9263-4d02-8f71-1c94773697ff",
+        "contentType": "image/jpeg",
+        "byteLength": 309621
+      }
+    }
+  ],
+  "composeRuns": []
+}

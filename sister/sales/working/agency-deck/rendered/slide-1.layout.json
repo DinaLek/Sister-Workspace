@@ -1,0 +1,345 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/1t1hf1",
+    "id": "1t1hf1",
+    "slide": 1,
+    "layoutId": "353eb1e1-bb68-4846-921b-22708c5994ff",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#302929",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "353eb1e1-bb68-4846-921b-22708c5994ff",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p8v2dkrq",
+      "id": "1",
+      "bbox": [
+        0,
+        0,
+        470,
+        720
+      ],
+      "geometry": "rect",
+      "fillColor": "#F0394C",
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/254jip8z",
+      "id": "2",
+      "bbox": [
+        370,
+        -120,
+        360,
+        880
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#F68B59",
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/65sfih8n",
+      "id": "3",
+      "bbox": [
+        770,
+        88,
+        390,
+        155
+      ],
+      "geometry": "roundRect",
+      "alt": "LOGO LIGHT@3000x.png",
+      "contentType": "image/png",
+      "imageFit": "contain",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 7742"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "28f25618-ff12-4a17-9d26-6ccf6adb35c6",
+        "contentType": "image/png",
+        "byteLength": 199822
+      }
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cbm1ozq1",
+      "id": "4",
+      "bbox": [
+        600,
+        270,
+        560,
+        160
+      ],
+      "geometry": "rect",
+      "text": "השיווק שלכם.\nעם מישהי שבאמת אכפת לה.",
+      "textPreview": "השיווק שלכם. | עם מישהי שבאמת אכפת לה.",
+      "resolvedFontSize": 44,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 44,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 2,
+        "lines": [
+          {
+            "index": 1,
+            "text": "השיווק שלכם."
+          },
+          {
+            "index": 2,
+            "text": "עם מישהי שבאמת אכפת לה."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "השיווק שלכם.",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "השיווק שלכם.",
+              "fontSize": 44,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        },
+        {
+          "index": 2,
+          "text": "עם מישהי שבאמת אכפת לה.",
+          "resolvedTextStyle": {
+            "fontSize": 44,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "עם מישהי שבאמת אכפת לה.",
+              "fontSize": 44,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xwf2h4rm",
+      "id": "5",
+      "bbox": [
+        650,
+        475,
+        510,
+        38
+      ],
+      "geometry": "rect",
+      "text": "סושיאל  |  קמפיינים  |  תוכן  |  דיגיטל",
+      "textPreview": "סושיאל  |  קמפיינים  |  תוכן  |  דיגיטל",
+      "resolvedFontSize": 20,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 20,
+        "typeface": "+mn-lt",
+        "color": "rgba(255, 255, 255, 0.85098)",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "סושיאל  |  קמפיינים  |  תוכן  |  דיגיטל"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "סושיאל  |  קמפיינים  |  תוכן  |  דיגיטל",
+          "resolvedTextStyle": {
+            "fontSize": 20,
+            "color": "rgba(255, 255, 255, 0.85098)",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "סושיאל  |  קמפיינים  |  תוכן  |  דיגיטל",
+              "fontSize": 20,
+              "color": "rgba(255, 255, 255, 0.85098)",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/a94jmp8b",
+      "id": "6",
+      "bbox": [
+        650,
+        570,
+        510,
+        38
+      ],
+      "geometry": "rect",
+      "text": "EVERYONE NEEDS A S!STER",
+      "textPreview": "EVERYONE NEEDS A S!STER",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#FFFFFF",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "EVERYONE NEEDS A S!STER"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "EVERYONE NEEDS A S!STER",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#FFFFFF",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "EVERYONE NEEDS A S!STER",
+              "fontSize": 22,
+              "color": "#FFFFFF",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}

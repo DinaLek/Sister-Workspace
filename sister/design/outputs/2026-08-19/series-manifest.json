@@ -1,0 +1,189 @@
+{
+  "scenario_id": "grandfather-legacy-85",
+  "scenario_title_he": "סיפור חיים של סבא בן 85 — מארכיון ועד היום",
+  "subject_category": "very_old_man",
+  "rotation_group": "very_old_legacy",
+  "series_id": "2026-08-19-grandfather-legacy-85",
+  "creation_date": "2026-08-19",
+  "fictional_status": "fictional",
+  "real_person_reference_used": false,
+  "living_status_neutral": true,
+  "memorial_compatible": true,
+  "visual_profile_id": "medium-olive-gray-green-eyes-dark-auburn-curls-diamond-face-v1",
+  "character_bible": {
+    "identity": "גבר ישראלי בדיוני בעל גוון עור זית בינוני וחם, פנים רחבות בצורת יהלום ועצמות לחיים גבוהות, עיניים אפורות־ירקרקות עם עפעף עליון מעט מכוסה, שיער חום־אדמדם כהה ומתולתל בצפיפות המאפיר בהדרגה, גבות עבות וישרות, אף רחב וישר עם נטייה עדינה שמאלה, שפה תחתונה מלאה יותר ולסת מרובעת־מעוגלת.",
+    "stable_identifying_features": [
+      "צלקת אנכית קצרה ועדינה בצד הימני של הסנטר",
+      "שקע קטן בתנוך האוזן השמאלית"
+    ],
+    "personality_and_mood": "מתבונן, רגוע ובעל הומור יבש; סיפור חיים פעיל, חם ואמין מתוך אלבום משפחתי.",
+    "wardrobe_logic": "חמש צלליות וצבעים שונים התואמים לתקופות 1949–2026: חולצת ילד בהירה ומכנסיים קצרים, חולצה ירוקה־מרווה ומכנסיים מחויטים, חולצה משובצת אוקר־נייבי, וסט טורקיז ובגדי גינון, וקרדיגן בורדו עם חולצה תכולה.",
+    "photographic_language": "התקדמות משתי תמונות שחור־לבן תקופתיות, דרך פילם צבעוני צרכני ומצלמה דיגיטלית קומפקטית, ועד צילום טלפון טבעי בעומק שדה עמוק.",
+    "aging_logic": "התבגרות אנטומית הדרגתית: ירידה במלאות הלחיים, הארכת מרכז הפנים, התפתחות גשר האף והלסת, ובהמשך אובדן נפח, קווי עין והבעה, ריכוך קו הלסת והצוואר, שיער מאפיר ומלבין ומרקם עור תואם גיל."
+  },
+  "supporting_people": [
+    {
+      "relationship": "sibling",
+      "relationship_he": "אחות גדולה",
+      "identity_notes": "אחות בדיונית בת 11 בשנת 1949, גוון עור בהיר־חם, פנים עגולות, עיניים כהות ושיער כהה גלי בשתי צמות.",
+      "frames": [1]
+    },
+    {
+      "relationship": "friend",
+      "relationship_he": "חבר ותיק",
+      "identity_notes": "חבר בדיוני בן 83 בשנת 2026, גוון עור חום עמוק וחם, פנים מלבניות, עיניים חומות כהות ושיער לבן קצר ובעל מרקם.",
+      "frames": [5]
+    }
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 8,
+      "approx_year": 1949,
+      "scene_summary_he": "משייף סביבון עץ בעבודת יד לצד אחותו בחצר משותפת של בית ותיק בפתח תקווה.",
+      "setting_id": "petah-tikva-shared-apartment-courtyard-1949",
+      "setting_family": "home",
+      "capture_style": "1949 black-and-white consumer family print scan",
+      "color_mode": "black_and_white",
+      "wardrobe": "חולצת כפתורים בהירה עם שרוול קצר, מכנסיים כהים בגזרה גבוהה וסנדלים חומים",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "early_childhood",
+        "action_family": "craft",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "sibling",
+        "setting_family": "home",
+        "composition_family": "over_table"
+      }
+    },
+    {
+      "file": "02.png",
+      "age": 22,
+      "approx_year": 1963,
+      "scene_summary_he": "מצטלם בחדר מוזיקה של מרכז קהילתי בגבעתיים לאחר חזרה, ללא אקורדיון או כלי נגינה.",
+      "setting_id": "givatayim-community-center-music-room-1963",
+      "setting_family": "studio_or_workshop",
+      "capture_style": "1963 black-and-white 35mm family snapshot",
+      "color_mode": "black_and_white",
+      "wardrobe": "חולצת כותנה ירוקה־מרווה עם שרוולים מקופלים, מכנסיים מחויטים בגוון פחם וחגורה צרה",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "young_adult",
+        "action_family": "quiet_portrait",
+        "interaction_type": "posed_solo",
+        "supporting_relationship": "none",
+        "setting_family": "studio_or_workshop",
+        "composition_family": "standing_medium"
+      }
+    },
+    {
+      "file": "03.png",
+      "age": 42,
+      "approx_year": 1983,
+      "scene_summary_he": "מוזג תה מתרמוס בפיקניק ביער בן שמן וצוחק אל מישהו מחוץ לפריים.",
+      "setting_id": "ben-shemen-pine-forest-picnic-area-1983",
+      "setting_family": "nature",
+      "capture_style": "1983 consumer color-negative family print",
+      "color_mode": "consumer_color_film",
+      "wardrobe": "חולצה משובצת אוקר־נייבי, מכנסיים חומים ונעלי בד",
+      "gaze": "off_camera_left",
+      "scene_signature": {
+        "age_band": "midlife",
+        "action_family": "food",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "nature",
+        "composition_family": "seated_medium"
+      }
+    },
+    {
+      "file": "04.png",
+      "age": 65,
+      "approx_year": 2006,
+      "scene_summary_he": "קושר שתיל הדרים למוט תמיכה בגינה קהילתית בקריית אונו.",
+      "setting_id": "kiryat-ono-community-garden-citrus-sapling-2006",
+      "setting_family": "park",
+      "capture_style": "2006 compact digital-camera snapshot",
+      "color_mode": "compact_digital_color",
+      "wardrobe": "וסט טורקיז מעל חולצת שמנת, מכנסי זית, כפפות גינון ונעלי הליכה כהות",
+      "gaze": "off_camera_down_right",
+      "scene_signature": {
+        "age_band": "mature_adult",
+        "action_family": "community",
+        "interaction_type": "solo_action",
+        "supporting_relationship": "none",
+        "setting_family": "park",
+        "composition_family": "moving_action"
+      }
+    },
+    {
+      "file": "05.png",
+      "age": 85,
+      "approx_year": 2026,
+      "scene_summary_he": "צוחק אל המצלמה במהלך משחק שש־בש עם חבר ותיק בבית קפה שכונתי בחולון.",
+      "setting_id": "holon-neighborhood-cafe-backgammon-friends-2026",
+      "setting_family": "cafe_or_restaurant",
+      "capture_style": "2026 ordinary smartphone main-camera snapshot",
+      "color_mode": "current_phone_color",
+      "wardrobe": "קרדיגן סרוג בורדו, חולצת כפתורים תכולה ומכנסיים בגוון פחם",
+      "gaze": "direct_camera",
+      "scene_signature": {
+        "age_band": "older_adult",
+        "action_family": "friendship",
+        "interaction_type": "peer_group",
+        "supporting_relationship": "friend",
+        "setting_family": "cafe_or_restaurant",
+        "composition_family": "group_snapshot"
+      }
+    }
+  ],
+  "series_arc_signature": "early_childhood|craft|peer_group|sibling|home|over_table > young_adult|quiet_portrait|posed_solo|none|studio_or_workshop|standing_medium > midlife|food|solo_action|none|nature|seated_medium > mature_adult|community|solo_action|none|park|moving_action > older_adult|friendship|peer_group|friend|cafe_or_restaurant|group_snapshot",
+  "action_families": ["craft", "quiet_portrait", "food", "community", "friendship"],
+  "interaction_composition_combinations": [
+    "peer_group|over_table",
+    "posed_solo|standing_medium",
+    "solo_action|seated_medium",
+    "solo_action|moving_action",
+    "peer_group|group_snapshot"
+  ],
+  "eye_contact_frames": [1, 2, 5],
+  "supporting_people_frames": [1, 5],
+  "israeli_setting_ids": [
+    "petah-tikva-shared-apartment-courtyard-1949",
+    "givatayim-community-center-music-room-1963",
+    "ben-shemen-pine-forest-picnic-area-1983",
+    "kiryat-ono-community-garden-citrus-sapling-2006",
+    "holon-neighborhood-cafe-backgammon-friends-2026"
+  ],
+  "capture_style": "period-aware Israeli family album progressing from 1949 and 1963 black-and-white prints to 1983 color film, 2006 compact digital capture and a 2026 phone snapshot",
+  "color_mode": "archival_to_color",
+  "recent_manifest_review": {
+    "available_manifest_count": 5,
+    "reviewed_dates": ["2026-08-12", "2026-08-13", "2026-08-16", "2026-08-17", "2026-08-18"],
+    "note_he": "נבדקו כל חמשת המניפסטים שהיו זמינים מקומית וב-Drive; לא היו עשרה מניפסטים זמינים. החתימות הישנות החסרות הוסקו מתיאורי הסצנות, האנשים והלוקיישנים."
+  },
+  "diversity_note_he": "הסדרה פותחת במלאכת עץ עם אחות ומסתיימת במשחק שש־בש עם חבר — פתיחה, סיום ורצף שלא הופיעו בחמש הסדרות הזמינות. נעשה שימוש בחמש משפחות פעולה, בחמישה לוקיישנים ובחמישה שילובי אינטראקציה־קומפוזיציה. אין חוף, טיילת, גג, מרפסת, תיק בית ספר, צילום עם שני הורים, אולם אירוע, רכבת, פריים עבודה או פורטרט יום הולדת. לא הייתה סדרה קודמת באותה קטגוריה, ולכן אין חזרת פעולה מול סדרה קודמת בקטגוריה.",
+  "character_diversity_note_he": "הדמות שונה מהדמויות הזמינות האחרונות בלפחות ארבעה ממדים: גאומטריית פנים יהלומית, עיניים אפורות־ירקרקות, שיער חום־אדמדם מתולתל, גוון עור זית בינוני, סימני זיהוי חדשים והצגת מגדר וגיל שונים.",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "quality_control": {
+    "status": "pass",
+    "identity_continuity": "pass",
+    "anatomical_aging": "pass_after_targeted_replacements_at_ages_22_65_and_85",
+    "era_authenticity": "pass",
+    "hands_teeth_objects_furniture_tools": "pass",
+    "setting_variety": "pass_five_distinct_families",
+    "action_family_variety": "pass_five_distinct_families",
+    "interaction_composition_variety": "pass_five_distinct_combinations",
+    "eye_contact_requirement": "pass_three_frames",
+    "supporting_people_requirement": "pass_two_frames",
+    "no_accordion_requirement": "pass_original_music-room portrait_preserved_and_accordion_removed",
+    "unwanted_text_logo_watermark": "pass_none_visible",
+    "dimensions_verified": true
+  },
+  "approval_status": "pending"
+}

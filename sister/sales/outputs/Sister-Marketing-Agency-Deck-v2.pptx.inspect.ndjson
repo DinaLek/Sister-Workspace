@@ -1,0 +1,163 @@
+{"kind":"deck","id":"pr/ump90c","name":"Deck"}
+{"kind":"layout","layoutId":"1be512c0-b481-4682-bfe1-28098c2ad476","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"bfe4ffa3-275c-4d4a-b7f6-51a0f92b25ad","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/dvamkm","slide":1,"title":"Slide 1","textShapes":0}
+{"kind":"image","id":"im/n6h8be1s","slide":1,"name":"","geometry":"rect","alt":"brand-cover-slide.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/dvamkm","slide":1,"text":"פתיחה קצרה והיכרות.\n\n[Sources]\n- User-supplied brand refresh slide image: brand-cover-slide.png"}
+{"kind":"slide","id":"sl/wweth3","slide":2,"title":"נעים להכיר, אנחנו סיסטר","textShapes":7}
+{"kind":"textbox","id":"sh/o3u5k7mh","slide":2,"text":"נעים להכיר, אנחנו סיסטר","textPreview":"נעים להכיר, אנחנו סיסטר","textChars":23,"textLines":1,"bbox":[560,54,650,65]}
+{"kind":"textbox","id":"sh/32l4b25w","slide":2,"text":"סוכנות שיווק דיגיטלי שנוסדה ב־2013 על ידי קרן חיים.","textPreview":"סוכנות שיווק דיגיטלי שנוסדה ב־2013 על ידי קרן חיים.","textChars":51,"textLines":1,"bbox":[560,119,650,47]}
+{"kind":"shape","id":"sh/21cnix4b","slide":2,"bbox":[70,54,155,3]}
+{"kind":"textbox","id":"sh/103m9sn6","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[72,650,42,24]}
+{"kind":"textbox","id":"sh/gza5gnml","slide":2,"text":"SISTER MARKETING AGENCY","textPreview":"SISTER MARKETING AGENCY","textChars":23,"textLines":1,"bbox":[902,650,308,24]}
+{"kind":"textbox","id":"sh/udsned4f","slide":2,"text":"אנחנו מלוות עסקים שרוצים לעשות שיווק טוב, אבל לא תמיד רוצים או יכולים להחזיק את כל התחומים בתוך העסק.","textPreview":"אנחנו מלוות עסקים שרוצים לעשות שיווק טוב, אבל לא תמיד רוצים או יכולים להחזיק את כל התחומים בתוך העסק.","textChars":101,"textLines":1,"bbox":[585,220,590,110]}
+{"kind":"textbox","id":"sh/lwn6lc3a","slide":2,"text":"אנחנו נכנסות לעבודה, מכירות את העסק ומחברות בין אסטרטגיה, קריאייטיב, תוכן, מדיה וטכנולוגיה. כך כל מי שעובדת על השיווק רואה את אותה התמונה.","textPreview":"אנחנו נכנסות לעבודה, מכירות את העסק ומחברות בין אסטרטגיה, קריאייטיב, תוכן, מדיה וטכנולוגיה. כך כל מי שעובדת על השיווק רואה את אותה התמונה.","textChars":138,"textLines":1,"bbox":[585,350,590,145]}
+{"kind":"textbox","id":"sh/0ve5srmp","slide":2,"text":"וכשמשהו דורש תשומת לב, אנחנו אומרות. גם אם עוד לא שאלו אותנו.","textPreview":"וכשמשהו דורש תשומת לב, אנחנו אומרות. גם אם עוד לא שאלו אותנו.","textChars":61,"textLines":1,"bbox":[585,520,590,58]}
+{"kind":"image","id":"im/ydw7m9wz","slide":2,"name":"","geometry":"roundRect","alt":"s element2.png","bbox":[72,170,430,470]}
+{"kind":"notes","id":"nt/wweth3","slide":2,"text":"להציג את סיסטר בפשטות, בלי רשימת סופרלטיבים.\n\n[Sources]\n- Internal sources: brand-dna.md, voice-and-style.md\n- Internal asset: brand refresh/elements/S/s element2.png"}
+{"kind":"slide","id":"sl/q5b296","slide":3,"title":"לפני שמתחילות, אנחנו מכירות את העסק","textShapes":10}
+{"kind":"textbox","id":"sh/p8rixgru","slide":3,"text":"לפני שמתחילות, אנחנו מכירות את העסק","textPreview":"לפני שמתחילות, אנחנו מכירות את העסק","textChars":35,"textLines":1,"bbox":[560,54,650,65]}
+{"kind":"textbox","id":"sh/250jm18j","slide":3,"text":"מה מוכרים, למי, מה כבר עובד ומה השיווק צריך לעשות עכשיו.","textPreview":"מה מוכרים, למי, מה כבר עובד ומה השיווק צריך לעשות עכשיו.","textChars":56,"textLines":1,"bbox":[560,119,650,47]}
+{"kind":"shape","id":"sh/n690v694","slide":3,"bbox":[70,54,155,3]}
+{"kind":"textbox","id":"sh/gjy1kbqd","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[72,650,42,24]}
+{"kind":"textbox","id":"sh/14ritgry","slide":3,"text":"SISTER MARKETING AGENCY","textPreview":"SISTER MARKETING AGENCY","textChars":23,"textLines":1,"bbox":[902,650,308,24]}
+{"kind":"textbox","id":"sh/fip0r69s","slide":3,"text":"מכירות את העסק","textPreview":"מכירות את העסק","textChars":14,"textLines":1,"bbox":[245,212,310,48]}
+{"kind":"textbox","id":"sh/kf21wvqx","slide":3,"text":"נכנסות לפרטים, שואלות שאלות ומבינות מה חשוב לקדם.","textPreview":"נכנסות לפרטים, שואלות שאלות ומבינות מה חשוב לקדם.","textChars":49,"textLines":1,"bbox":[570,212,610,62]}
+{"kind":"shape","id":"sh/l0b250r2","slide":3,"bbox":[245,309,935,1]}
+{"kind":"textbox","id":"sh/g7mxwru1","slide":3,"text":"מתכננות את העבודה","textPreview":"מתכננות את העבודה","textChars":17,"textLines":1,"bbox":[245,344,310,48]}
+{"kind":"textbox","id":"sh/f6dwnmdg","slide":3,"text":"מחליטות מה אומרים, איפה מפרסמים ואיזה תוכן צריך להכין.","textPreview":"מחליטות מה אומרים, איפה מפרסמים ואיזה תוכן צריך להכין.","textChars":54,"textLines":1,"bbox":[570,344,610,62]}
+{"kind":"shape","id":"sh/u54fuhcv","slide":3,"bbox":[245,441,935,1]}
+{"kind":"textbox","id":"sh/s3mdsrup","slide":3,"text":"מנהלות ומשפרות","textPreview":"מנהלות ומשפרות","textChars":14,"textLines":1,"bbox":[245,476,310,48]}
+{"kind":"textbox","id":"sh/72dwjmd4","slide":3,"text":"עוקבות אחרי העבודה והתוצאות, ומשנות כשצריך.","textPreview":"עוקבות אחרי העבודה והתוצאות, ומשנות כשצריך.","textChars":43,"textLines":1,"bbox":[570,476,610,62]}
+{"kind":"image","id":"im/r6tsr2dc","slide":3,"name":"","geometry":"roundRect","alt":"1.png","bbox":[92,196,112,112]}
+{"kind":"image","id":"im/qtcfqt4f","slide":3,"name":"","geometry":"roundRect","alt":"2.png","bbox":[92,328,112,112]}
+{"kind":"image","id":"im/yxwfut4b","slide":3,"name":"","geometry":"roundRect","alt":"3.png","bbox":[92,460,112,112]}
+{"kind":"notes","id":"nt/q5b296","slide":3,"text":"זה סדר העבודה שלנו: להבין, לבנות, לנהל ולדייק.\n\n[Sources]\n- Internal sources: brand-dna.md, voice-and-style.md\n- Internal assets: brand refresh/elements/glass orbs"}
+{"kind":"slide","id":"sl/gqii3e","slide":4,"title":"Slide 4","textShapes":0}
+{"kind":"image","id":"im/lkjidgba","slide":4,"name":"","geometry":"rect","alt":"brand-services-slide.png","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/gqii3e","slide":4,"text":"להתעכב רק על השירותים שרלוונטיים לשיחה. אתרים ודפי נחיתה מופיעים בהמשך המצגת.\n\n[Sources]\n- User-supplied brand refresh slide image: brand-services-slide.png"}
+{"kind":"slide","id":"sl/47hhvn","slide":5,"title":"סרטונים שיצרנו באמצעות בינה מלאכותית","textShapes":13}
+{"kind":"textbox","id":"sh/xobi94vq","slide":5,"text":"סרטונים שיצרנו באמצעות בינה מלאכותית","textPreview":"סרטונים שיצרנו באמצעות בינה מלאכותית","textChars":36,"textLines":1,"bbox":[560,54,650,65]}
+{"kind":"textbox","id":"sh/al0zypcz","slide":5,"text":"דרך נוספת לבנות סיפור, להמחיש רעיון ולייצר תוכן שגם נראה אחרת.","textPreview":"דרך נוספת לבנות סיפור, להמחיש רעיון ולייצר תוכן שגם נראה אחרת.","textChars":62,"textLines":1,"bbox":[560,119,650,47]}
+{"kind":"shape","id":"sh/vm907udk","slide":5,"bbox":[70,54,155,3]}
+{"kind":"textbox","id":"sh/8jihwfu9","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[72,650,42,24]}
+{"kind":"textbox","id":"sh/9kri5kvu","slide":5,"text":"SISTER MARKETING AGENCY","textPreview":"SISTER MARKETING AGENCY","textChars":23,"textLines":1,"bbox":[902,650,308,24]}
+{"kind":"shape","id":"sh/mx0zupc3","slide":5,"bbox":[115,190,295,415]}
+{"kind":"shape","id":"sh/0vihsfux","slide":5,"bbox":[227,310,72,72]}
+{"kind":"textbox","id":"sh/lwri1kvi","slide":5,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[240,321,46,48]}
+{"kind":"textbox","id":"sh/1kru9k36","slide":5,"text":"לייפסטייל","textPreview":"לייפסטייל","textChars":9,"textLines":1,"bbox":[137,518,251,35]}
+{"kind":"textbox","id":"sh/gjit0f2l","slide":5,"text":"סצנה ודמות שנוצרו עבור סרטון נדל״ן","textPreview":"סצנה ודמות שנוצרו עבור סרטון נדל״ן","textChars":34,"textLines":1,"bbox":[139,555,247,38]}
+{"kind":"shape","id":"sh/fi9c7al0","slide":5,"bbox":[470,190,295,415]}
+{"kind":"shape","id":"sh/twra503a","slide":5,"bbox":[582,310,72,72]}
+{"kind":"textbox","id":"sh/svitwv2p","slide":5,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[595,321,46,48]}
+{"kind":"textbox","id":"sh/7ups3al4","slide":5,"text":"נדל״ן","textPreview":"נדל״ן","textChars":5,"textLines":1,"bbox":[492,518,251,35]}
+{"kind":"textbox","id":"sh/6tgbu5kj","slide":5,"text":"הדמיה קולנועית שמכניסה את הפרויקט לחיים","textPreview":"הדמיה קולנועית שמכניסה את הפרויקט לחיים","textChars":39,"textLines":1,"bbox":[494,555,247,38]}
+{"kind":"shape","id":"sh/5s7a103y","slide":5,"bbox":[825,190,295,415]}
+{"kind":"shape","id":"sh/wb2t8va9","slide":5,"bbox":[937,310,72,72]}
+{"kind":"textbox","id":"sh/xcbuh0bu","slide":5,"text":"▶","textPreview":"▶","textChars":1,"textLines":1,"bbox":[950,321,46,48]}
+{"kind":"textbox","id":"sh/a9kb6lc3","slide":5,"text":"קמפיין","textPreview":"קמפיין","textChars":6,"textLines":1,"bbox":[847,518,251,35]}
+{"kind":"textbox","id":"sh/batcfqto","slide":5,"text":"יצירת אווירה ותנועה סביב סיפור המותג","textPreview":"יצירת אווירה ותנועה סביב סיפור המותג","textChars":36,"textLines":1,"bbox":[849,555,247,38]}
+{"kind":"image","id":"im/q5wv6103","slide":5,"name":"","geometry":"roundRect","alt":"ai-lifestyle.jpg","bbox":[133,207,259,292]}
+{"kind":"image","id":"im/dcrmxkj6","slide":5,"name":"","geometry":"roundRect","alt":"ai-merhav.jpg","bbox":[488,207,259,292]}
+{"kind":"image","id":"im/vipkna1s","slide":5,"name":"","geometry":"roundRect","alt":"ai-blend.jpg","bbox":[843,207,259,292]}
+{"kind":"notes","id":"nt/47hhvn","slide":5,"text":"שלוש דוגמאות לסרטוני AI. במצגת מוצגים פריימים כדי לשמור על קובץ קל; הקישורים המקוריים נמצאים במקורות.\n\n[Sources]\n- https://drive.google.com/file/d/1Q7FSet2xmuhuNIBJnDfNvUefgdF1nn4s/view\n- https://drive.google.com/file/d/1Gx7TybHgnShwq4otfsHC3GpXOaezDVDr/view\n- https://drive.google.com/file/d/1mfmqIDIDpaauvS1viwNZ7IrYc0ULpElT/view"}
+{"kind":"slide","id":"sl/s9y27y","slide":6,"title":"כמה דוגמאות מהעבודה שלנו","textShapes":4}
+{"kind":"textbox","id":"sh/n6h0re58","slide":6,"text":"כמה דוגמאות מהעבודה שלנו","textPreview":"כמה דוגמאות מהעבודה שלנו","textChars":24,"textLines":1,"bbox":[560,54,650,65]}
+{"kind":"textbox","id":"sh/87qh0jmt","slide":6,"text":"קריאייטיב שנבנה לפי המותג, הקהל והמטרה של כל קמפיין.","textPreview":"קריאייטיב שנבנה לפי המותג, הקהל והמטרה של כל קמפיין.","textChars":52,"textLines":1,"bbox":[560,119,650,47]}
+{"kind":"shape","id":"sh/98zit4ne","slide":6,"bbox":[70,54,155,3]}
+{"kind":"textbox","id":"sh/a98z294z","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[72,650,42,24]}
+{"kind":"textbox","id":"sh/vah0ve54","slide":6,"text":"SISTER MARKETING AGENCY","textPreview":"SISTER MARKETING AGENCY","textChars":23,"textLines":1,"bbox":[902,650,308,24]}
+{"kind":"shape","id":"sh/wvq14jmp","slide":6,"bbox":[72,195,250,410]}
+{"kind":"shape","id":"sh/ixsj6t4v","slide":6,"bbox":[358,195,250,410]}
+{"kind":"shape","id":"sh/fml8bits","slide":6,"bbox":[644,195,250,410]}
+{"kind":"shape","id":"sh/1o3qd8bi","slide":6,"bbox":[930,195,250,410]}
+{"kind":"image","id":"im/4r25gryh","slide":6,"name":"","geometry":"roundRect","alt":"banner-blend.jpg","bbox":[80,203,234,394]}
+{"kind":"image","id":"im/ul0nahgz","slide":6,"name":"","geometry":"roundRect","alt":"banner-tarsat.jpg","bbox":[366,203,234,394]}
+{"kind":"image","id":"im/9cvmdg3m","slide":6,"name":"","geometry":"roundRect","alt":"diet-angel-webinar.jpg","bbox":[652,203,234,394]}
+{"kind":"image","id":"im/7adkbqlg","slide":6,"name":"","geometry":"roundRect","alt":"diet-angel-challenge.png","bbox":[938,203,234,394]}
+{"kind":"notes","id":"nt/s9y27y","slide":6,"text":"הדוגמאות מציגות עבודה מעולמות הנדל״ן, הבריאות והלייפסטייל.\n\n[Sources]\n- Asset supplied by user: banner-blend.jpg\n- Asset supplied by user: banner-tarsat.jpg\n- Asset supplied by user: diet-angel-webinar.jpg\n- Asset supplied by user: diet-angel-challenge.png"}
+{"kind":"slide","id":"sl/898t7h","slide":7,"title":"אתרים ודפי נחיתה שבנינו","textShapes":10}
+{"kind":"textbox","id":"sh/md83ahkv","slide":7,"text":"אתרים ודפי נחיתה שבנינו","textPreview":"אתרים ודפי נחיתה שבנינו","textChars":23,"textLines":1,"bbox":[560,54,650,65]}
+{"kind":"textbox","id":"sh/9gz2lcjm","slide":7,"text":"האפיון, הקופי והעיצוב מתחברים לעמוד שקל להבין ונעים להתקדם בו.","textPreview":"האפיון, הקופי והעיצוב מתחברים לעמוד שקל להבין ונעים להתקדם בו.","textChars":62,"textLines":1,"bbox":[560,119,650,47]}
+{"kind":"shape","id":"sh/ofqlc721","slide":7,"bbox":[70,54,155,3]}
+{"kind":"textbox","id":"sh/vihknm1c","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[72,650,42,24]}
+{"kind":"textbox","id":"sh/ah83ehkr","slide":7,"text":"SISTER MARKETING AGENCY","textPreview":"SISTER MARKETING AGENCY","textChars":23,"textLines":1,"bbox":[902,650,308,24]}
+{"kind":"shape","id":"sh/x4j2pwji","slide":7,"bbox":[58,190,380,410]}
+{"kind":"shape","id":"sh/w3qlgr2x","slide":7,"bbox":[72,205,352,236]}
+{"kind":"shape","id":"sh/rmxkbi18","slide":7,"bbox":[88,215,7,7]}
+{"kind":"shape","id":"sh/qloj2xkn","slide":7,"bbox":[102,215,7,7]}
+{"kind":"shape","id":"sh/orehcfed","slide":7,"bbox":[116,215,7,7]}
+{"kind":"textbox","id":"sh/25wza5g7","slide":7,"text":"אתר קבוצת פדלון","textPreview":"אתר קבוצת פדלון","textChars":15,"textLines":1,"bbox":[82,466,332,50]}
+{"kind":"textbox","id":"sh/3q503axs","slide":7,"text":"fadlon.co.il","textPreview":"fadlon.co.il","textChars":12,"textLines":1,"bbox":[82,526,332,30]}
+{"kind":"shape","id":"sh/cvehgzep","slide":7,"bbox":[466,190,380,410]}
+{"kind":"shape","id":"sh/dw7i9kfa","slide":7,"bbox":[480,205,352,236]}
+{"kind":"shape","id":"sh/qtwzepwj","slide":7,"bbox":[496,215,7,7]}
+{"kind":"shape","id":"sh/bu507ux4","slide":7,"bbox":[510,215,7,7]}
+{"kind":"shape","id":"sh/szuh4vy5","slide":7,"bbox":[524,215,7,7]}
+{"kind":"textbox","id":"sh/twve1w7u","slide":7,"text":"דף הנחיתה של עולם ומלואה","textPreview":"דף הנחיתה של עולם ומלואה","textChars":24,"textLines":1,"bbox":[490,466,332,50]}
+{"kind":"textbox","id":"sh/8vmx8rq9","slide":7,"text":"lp.olamumloa.co.il","textPreview":"lp.olamumloa.co.il","textChars":18,"textLines":1,"bbox":[490,526,332,30]}
+{"kind":"shape","id":"sh/7udwzmpo","slide":7,"bbox":[874,190,380,410]}
+{"kind":"shape","id":"sh/mt4f6h83","slide":7,"bbox":[888,205,352,236]}
+{"kind":"shape","id":"sh/hkvy5w7q","slide":7,"bbox":[904,215,7,7]}
+{"kind":"shape","id":"sh/gjmxcrq5","slide":7,"bbox":[918,215,7,7]}
+{"kind":"shape","id":"sh/vydw3mpk","slide":7,"bbox":[932,215,7,7]}
+{"kind":"textbox","id":"sh/5ofy9g7m","slide":7,"text":"עמוד הקריירה של שפונדר פדלון","textPreview":"עמוד הקריירה של שפונדר פדלון","textChars":28,"textLines":1,"bbox":[898,466,332,50]}
+{"kind":"textbox","id":"sh/4n6xgbqh","slide":7,"text":"sf-group.co.il/career","textPreview":"sf-group.co.il/career","textChars":21,"textLines":1,"bbox":[898,526,332,30]}
+{"kind":"image","id":"im/ud8rehsj","slide":7,"name":"","geometry":"roundRect","alt":"site-fadlon.png","bbox":[72,229,352,212]}
+{"kind":"image","id":"im/q5sbm1sr","slide":7,"name":"","geometry":"roundRect","alt":"site-olam.png","bbox":[480,229,352,212]}
+{"kind":"image","id":"im/xs7etkvm","slide":7,"name":"","geometry":"roundRect","alt":"site-career.png","bbox":[888,229,352,212]}
+{"kind":"notes","id":"nt/898t7h","slide":7,"text":"שלוש הדוגמאות מוצגות כצילומי מסך סטטיים, כך שהלקוח לא צריך לגלול בזמן הפגישה.\n\n[Sources]\n- https://fadlon.co.il/\n- https://lp.olamumloa.co.il/\n- https://sf-group.co.il/career/"}
+{"kind":"slide","id":"sl/53zri2","slide":8,"title":"נראה איך זה יכול לעבוד אצלכם.","textShapes":6}
+{"kind":"textbox","id":"sh/xk3m94ju","slide":8,"text":"נראה איך זה יכול לעבוד אצלכם.","textPreview":"נראה איך זה יכול לעבוד אצלכם.","textChars":29,"textLines":1,"bbox":[600,245,560,70]}
+{"kind":"textbox","id":"sh/2ts3up07","slide":8,"text":"ספרו לנו איפה השיווק עומד היום ומה הייתם רוצים שיקרה. משם נחשוב יחד מה חסר ומה נכון לעשות.","textPreview":"ספרו לנו איפה השיווק עומד היום ומה הייתם רוצים שיקרה. משם נחשוב יחד מה חסר ומה נכון לעשות.","textChars":90,"textLines":1,"bbox":[650,340,510,105]}
+{"kind":"shape","id":"sh/3u1k3u1s","slide":8,"bbox":[650,488,510,2]}
+{"kind":"textbox","id":"sh/ovalwzid","slide":8,"text":"קרן חיים  |  054-7529756","textPreview":"קרן חיים  |  054-7529756","textChars":24,"textLines":1,"bbox":[650,512,510,34]}
+{"kind":"textbox","id":"sh/pwjm54jy","slide":8,"text":"keren@sistermarketing.co.il","textPreview":"keren@sistermarketing.co.il","textChars":27,"textLines":1,"bbox":[650,552,510,30]}
+{"kind":"textbox","id":"sh/mpc36t0b","slide":8,"text":"sistermarketing.co.il","textPreview":"sistermarketing.co.il","textChars":21,"textLines":1,"bbox":[650,585,510,30]}
+{"kind":"textbox","id":"sh/7ql4fyhw","slide":8,"text":"EVERYONE NEEDS A S!STER","textPreview":"EVERYONE NEEDS A S!STER","textChars":23,"textLines":1,"bbox":[650,634,510,28]}
+{"kind":"image","id":"im/i1kzyloj","slide":8,"name":"","geometry":"roundRect","alt":"s element2.png","bbox":[38,35,530,650]}
+{"kind":"image","id":"im/54bit07u","slide":8,"name":"","geometry":"roundRect","alt":"LOGO@3000x.png","bbox":[855,70,305,116]}
+{"kind":"notes","id":"nt/53zri2","slide":8,"text":"לסיים בשיחה על העסק והצרכים שלו.\n\n[Sources]\n- Internal source: brand-dna.md\n- Internal asset: brand refresh/elements/S/s element2.png"}
+{"kind":"slide","id":"sl/l9qfc7","slide":9,"title":"מאושרות לעבוד עם...","textShapes":4}
+{"kind":"textbox","id":"sh/wjmhc3id","slide":9,"text":"מאושרות לעבוד עם...","textPreview":"מאושרות לעבוד עם...","textChars":19,"textLines":1,"bbox":[560,54,650,65]}
+{"kind":"textbox","id":"sh/vidg3yhs","slide":9,"text":"כמה מהמותגים והארגונים שליווינו לאורך הדרך.","textPreview":"כמה מהמותגים והארגונים שליווינו לאורך הדרך.","textChars":43,"textLines":1,"bbox":[560,119,650,47]}
+{"kind":"shape","id":"sh/uh4fat07","slide":9,"bbox":[70,54,155,3]}
+{"kind":"textbox","id":"sh/5ofy98zu","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[72,650,42,24]}
+{"kind":"textbox","id":"sh/4n6hg3i9","slide":9,"text":"SISTER MARKETING AGENCY","textPreview":"SISTER MARKETING AGENCY","textChars":23,"textLines":1,"bbox":[902,650,308,24]}
+{"kind":"shape","id":"sh/jmdg7ih4","slide":9,"bbox":[70,190,170,108]}
+{"kind":"shape","id":"sh/lsbyxozq","slide":9,"bbox":[265,190,170,108]}
+{"kind":"shape","id":"sh/618ritwv","slide":9,"bbox":[460,190,170,108]}
+{"kind":"shape","id":"sh/s3q9k3e1","slide":9,"bbox":[655,190,170,108]}
+{"kind":"shape","id":"sh/u5srmtwr","slide":9,"bbox":[850,190,170,108]}
+{"kind":"shape","id":"sh/g7a9o3ex","slide":9,"bbox":[1045,190,170,108]}
+{"kind":"shape","id":"sh/29srqdw3","slide":9,"bbox":[70,327,170,108]}
+{"kind":"shape","id":"sh/zyl87idg","slide":9,"bbox":[265,327,170,108]}
+{"kind":"shape","id":"sh/l03q9svm","slide":9,"bbox":[460,327,170,108]}
+{"kind":"shape","id":"sh/ba183ydk","slide":9,"bbox":[655,327,170,108]}
+{"kind":"shape","id":"sh/dc3q58vq","slide":9,"bbox":[850,327,170,108]}
+{"kind":"shape","id":"sh/361ozydo","slide":9,"bbox":[1045,327,170,108]}
+{"kind":"shape","id":"sh/sb650zal","slide":9,"bbox":[70,464,170,108]}
+{"kind":"shape","id":"sh/69onypsv","slide":9,"bbox":[265,464,170,108]}
+{"kind":"shape","id":"sh/gfq54zax","slide":9,"bbox":[460,464,170,108]}
+{"kind":"shape","id":"sh/ud8n29sr","slide":9,"bbox":[655,464,170,108]}
+{"kind":"shape","id":"sh/wjmlsfat","slide":9,"bbox":[850,464,170,108]}
+{"kind":"shape","id":"sh/pcr6x4fu","slide":9,"bbox":[1045,464,170,108]}
+{"kind":"image","id":"im/7yh4jy98","slide":9,"name":"","geometry":"rect","alt":"victorias-secret.png","bbox":[88,206,134,76]}
+{"kind":"image","id":"im/lwzmhor2","slide":9,"name":"","geometry":"rect","alt":"keds.png","bbox":[283,206,134,76]}
+{"kind":"image","id":"im/o3ixsjm9","slide":9,"name":"","geometry":"rect","alt":"alut.png","bbox":[478,206,134,76]}
+{"kind":"image","id":"im/210fqt43","slide":9,"name":"","geometry":"rect","alt":"afcon.png","bbox":[673,206,134,76]}
+{"kind":"image","id":"im/0fixojmx","slide":9,"name":"","geometry":"rect","alt":"hs.png","bbox":[868,206,134,76]}
+{"kind":"image","id":"im/edgfm947","slide":9,"name":"","geometry":"rect","alt":"yasmin.png","bbox":[1063,206,134,76]}
+{"kind":"image","id":"im/sbyxkzm1","slide":9,"name":"","geometry":"rect","alt":"shponder-fadlon.png","bbox":[88,343,134,76]}
+{"kind":"image","id":"im/5wby94vi","slide":9,"name":"","geometry":"rect","alt":"hezibank.png","bbox":[283,343,134,76]}
+{"kind":"image","id":"im/jutg7edc","slide":9,"name":"","geometry":"rect","alt":"idea.png","bbox":[478,343,134,76]}
+{"kind":"image","id":"im/hsby54v6","slide":9,"name":"","geometry":"rect","alt":"panta-rei.png","bbox":[673,343,134,76]}
+{"kind":"image","id":"im/vq9g3ud0","slide":9,"name":"","geometry":"rect","alt":"pinatas-group.png","bbox":[868,343,134,76]}
+{"kind":"image","id":"im/1ovyhovq","slide":9,"name":"","geometry":"rect","alt":"bath-body-works.png","bbox":[1063,343,134,76]}
+{"kind":"image","id":"im/at8ruh0j","slide":9,"name":"","geometry":"rect","alt":"since-1919.png","bbox":[88,480,134,76]}
+{"kind":"image","id":"im/cva9wri9","slide":9,"name":"","geometry":"rect","alt":"greg.png","bbox":[283,480,134,76]}
+{"kind":"image","id":"im/yxsby10f","slide":9,"name":"","geometry":"rect","alt":"diet-angel.png","bbox":[478,480,134,76]}
+{"kind":"image","id":"im/kjat0bil","slide":9,"name":"","geometry":"rect","alt":"asset-1.png","bbox":[673,480,134,76]}
+{"kind":"image","id":"im/e1ormxkb","slide":9,"name":"","geometry":"rect","alt":"client-logo-1.png","bbox":[868,480,134,76]}
+{"kind":"image","id":"im/r61sb29s","slide":9,"name":"","geometry":"rect","alt":"client-logo-2.png","bbox":[1063,480,134,76]}
+{"kind":"notes","id":"nt/l9qfc7","slide":9,"text":"מבחר לקוחות שמופיעים באתר Sister Marketing.\n\n[Sources]\n- https://sistermarketing.co.il/"}

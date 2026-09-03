@@ -1,0 +1,119 @@
+{
+  "scenario_id": "bat-mitzvah-growth",
+  "scenario_title_he": "ילדה גדלה עד בת מצווה",
+  "subject_category": "girl_growth",
+  "series_id": "2026-08-18-bat-mitzvah-growth",
+  "creation_date": "2026-08-18",
+  "fictional_status": "fictional",
+  "real_person_reference_used": false,
+  "visual_profile_id": "golden-tan-heart-face-straight-black-hair-dark-almond-eyes-v1",
+  "character_bible": {
+    "identity": "ילדה ישראלית בדיונית בעלת גוון עור זהוב־שזוף, פנים רחבות בצורת לב וסנטר רך ומחודד, עיניים חומות כהות ושקדיות במרווח בינוני, גבות כהות וישרות כשהשמאלית מעט גבוהה יותר, אף קטן מעט סולד עם קצה מעוגל, שפתיים בינוניות וקשת קופידון מוגדרת ושיער שחור חלק עם כיפוף טבעי קל.",
+    "stable_identifying_features": [
+      "נקודת חן זעירה בחלק התחתון של קו הלסת הימני",
+      "גומת חן עדינה בלחי שמאל בזמן חיוך"
+    ],
+    "personality_and_mood": "סקרנית, בטוחה וחמה; האלבום מרגיש משפחתי, יומיומי ואמין ולא כהפקת פרסום.",
+    "wardrobe_logic": "כל גיל מקבל צללית, סוג בגד וצבע מוביל שונים: בגד גוף שמנת, שמלת סינר חרדל, פולו טורקיז וחצאית שזיף, בגדי ספורט קורל־נייבי, ולבוש חגיגי לבנדר־זית.",
+    "photographic_language": "צילום טלפון משפחתי תואם לשנים 2015–2026, צבע ניטרלי, עומק שדה עמוק, מסגור מעט לא מושלם, תאורה סביבתית טבעית ומרקם עור אמין.",
+    "aging_logic": "התפתחות הדרגתית מתינוקת עם לחיים מלאות, אמצע פנים קצר וגשר אף רך; דרך הארכת אמצע הפנים, ירידת מלאות הלחיים והתבססות גשר האף והסנטר בגילי 4, 7 ו־10; ועד מבנה פנים טרום־מתבגר ברור בגיל 12, תוך שמירת העיניים, הגבות, האף ונקודות הזיהוי."
+  },
+  "supporting_people": [
+    {
+      "relationship": "grandmother",
+      "identity_notes": "סבתא בדיונית בעלת גוון עור בינוני וחם, שיער אפור קצר וגלי ומשקפיים עגולים; תומכת בנכדה בעדינות בביקור המשפחתי.",
+      "frames": [1]
+    },
+    {
+      "relationship": "parents",
+      "identity_notes": "אם בדיונית בתחילת שנות הארבעים בעלת גוון זית חם ושיער חום כהה גלי עד הסנטר; אב בדיוני באמצע שנות הארבעים בעל גוון זהוב בינוני, פנים מלבניות ושיער שחור קצר המאפיר ברקות.",
+      "frames": [5]
+    }
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 1,
+      "approx_year": 2015,
+      "scene_summary_he": "צעדים ראשונים בביקור אצל סבתא בפינת האוכל של דירה ותיקה ברמת גן.",
+      "setting_id": "ramat-gan-grandparents-apartment-dining-nook",
+      "setting_family": "home_family_visit",
+      "capture_style": "2015 mid-range family smartphone snapshot",
+      "wardrobe": "בגד גוף ארוך בצבע שמנת עם נקודות חלודה וגרביים אפורות",
+      "gaze": "direct_camera"
+    },
+    {
+      "file": "02.png",
+      "age": 4,
+      "approx_year": 2018,
+      "scene_summary_he": "צועדת בריכוז על אבני מדרך נמוכות בגן בוטני ים־תיכוני סמוך לירושלים.",
+      "setting_id": "jerusalem-mediterranean-botanical-stepping-stones",
+      "setting_family": "nature_garden",
+      "capture_style": "2018 ordinary family smartphone snapshot",
+      "wardrobe": "שמלת סינר חרדל, חולצת כותנה תכלת ונעלי בד בורדו",
+      "gaze": "off_camera_down_left"
+    },
+    {
+      "file": "03.png",
+      "age": 7,
+      "approx_year": 2021,
+      "scene_summary_he": "צילום היום הראשון בבית הספר על שביל כניסה מוצל בכפר סבא.",
+      "setting_id": "kfar-saba-primary-school-shaded-walkway",
+      "setting_family": "school",
+      "capture_style": "2021 smartphone first-day snapshot",
+      "wardrobe": "חולצת פולו טורקיז, חצאית שזיף, גרביים לבנות, נעלי ספורט נייבי ותיק ירוק",
+      "gaze": "direct_camera"
+    },
+    {
+      "file": "04.png",
+      "age": 10,
+      "approx_year": 2024,
+      "scene_summary_he": "משתלטת על כדור באימון כדורגל במגרש שכונתי בבאר שבע.",
+      "setting_id": "beer-sheva-neighborhood-football-court",
+      "setting_family": "sport",
+      "capture_style": "2024 ordinary smartphone action snapshot",
+      "wardrobe": "חולצת ספורט קורל ללא לוגו, מכנסי נייבי, גרביים לבנות ונעלי כדורגל ירוקות",
+      "gaze": "off_camera_down_right"
+    },
+    {
+      "file": "05.png",
+      "age": 12,
+      "approx_year": 2026,
+      "scene_summary_he": "צילום משפחתי חגיגי בארוחת בת מצווה אינטימית בחצר מסעדה בעיר התחתית בחיפה.",
+      "setting_id": "haifa-lower-city-courtyard-restaurant-family-lunch",
+      "setting_family": "restaurant_event",
+      "capture_style": "2026 recent smartphone family snapshot",
+      "wardrobe": "חולצת לבנדר חגיגית עם שרוולים ארוכים, מכנסיים רחבים בגוון זית ועגילי כסף קטנים",
+      "gaze": "direct_camera"
+    }
+  ],
+  "eye_contact_frames": [1, 3, 5],
+  "supporting_people_frames": [1, 5],
+  "israeli_setting_ids": [
+    "ramat-gan-grandparents-apartment-dining-nook",
+    "jerusalem-mediterranean-botanical-stepping-stones",
+    "kfar-saba-primary-school-shaded-walkway",
+    "beer-sheva-neighborhood-football-court",
+    "haifa-lower-city-courtyard-restaurant-family-lunch"
+  ],
+  "capture_style": "period-aware Israeli family phone gallery progressing from 2015 to 2026",
+  "color_mode": "color",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "quality_control": {
+    "status": "pass",
+    "identity_continuity": "pass_same_broad-heart-face_dark-almond-eyes_straight-black-hair_and_brow-geometry",
+    "anatomical_aging": "pass_clear_gradual_steps_in_cheek-volume_midface_nose-bridge_jaw_and_face-ratio",
+    "hands_teeth_objects_furniture_tools": "pass",
+    "setting_variety": "pass_five_distinct_families",
+    "eye_contact_requirement": "pass_three_frames",
+    "supporting_people_requirement": "pass_two_frames",
+    "dimensions_verified": true,
+    "unwanted_text_logo_watermark": "pass_none_visible"
+  },
+  "approval_status": "pending"
+}

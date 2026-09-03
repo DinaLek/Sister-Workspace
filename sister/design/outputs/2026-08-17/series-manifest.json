@@ -1,0 +1,114 @@
+{
+  "scenario_id": "man-turning-59",
+  "scenario_title_he": "גבר חוגג 59 — מילדות לבגרות",
+  "subject_category": "adult_man",
+  "series_id": "2026-08-17-man-turning-59",
+  "creation_date": "2026-08-17",
+  "fictional_status": "fictional",
+  "real_person_reference_used": false,
+  "visual_profile_id": "light-warm-freckled-hazel-eyes-fine-wavy-dark-blond-rectangular-face-v1",
+  "character_bible": {
+    "identity": "גבר ישראלי בדיוני בעל גוון עור בהיר וחם ונמשים טבעיים על האף והלחיים העליונות, פנים מלבניות וארוכות, מצח גבוה, עיניים ירוקות־לוז מעט שקועות ובמרווח בינוני־צר, אף צר ומעט נשרי, שפה עליונה דקה ושפה תחתונה מלאה יותר, לסת זוויתית ואוזניים בינוניות. השיער חום־בהיר עד בלונד כהה, דק וגלי ברכות, ומאפיר בהדרגה.",
+    "stable_identifying_features": [
+      "חריץ אנכי קטן בגבה השמאלית",
+      "זווית החיוך הימנית עולה מעט יותר מהשמאלית"
+    ],
+    "personality_and_mood": "נוכחות רגועה, חמה ובעלת הומור יבש; תחושה של אלבום אישי אמין ולא של קמפיין.",
+    "wardrobe_logic": "בכל עשור צללית, סוג בד וצבע דומיננטי אחרים, מלבוש טיול צעיר ועד לבוש נסיעות בוגר ומאופק.",
+    "photographic_language": "צילום צרכני תואם תקופה המתקדם מפילם 35 מ״מ של שנות השמונים והתשעים, דרך מצלמה דיגיטלית קומפקטית, ועד צילום טלפון טבעי בעומק שדה עמוק.",
+    "aging_logic": "מעבר אנטומי הדרגתי ממלאות צעירה ומצח חלק בגיל 20, דרך התבססות גשר האף והלסת בגיל 30, קווי עין ולחיים ראשונים בגיל 40, אובדן נפח וקמטי הבעה ברורים בגיל 50, ועד קווי גיל, צוואר ושיער מאפיר בגיל 59."
+  },
+  "supporting_people": [
+    {
+      "relationship": "partner",
+      "identity_notes": "אישה בדיונית בעלת גוון עור בינוני וחם, פנים עגולות, עיניים חומות שקדיות, שיער שחור חלק ועגילי כסף קטנים; מופיעה בגיל 29 ובגיל 49 עם הזדקנות ושינוי שיער עקביים.",
+      "frames": [2, 4]
+    }
+  ],
+  "frames": [
+    {
+      "file": "01.png",
+      "age": 20,
+      "approx_year": 1987,
+      "scene_summary_he": "מטייל צעיר עוצר לצילום על שביל מסומן ליד שדה בוקר.",
+      "setting_id": "sde-boker-marked-desert-trail",
+      "setting_family": "hike_nature",
+      "capture_style": "1987 consumer 35mm color-negative family print",
+      "wardrobe": "פולו בורדו, ז׳קט ג׳ינס תכלת דהוי ומכנסי טיול חאקי",
+      "gaze": "direct_camera"
+    },
+    {
+      "file": "02.png",
+      "age": 30,
+      "approx_year": 1997,
+      "scene_summary_he": "צילום זוגי חדש מחוץ לבית קפה קטן בסמטת שוק ירושלמית, עם מראה צעיר וברור יותר בגיל 30.",
+      "setting_id": "jerusalem-market-lane-cafe-frontage",
+      "setting_family": "market_cafe",
+      "capture_style": "1997 point-and-shoot 35mm family print with mild fill flash",
+      "wardrobe": "אוברשירט ירוק־יער, חולצת כותנה לבנה דהויה וג׳ינס כהה בגזרה ישרה",
+      "gaze": "direct_camera"
+    },
+    {
+      "file": "03.png",
+      "age": 40,
+      "approx_year": 2007,
+      "scene_summary_he": "בודק מודל אדריכלי בסדנת עיצוב של מכללה טכנולוגית בחיפה.",
+      "setting_id": "haifa-technical-college-design-workshop",
+      "setting_family": "work_study",
+      "capture_style": "2007 compact digital-camera snapshot",
+      "wardrobe": "חולצת פולו סרוגה בגוון טורקיז כהה ומכנסי עבודה פחם",
+      "gaze": "off_camera_down_left"
+    },
+    {
+      "file": "04.png",
+      "age": 50,
+      "approx_year": 2017,
+      "scene_summary_he": "רגע זוגי רגוע בביקור משפחתי במטבח דירה בזכרון יעקב.",
+      "setting_id": "zichron-yaakov-lived-in-stone-apartment-kitchen",
+      "setting_family": "home_family_visit",
+      "capture_style": "2017 ordinary smartphone family snapshot",
+      "wardrobe": "חולצת כפתורים בגוון חלודה וג׳ינס כהה",
+      "gaze": "direct_camera"
+    },
+    {
+      "file": "05.png",
+      "age": 59,
+      "approx_year": 2026,
+      "scene_summary_he": "ממתין לנסיעת סוף שבוע ברציף רכבת בבאר שבע.",
+      "setting_id": "beer-sheva-ordinary-modern-train-platform",
+      "setting_family": "travel_city",
+      "capture_style": "2026 recent smartphone main-camera snapshot",
+      "wardrobe": "אוברשירט כחול כהה, חולצה אפורה בהירה, מכנסי זית ונעלי סניקרס לבנות",
+      "gaze": "direct_camera"
+    }
+  ],
+  "eye_contact_frames": [1, 2, 4, 5],
+  "supporting_people_frames": [2, 4],
+  "israeli_setting_ids": [
+    "sde-boker-marked-desert-trail",
+    "jerusalem-market-lane-cafe-frontage",
+    "haifa-technical-college-design-workshop",
+    "zichron-yaakov-lived-in-stone-apartment-kitchen",
+    "beer-sheva-ordinary-modern-train-platform"
+  ],
+  "capture_style": "period-aware Israeli personal album progressing from 1987 consumer film to 2026 smartphone capture",
+  "color_mode": "color",
+  "dimensions": {
+    "width": 1080,
+    "height": 1920,
+    "orientation": "portrait",
+    "aspect_ratio": "9:16"
+  },
+  "quality_control": {
+    "status": "pass",
+    "identity_continuity": "pass",
+    "anatomical_aging": "pass_after_user-requested_replacement_of_frame_2_with_clear_younger_age_30_anatomy",
+    "hands_teeth_objects_furniture_tools": "pass",
+    "setting_variety": "pass_five_distinct_families",
+    "eye_contact_requirement": "pass_four_frames",
+    "supporting_people_requirement": "pass_two_frames_same_partner",
+    "dimensions_verified": true,
+    "revision_note": "2026-08-17: frame 2 replaced with a new 1997 couple snapshot; protagonist now has fuller youthful facial volume, smooth eye and forehead area, and a dense intact hairline clearly distinct from ages 40, 50 and 59. Contact sheet rebuilt."
+  },
+  "approval_status": "pending"
+}

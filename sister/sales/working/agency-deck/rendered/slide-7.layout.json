@@ -1,0 +1,853 @@
+{
+  "schema": "openai.presentation.layout/v4",
+  "unit": "px",
+  "slide": {
+    "aid": "sl/u104bk",
+    "id": "u104bk",
+    "slide": 7,
+    "layoutId": "353eb1e1-bb68-4846-921b-22708c5994ff",
+    "layoutName": "Title Slide",
+    "layoutType": "title",
+    "masterLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+    "masterLayoutName": "Master",
+    "backgroundColor": "#FFF8F5",
+    "frame": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "theme": {
+    "colorSchemeName": "ChatGPT",
+    "colors": {
+      "accent1": "#156082",
+      "accent2": "#E97132",
+      "accent3": "#196B24",
+      "accent4": "#0F9ED5",
+      "accent5": "#A02B93",
+      "accent6": "#4EA72E",
+      "bg1": "#FFFFFF",
+      "bg2": "#000000",
+      "tx1": "#1F1F1F",
+      "tx2": "#FFFFFF",
+      "dk1": "#000000",
+      "lt1": "#FFFFFF",
+      "dk2": "#0E2841",
+      "lt2": "#E8E8E8",
+      "hlink": "#467886",
+      "folHlink": "#96607D"
+    },
+    "typefaces": [
+      "+mn-lt"
+    ]
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "353eb1e1-bb68-4846-921b-22708c5994ff",
+      "name": "Title Slide",
+      "type": "title",
+      "parentLayoutId": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "elements": []
+    },
+    {
+      "scope": "master",
+      "id": "a6b5d481-c6f1-4f4b-a421-8f26d6154c90",
+      "name": "Master",
+      "type": "master",
+      "elements": []
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/p4fyxs7e",
+      "id": "1",
+      "bbox": [
+        48,
+        660,
+        45,
+        24
+      ],
+      "geometry": "rect",
+      "text": "07",
+      "textPreview": "07",
+      "resolvedFontSize": 13,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 13,
+        "typeface": "+mn-lt",
+        "color": "rgba(105, 93, 93, 0.66667)",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "07"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "07",
+          "resolvedTextStyle": {
+            "fontSize": 13,
+            "color": "rgba(105, 93, 93, 0.66667)",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "07",
+              "fontSize": 13,
+              "color": "rgba(105, 93, 93, 0.66667)",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 2,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/21ofmxon",
+      "id": "2",
+      "bbox": [
+        940,
+        660,
+        292,
+        24
+      ],
+      "geometry": "rect",
+      "text": "SISTER MARKETING AGENCY",
+      "textPreview": "SISTER MARKETING AGENCY",
+      "resolvedFontSize": 12,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 12,
+        "typeface": "+mn-lt",
+        "color": "rgba(105, 93, 93, 0.66667)",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "SISTER MARKETING AGENCY"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "SISTER MARKETING AGENCY",
+          "resolvedTextStyle": {
+            "fontSize": 12,
+            "color": "rgba(105, 93, 93, 0.66667)",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "SISTER MARKETING AGENCY",
+              "fontSize": 12,
+              "color": "rgba(105, 93, 93, 0.66667)",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 3,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/n2xgv2p8",
+      "id": "3",
+      "bbox": [
+        660,
+        55,
+        570,
+        70
+      ],
+      "geometry": "rect",
+      "text": "מתוכן ועד נכס דיגיטלי שעובד",
+      "textPreview": "מתוכן ועד נכס דיגיטלי שעובד",
+      "resolvedFontSize": 39,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 39,
+        "typeface": "+mn-lt",
+        "color": "#302929",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "מתוכן ועד נכס דיגיטלי שעובד"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "מתוכן ועד נכס דיגיטלי שעובד",
+          "resolvedTextStyle": {
+            "fontSize": 39,
+            "color": "#302929",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "מתוכן ועד נכס דיגיטלי שעובד",
+              "fontSize": 39,
+              "color": "#302929",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 4,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cr6hs76p",
+      "id": "4",
+      "bbox": [
+        660,
+        124,
+        570,
+        42
+      ],
+      "geometry": "rect",
+      "text": "אתרים, דפי נחיתה, מיתוג מעסיק וניהול נוכחות שוטפת.",
+      "textPreview": "אתרים, דפי נחיתה, מיתוג מעסיק וניהול נוכחות שוטפת.",
+      "resolvedFontSize": 19,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 19,
+        "typeface": "+mn-lt",
+        "color": "#695D5D",
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אתרים, דפי נחיתה, מיתוג מעסיק וניהול נוכחות שוטפת."
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אתרים, דפי נחיתה, מיתוג מעסיק וניהול נוכחות שוטפת.",
+          "resolvedTextStyle": {
+            "fontSize": 19,
+            "color": "#695D5D",
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אתרים, דפי נחיתה, מיתוג מעסיק וניהול נוכחות שוטפת.",
+              "fontSize": 19,
+              "color": "#695D5D",
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 5,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/xszy1c7a",
+      "id": "5",
+      "bbox": [
+        68,
+        200,
+        360,
+        398
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 6,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/but4jydg",
+      "id": "6",
+      "bbox": [
+        84,
+        216,
+        328,
+        218
+      ],
+      "geometry": "roundRect",
+      "alt": "site-fadlon.png",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5505"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "a1ce4330-42c9-45c3-90fd-0edd03a36538",
+        "contentType": "image/jpeg",
+        "byteLength": 29881
+      }
+    },
+    {
+      "order": 7,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/bqxgz2p4",
+      "id": "7",
+      "bbox": [
+        94,
+        455,
+        308,
+        48
+      ],
+      "geometry": "rect",
+      "text": "אתר תדמית ופרויקטים",
+      "textPreview": "אתר תדמית ופרויקטים",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#302929",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "אתר תדמית ופרויקטים"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "אתר תדמית ופרויקטים",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#302929",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "אתר תדמית ופרויקטים",
+              "fontSize": 22,
+              "color": "#302929",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 8,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/svmxgn6l",
+      "id": "8",
+      "bbox": [
+        94,
+        510,
+        308,
+        34
+      ],
+      "geometry": "rect",
+      "text": "fadlon.co.il",
+      "textPreview": "fadlon.co.il",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#F0394C",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "fadlon.co.il"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "fadlon.co.il",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#F0394C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "fadlon.co.il",
+              "fontSize": 16,
+              "color": "#F0394C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 9,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/twvyp876",
+      "id": "9",
+      "bbox": [
+        470,
+        200,
+        360,
+        398
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 10,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/mt0f614r",
+      "id": "10",
+      "bbox": [
+        486,
+        216,
+        328,
+        218
+      ],
+      "geometry": "roundRect",
+      "alt": "site-olam.png",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5505"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "9d94495d-20bd-4386-9623-f86ed134c84a",
+        "contentType": "image/jpeg",
+        "byteLength": 88207
+      }
+    },
+    {
+      "order": 11,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/4b2pozap",
+      "id": "11",
+      "bbox": [
+        496,
+        455,
+        308,
+        48
+      ],
+      "geometry": "rect",
+      "text": "דף נחיתה ממוקד הרשמה",
+      "textPreview": "דף נחיתה ממוקד הרשמה",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#302929",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "דף נחיתה ממוקד הרשמה"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "דף נחיתה ממוקד הרשמה",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#302929",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "דף נחיתה ממוקד הרשמה",
+              "fontSize": 22,
+              "color": "#302929",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 12,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/3atovut4",
+      "id": "12",
+      "bbox": [
+        496,
+        510,
+        308,
+        34
+      ],
+      "geometry": "rect",
+      "text": "lp.olamumloa.co.il",
+      "textPreview": "lp.olamumloa.co.il",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#F0394C",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "lp.olamumloa.co.il"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "lp.olamumloa.co.il",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#F0394C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "lp.olamumloa.co.il",
+              "fontSize": 16,
+              "color": "#F0394C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 13,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/290nmpsj",
+      "id": "13",
+      "bbox": [
+        872,
+        200,
+        360,
+        398
+      ],
+      "geometry": "roundRect",
+      "fillColor": "#FFFFFF",
+      "lineWidth": 0
+    },
+    {
+      "order": 14,
+      "kind": "image",
+      "scope": "slide",
+      "aid": "im/ax0zal43",
+      "id": "14",
+      "bbox": [
+        888,
+        216,
+        328,
+        218
+      ],
+      "geometry": "roundRect",
+      "alt": "instagram.png",
+      "contentType": "image/jpeg",
+      "imageFit": "cover",
+      "imageMask": {
+        "geometry": "roundRect",
+        "adjustmentList": [
+          {
+            "name": "adj",
+            "formula": "val 5505"
+          }
+        ]
+      },
+      "asset": {
+        "assetId": "75c33d0b-d960-4e23-bd50-abdfbc2e0acc",
+        "contentType": "image/jpeg",
+        "byteLength": 59344
+      }
+    },
+    {
+      "order": 15,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/cz2psja1",
+      "id": "15",
+      "bbox": [
+        898,
+        455,
+        308,
+        48
+      ],
+      "geometry": "rect",
+      "text": "ניהול נוכחות ותוכן",
+      "textPreview": "ניהול נוכחות ותוכן",
+      "resolvedFontSize": 22,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 22,
+        "typeface": "+mn-lt",
+        "color": "#302929",
+        "bold": true,
+        "alignment": "right",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "ניהול נוכחות ותוכן"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "ניהול נוכחות ותוכן",
+          "resolvedTextStyle": {
+            "fontSize": 22,
+            "color": "#302929",
+            "bold": true,
+            "alignment": "right"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "ניהול נוכחות ותוכן",
+              "fontSize": 22,
+              "color": "#302929",
+              "bold": true,
+              "alignment": "right"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    },
+    {
+      "order": 16,
+      "kind": "shape",
+      "scope": "slide",
+      "aid": "sh/rytozetg",
+      "id": "16",
+      "bbox": [
+        898,
+        510,
+        308,
+        34
+      ],
+      "geometry": "rect",
+      "text": "@shponder_fadlon",
+      "textPreview": "@shponder_fadlon",
+      "resolvedFontSize": 16,
+      "resolvedTextStyle": {
+        "anchor": 2,
+        "fontSize": 16,
+        "typeface": "+mn-lt",
+        "color": "#F0394C",
+        "bold": true,
+        "alignment": "left",
+        "verticalAlignment": "middle",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        }
+      },
+      "textLayout": {
+        "lineCount": 1,
+        "lines": [
+          {
+            "index": 1,
+            "text": "@shponder_fadlon"
+          }
+        ]
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "@shponder_fadlon",
+          "resolvedTextStyle": {
+            "fontSize": 16,
+            "color": "#F0394C",
+            "bold": true,
+            "alignment": "left"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "@shponder_fadlon",
+              "fontSize": 16,
+              "color": "#F0394C",
+              "bold": true,
+              "alignment": "left"
+            }
+          ],
+          "marginLeft": 0
+        }
+      ],
+      "lineWidth": 0
+    }
+  ],
+  "composeRuns": []
+}
