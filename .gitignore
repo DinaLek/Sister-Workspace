@@ -12,6 +12,22 @@ __pycache__/
 .cache/
 node_modules/
 
+# Browser automation profiles and local browser state
+.chrome-*/
+.edge-profile/
+**/.chrome-*/
+**/.edge-profile/
+**/design-validation/**/.chrome-*/
+**/design-validation/**/.edge-profile/
+
+# Local validation/render scratch state
+**/design-validation/**/Crashpad/
+**/design-validation/**/GPUCache/
+**/design-validation/**/ShaderCache/
+**/design-validation/**/Default/Cache/
+**/design-validation/**/Default/Code Cache/
+**/design-validation/**/Default/Service Worker/
+
 # Rendered media belongs in Google Drive
 *.mp4
 *.mov
