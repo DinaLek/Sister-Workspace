@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T10:21:40Z",
+  "lastUpdated": "2026-09-21T16:22:44Z",
   "activeCampaigns": 1,
   "periods": {
     "month": {
@@ -8,7 +8,7 @@
         "to": "2026-09-21",
         "label": "01.09 – 21.09.2026"
       },
-      "lastUpdated": "2026-09-21T10:21:32Z",
+      "lastUpdated": "2026-09-21T16:22:36Z",
       "activeCampaigns": 1,
       "overview": {
         "spend": 24503,
@@ -186,7 +186,7 @@
         "to": "2026-09-20",
         "label": "14.09 – 20.09.2026"
       },
-      "lastUpdated": "2026-09-21T10:21:34Z",
+      "lastUpdated": "2026-09-21T16:22:37Z",
       "activeCampaigns": 1,
       "overview": {
         "spend": 5649,
@@ -343,7 +343,7 @@
         "to": "2026-08-31",
         "label": "01.08 – 31.08.2026"
       },
-      "lastUpdated": "2026-09-21T10:21:36Z",
+      "lastUpdated": "2026-09-21T16:22:40Z",
       "activeCampaigns": 0,
       "overview": {
         "spend": 45739,
@@ -561,7 +561,7 @@
         "to": "2026-09-20",
         "label": "22.08 – 20.09.2026"
       },
-      "lastUpdated": "2026-09-21T10:21:38Z",
+      "lastUpdated": "2026-09-21T16:22:42Z",
       "activeCampaigns": 1,
       "overview": {
         "spend": 40303,
@@ -749,7 +749,7 @@
         "to": "2026-09-20",
         "label": "23.06 – 20.09.2026"
       },
-      "lastUpdated": "2026-09-21T10:21:40Z",
+      "lastUpdated": "2026-09-21T16:22:44Z",
       "activeCampaigns": 1,
       "overview": {
         "spend": 129875,
