@@ -36,13 +36,13 @@ const fontSizeFor = (headline, support = '') => {
 
 const sets = [
   {
-    slug: 'calendar-protection', bg: '#F4F0E7', accent: '#356A55',
+    slug: 'calendar-protection', bg: '#F4F0E7', accent: '#D8A62B',
     slides: [
-      ['Before you say yes', 'to one more thing', { noRule: true, sameSize: true }],
-      ['Ask one question', 'What will this replace?', { noRule: true, sameSize: true }],
-      ['Name the exact thing', 'Your workout\nDinner with a friend\nAn hour to finish your work\nA quiet evening', { noRule: true, supportSize: 46 }],
-      ['If you would not choose\nto move it', 'do not add the new request today', { noRule: true, sameSize: true }],
-      ['A full calendar is full\nof trade-offs', 'Make yours visible', { noRule: true, sameSize: true }]
+      ['Before you say yes', 'to one more thing', { noRule: true, sameSize: true, supportHighlight: 'one more thing' }],
+      ['Ask one question', 'What will this replace?', { noRule: true, sameSize: true, supportHighlight: 'replace?' }],
+      ['Name the exact thing', 'Your workout\nDinner with a friend\nAn hour to finish your work\nA quiet evening', { noRule: true, supportSize: 46, headlineHighlight: 'exact' }],
+      ['If you would not choose\nto move it', 'do not add the new request today', { noRule: true, sameSize: true, headlineHighlight: 'move it' }],
+      ['A full calendar is full\nof trade-offs', 'Make yours visible', { noRule: true, sameSize: true, headlineHighlight: 'trade-offs' }]
     ]
   },
   {
@@ -61,7 +61,12 @@ const sets = [
 const htmlForSlide = ({ bg, accent }, headline, support, hasArrow, options = {}) => {
   const size = fontSizeFor(headline, support);
   const supportSize = options.sameSize ? size : options.supportSize || (support.length > 78 ? 42 : 48);
-  const headlineHtml = options.highlightOne ? esc(headline).replace('ONE', `<span class="accent">ONE</span>`) : esc(headline);
+  const highlight = (value, needle) => {
+    const escaped = esc(value);
+    return needle ? escaped.replace(esc(needle), `<span class="accent">${esc(needle)}</span>`) : escaped;
+  };
+  const headlineHtml = options.highlightOne ? esc(headline).replace('ONE', `<span class="accent">ONE</span>`) : highlight(headline, options.headlineHighlight);
+  const supportHtml = highlight(support, options.supportHighlight).replaceAll('\n', '<br>');
   const divider = options.noRule ? '' : '<div class="rule"></div>';
   return `<!doctype html><html><head><meta charset="utf-8"><style>
   @font-face{font-family:Instrument;src:url('../sources/instrument-sans-regular.ttf') format('truetype');font-weight:400}
@@ -73,7 +78,7 @@ const htmlForSlide = ({ bg, accent }, headline, support, hasArrow, options = {})
   .rule{width:330px;height:5px;background:${accent};margin:48px 0}
   p{font:400 ${supportSize}px/1.14 Instrument,sans-serif;letter-spacing:-.042em;margin:0;max-width:860px;white-space:pre-line;text-wrap:balance}
   .arrow{position:absolute;right:92px;bottom:76px;color:${accent};font:400 46px Instrument,sans-serif}
-  </style></head><body><main><section class="block"><h1>${headlineHtml}</h1>${support ? `${divider}<p>${esc(support)}</p>` : divider}</section>${hasArrow ? '<span class="arrow">→</span>' : ''}</main></body></html>`;
+  </style></head><body><main><section class="block"><h1>${headlineHtml}</h1>${support ? `${divider}<p>${supportHtml}</p>` : divider}</section>${hasArrow ? '<span class="arrow">→</span>' : ''}</main></body></html>`;
 };
 
 const staticHtml = `<!doctype html><html><head><meta charset="utf-8"><style>
