@@ -13,6 +13,11 @@ const reels = path.join(root, 'reels');
 const keyframes = path.join(root, 'reel-keyframes');
 const ffmpegPath = process.env.FFMPEG_PATH || 'C:/Users/Dina lekhovitser/AppData/Local/Microsoft/WinGet/Packages/Gyan.FFmpeg_Microsoft.Winget.Source_8wekyb3d8bbwe/ffmpeg-8.1.2-full_build/bin/ffmpeg.exe';
 for (const dir of [working, previews, reels, keyframes]) fs.mkdirSync(dir, { recursive: true });
+// Carousel filenames are semantic. Remove only the previous W39-02 exports so a
+// copy revision cannot leave stale slides in its contact sheet or Drive handoff.
+for (const name of fs.readdirSync(previews)) {
+  if (/^calendar-protection-.*\.png$/i.test(name)) fs.rmSync(path.join(previews, name), { force: true });
+}
 
 const fontRegular = path.join(root, 'sources', 'instrument-sans-regular.ttf');
 const fontMedium = path.join(root, 'sources', 'instrument-sans-medium.ttf');
@@ -33,11 +38,11 @@ const sets = [
   {
     slug: 'calendar-protection', bg: '#F4F0E7', accent: '#356A55',
     slides: [
-      ['Your calendar is full', 'What still deserves a place', { noRule: true, sameSize: true }],
-      ['Choose ONE life area', 'you do not want to neglect this week', { noRule: true, sameSize: true, highlightOne: true }],
-      ['When a new request appears', 'ask what does this replace', { noRule: true, sameSize: true }],
-      ['A full week will fill itself', 'Choose what deserves a place first', { noRule: true, sameSize: true }],
-      ['Protect one minimum appointment', 'before the week fills up', { noRule: true, sameSize: true }]
+      ['Before you say yes', 'to one more thing', { noRule: true, sameSize: true }],
+      ['Ask one question', 'What will this replace?', { noRule: true, sameSize: true }],
+      ['Name the exact thing', 'Your workout\nDinner with a friend\nAn hour to finish your work\nA quiet evening', { noRule: true, supportSize: 46 }],
+      ['If you would not choose\nto move it', 'do not add the new request today', { noRule: true, sameSize: true }],
+      ['A full calendar is full\nof trade-offs', 'Make yours visible', { noRule: true, sameSize: true }]
     ]
   },
   {
@@ -55,7 +60,7 @@ const sets = [
 
 const htmlForSlide = ({ bg, accent }, headline, support, hasArrow, options = {}) => {
   const size = fontSizeFor(headline, support);
-  const supportSize = options.sameSize ? size : support.length > 78 ? 42 : 48;
+  const supportSize = options.sameSize ? size : options.supportSize || (support.length > 78 ? 42 : 48);
   const headlineHtml = options.highlightOne ? esc(headline).replace('ONE', `<span class="accent">ONE</span>`) : esc(headline);
   const divider = options.noRule ? '' : '<div class="rule"></div>';
   return `<!doctype html><html><head><meta charset="utf-8"><style>
@@ -66,7 +71,7 @@ const htmlForSlide = ({ bg, accent }, headline, support, hasArrow, options = {})
   .block{width:920px;display:flex;flex-direction:column;align-items:center;justify-content:center}
   h1{font:400 ${size}px/1.04 Instrument,sans-serif;letter-spacing:-.057em;margin:0;max-width:920px;text-wrap:balance}.accent{color:${accent}}
   .rule{width:330px;height:5px;background:${accent};margin:48px 0}
-  p{font:400 ${supportSize}px/1.14 Instrument,sans-serif;letter-spacing:-.042em;margin:0;max-width:860px;text-wrap:balance}
+  p{font:400 ${supportSize}px/1.14 Instrument,sans-serif;letter-spacing:-.042em;margin:0;max-width:860px;white-space:pre-line;text-wrap:balance}
   .arrow{position:absolute;right:92px;bottom:76px;color:${accent};font:400 46px Instrument,sans-serif}
   </style></head><body><main><section class="block"><h1>${headlineHtml}</h1>${support ? `${divider}<p>${esc(support)}</p>` : divider}</section>${hasArrow ? '<span class="arrow">→</span>' : ''}</main></body></html>`;
 };

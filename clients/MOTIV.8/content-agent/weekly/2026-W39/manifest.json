@@ -1,0 +1,111 @@
+{
+  "week": "2026-W39",
+  "status": "Pending approval",
+  "driveFolder": "https://drive.google.com/drive/folders/1RtlrcZ6v-Vvvgpnv-AD4jaZ6iRa7d4gO",
+  "posts": [
+    {
+      "id": "2026-W39-01",
+      "format": "reel",
+      "title": "The 15-minute bridge",
+      "hypothesis": "A concrete bridge between disrupted plans and the next task will earn saves.",
+      "primaryMetric": "saves",
+      "approval": "Pending approval",
+      "version": 1,
+      "drivePreview": "https://drive.google.com/file/d/1G_lmoJEASnv-TfrEqxEH_Spwau2c6FBz/view?usp=drivesdk",
+      "asanaTaskId": "1218812839098426",
+      "asanaTaskUrl": "https://app.asana.com/1/1211496346603893/project/1218139894943782/task/1218812839098426",
+      "caption": "When the original plan disappears, do not ask, “How do I catch up?” Ask, “What can I make easier for later?” Fifteen minutes can reopen a task without demanding a perfect recovery.",
+      "cta": "Save this for the next interrupted day.",
+      "assets": [
+        "reels/15-minute-bridge-review.mp4",
+        "reel-keyframes/15-minute-bridge-01.png",
+        "reel-keyframes/15-minute-bridge-02.png",
+        "reel-keyframes/15-minute-bridge-03.png",
+        "reel-keyframes/15-minute-bridge-04.png",
+        "reel-keyframes/15-minute-bridge-05.png"
+      ]
+    },
+    {
+      "id": "2026-W39-02",
+      "format": "carousel",
+      "title": "Before you say yes to one more thing",
+      "hypothesis": "A practical calendar-protection tool will earn saves.",
+      "primaryMetric": "shares",
+      "approval": "Pending approval",
+      "version": 1,
+      "drivePreview": "https://drive.google.com/file/d/1Ho31Pvbj3zTOLTFFI7XJaYMMvAstMOHU/view?usp=drivesdk",
+      "asanaTaskId": "1218812809376264",
+      "asanaTaskUrl": "https://app.asana.com/1/1211496346603893/project/1218139894943782/task/1218812809376264",
+      "caption": "Most new requests do not arrive with a label that says what they will push out. Before you add one more thing, name the real trade-off. If you would not choose to move it, the request may not belong in this week.",
+      "cta": "Save this before you say yes to your next request.",
+      "assets": [
+        "previews/calendar-protection-01-your-calendar-is-full.png",
+        "previews/calendar-protection-02-choose-one-life-area.png",
+        "previews/calendar-protection-03-when-a-new-request-appears.png",
+        "previews/calendar-protection-04-a-full-week-will-fill-itself.png",
+        "previews/calendar-protection-05-protect-one-minimum-appointment.png"
+      ]
+    },
+    {
+      "id": "2026-W39-03",
+      "format": "reel",
+      "title": "A 3-minute reset before you re-plan",
+      "hypothesis": "A short pre-planning ritual will earn shares from overwhelmed viewers.",
+      "primaryMetric": "saves",
+      "approval": "Pending approval",
+      "version": 1,
+      "drivePreview": "https://drive.google.com/file/d/1lVMd-_6JZjb7S-qglIcRHin-qjiIQ_uW/view?usp=drivesdk",
+      "asanaTaskId": "1218812931109043",
+      "asanaTaskUrl": "https://app.asana.com/1/1211496346603893/project/1218139894943782/task/1218812931109043",
+      "caption": "Replanning works better after you stop trying to preserve an old day. Name the change, release what no longer fits, then choose one thing to protect.",
+      "cta": "Try this before you open your calendar again.",
+      "assets": [
+        "reels/3-minute-reset-before-replan-review.mp4",
+        "reel-keyframes/3-minute-reset-before-replan-01.png",
+        "reel-keyframes/3-minute-reset-before-replan-02.png",
+        "reel-keyframes/3-minute-reset-before-replan-03.png",
+        "reel-keyframes/3-minute-reset-before-replan-04.png",
+        "reel-keyframes/3-minute-reset-before-replan-05.png"
+      ]
+    },
+    {
+      "id": "2026-W39-04",
+      "format": "graphic",
+      "title": "Protect one thing before the week fills up",
+      "hypothesis": "A specific calendar-protection prompt will generate saves.",
+      "primaryMetric": "reach",
+      "approval": "Pending approval",
+      "version": 1,
+      "drivePreview": "https://drive.google.com/file/d/11iSkAe_gdIzjgi1FT2AucNtZMYXmy-Ml/view?usp=drivesdk",
+      "asanaTaskId": "1218812931401490",
+      "asanaTaskUrl": "https://app.asana.com/1/1211496346603893/project/1218139894943782/task/1218812931401490",
+      "caption": "Choose one block for what keeps you well, connected, learning, or moving. Put it in the calendar before the week starts negotiating with you. It can be small. It just needs a place.",
+      "cta": "What are you protecting this week?",
+      "assets": [
+        "previews/protect-one-thing-before-the-week-fills-up.png"
+      ]
+    },
+    {
+      "id": "2026-W39-05",
+      "format": "carousel",
+      "title": "When your routine breaks, use this restart script",
+      "hypothesis": "A practical restart script will earn saves from people rebuilding a habit.",
+      "primaryMetric": "saves",
+      "approval": "Pending approval",
+      "version": 1,
+      "drivePreview": "https://drive.google.com/file/d/1FU_KD82nXkydg3Qw6SwCplN57kodKnXW/view?usp=drivesdk",
+      "asanaTaskId": "1218812931082371",
+      "asanaTaskUrl": "https://app.asana.com/1/1211496346603893/project/1218139894943782/task/1218812931082371",
+      "caption": "A broken routine is information, not proof that the goal was wrong. Keep the direction, scale the action, and choose the next repeat you can actually keep.",
+      "cta": "Send this to someone restarting gently.",
+      "assets": [
+        "previews/routine-restart-script-01-when-your-routine-breaks.png",
+        "previews/routine-restart-script-02-say-what-happened.png",
+        "previews/routine-restart-script-03-keep-the-goal.png",
+        "previews/routine-restart-script-04-choose-the-next-repeat.png",
+        "previews/routine-restart-script-05-example.png",
+        "previews/routine-restart-script-06-a-restart-is-a-new-agreement-with-real-life.png"
+      ]
+    }
+  ]
+}
