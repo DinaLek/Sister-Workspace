@@ -23,7 +23,7 @@ Gate every weekly asset before it enters an approval package. QA is a stop condi
 ### Visual
 
 - approved palette only, neutral-dominant;
-- static posts use the approved warm-grey `#C9C6BE` by default; a beige static needs an explicit feed-rhythm reason;
+- typographic static posts use the approved Ink `#302C28` with ivory type and one restrained accent by default; beige or warm-grey statics need an explicit feed-rhythm reason;
 - Instrument Sans / Inter roles preserved;
 - 72px safe margins;
 - one supporting graphic device per frame;
