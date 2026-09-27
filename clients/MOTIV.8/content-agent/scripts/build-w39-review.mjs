@@ -78,7 +78,7 @@ const htmlForSlide = ({ bg, accent }, headline, support, hasArrow, options = {})
 
 const staticHtml = `<!doctype html><html><head><meta charset="utf-8"><style>
 @font-face{font-family:Instrument;src:url('../sources/instrument-sans-regular.ttf') format('truetype');font-weight:400}
-*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;background:#FAF6EF;color:#171717}
+*{box-sizing:border-box}html,body{margin:0;width:1080px;height:1350px;overflow:hidden;background:#C9C6BE;color:#171717}
 main{position:relative;width:1080px;height:1350px;display:flex;align-items:center;justify-content:center;padding:110px 78px;text-align:center}
 .copy{width:920px}h1{font:400 88px/1.04 Instrument,sans-serif;letter-spacing:-.058em;margin:0;text-wrap:balance}.accent{color:#356A55}
 </style></head><body><main><section class="copy"><h1>Before the week fills up, protect <span class="accent">one thing</span> that matters to you.</h1></section></main></body></html>`;
