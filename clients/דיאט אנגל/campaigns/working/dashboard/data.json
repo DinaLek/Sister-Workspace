@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-26T10:43:00Z",
+  "lastUpdated": "2026-10-26T16:41:52Z",
   "activeCampaigns": 6,
   "periods": {
     "month": {
@@ -8,29 +8,29 @@
         "to": "2026-10-26",
         "label": "01.10 – 26.10.2026"
       },
-      "lastUpdated": "2026-10-26T10:42:54Z",
+      "lastUpdated": "2026-10-26T16:41:44Z",
       "activeCampaigns": 6,
       "overview": {
-        "spend": 40864,
-        "results": 1045,
-        "cpl": 35.85,
+        "spend": 41061,
+        "results": 1048,
+        "cpl": 35.9,
         "ctr": 1.56
       },
       "byType": [
         {
           "type": "תכנית נשים",
           "color": "#7F77DD",
-          "spend": 19907,
-          "results": 352,
-          "cpl": 56.55,
+          "spend": 20035,
+          "results": 354,
+          "cpl": 56.6,
           "count": 4
         },
         {
           "type": "תכנית גברים",
           "color": "#BA7517",
-          "spend": 8917,
-          "results": 293,
-          "cpl": 30.43,
+          "spend": 8941,
+          "results": 294,
+          "cpl": 30.41,
           "count": 4
         },
         {
@@ -52,41 +52,41 @@
         {
           "type": "חשיפה",
           "color": "#888780",
-          "spend": 3398,
+          "spend": 3441,
           "results": 0,
           "cpl": 0,
           "count": 3,
-          "reach": 95451
+          "reach": 96318
         }
       ],
       "audiences": {
         "kpis": [
           {
             "name": "נשים כללי",
-            "leads": 85,
-            "spend": 5578.0,
-            "cpl": 65.63,
+            "leads": 86,
+            "spend": 5607.0,
+            "cpl": 65.2,
             "color": "#378ADD"
           },
           {
             "name": "גיל המעבר",
             "leads": 82,
-            "spend": 5555.0,
-            "cpl": 67.75,
+            "spend": 5575.0,
+            "cpl": 67.99,
             "color": "#D4537E"
           },
           {
             "name": "אחרי לידה",
             "leads": 96,
-            "spend": 5525.0,
-            "cpl": 57.55,
+            "spend": 5549.0,
+            "cpl": 57.8,
             "color": "#1D9E75"
           },
           {
             "name": "גברים",
             "leads": 63,
-            "spend": 5419.0,
-            "cpl": 86.01,
+            "spend": 5438.0,
+            "cpl": 86.32,
             "color": "#BA7517"
           }
         ]
@@ -132,9 +132,9 @@
           "aud": "נשים כללי",
           "col": "#378ADD",
           "st": "פעיל",
-          "sp": 5578.3,
-          "r": 85,
-          "cpl": 65.63,
+          "sp": 5607.05,
+          "r": 86,
+          "cpl": 65.2,
           "ctr": 1.19
         },
         {
@@ -142,9 +142,9 @@
           "aud": "גיל המעבר",
           "col": "#D4537E",
           "st": "פעיל",
-          "sp": 5555.11,
+          "sp": 5575.15,
           "r": 82,
-          "cpl": 67.75,
+          "cpl": 67.99,
           "ctr": 1.44
         },
         {
@@ -152,9 +152,9 @@
           "aud": "אחרי לידה",
           "col": "#1D9E75",
           "st": "פעיל",
-          "sp": 5524.84,
+          "sp": 5548.74,
           "r": 96,
-          "cpl": 57.55,
+          "cpl": 57.8,
           "ctr": 1.17
         },
         {
@@ -162,9 +162,9 @@
           "aud": "גברים",
           "col": "#BA7517",
           "st": "פעיל",
-          "sp": 5418.63,
+          "sp": 5438.36,
           "r": 63,
-          "cpl": 86.01,
+          "cpl": 86.32,
           "ctr": 1.31
         }
       ]
@@ -175,7 +175,7 @@
         "to": "2026-10-25",
         "label": "19.10 – 25.10.2026"
       },
-      "lastUpdated": "2026-10-26T10:42:56Z",
+      "lastUpdated": "2026-10-26T16:41:46Z",
       "activeCampaigns": 6,
       "overview": {
         "spend": 5515,
@@ -332,7 +332,7 @@
         "to": "2026-09-30",
         "label": "01.09 – 30.09.2026"
       },
-      "lastUpdated": "2026-10-26T10:42:57Z",
+      "lastUpdated": "2026-10-26T16:41:48Z",
       "activeCampaigns": 3,
       "overview": {
         "spend": 35967,
@@ -520,7 +520,7 @@
         "to": "2026-10-25",
         "label": "26.09 – 25.10.2026"
       },
-      "lastUpdated": "2026-10-26T10:42:59Z",
+      "lastUpdated": "2026-10-26T16:41:50Z",
       "activeCampaigns": 6,
       "overview": {
         "spend": 47988,
@@ -687,7 +687,7 @@
         "to": "2026-10-25",
         "label": "28.07 – 25.10.2026"
       },
-      "lastUpdated": "2026-10-26T10:43:00Z",
+      "lastUpdated": "2026-10-26T16:41:52Z",
       "activeCampaigns": 6,
       "overview": {
         "spend": 129606,
